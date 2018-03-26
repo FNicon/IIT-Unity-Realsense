@@ -40,10 +40,14 @@ public class AstronotPlayerController : MonoBehaviour {
 	}
 
 	public void OnCursorUp(){
-		clickedObj.sharedMaterial = storedMaterial;
-		clickedObj.velocity = new Vector2(Random.Range(-0.7f,0.7f), Random.Range(-0.7f,0.7f));
-		clickedObj.angularVelocity = Random.Range(-0.7f,0.7f);
-		clickedObj.mass *= massDivider;
-		clickedObj = null;
+		if (storedMaterial == null) {
+		} else {
+			//Debug.Log(storedMaterial.name);
+			clickedObj.sharedMaterial = storedMaterial;
+			clickedObj.velocity = new Vector2(Random.Range(-0.7f,0.7f), Random.Range(-0.7f,0.7f));
+			clickedObj.angularVelocity = Random.Range(-0.7f,0.7f);
+			clickedObj.mass *= massDivider;
+			clickedObj = null;
+		}
 	}
 }
