@@ -3,12 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Fire : MonoBehaviour {
+	public FireGameManager gameManager;
 	public float scaleValue;
+	public float downScale;
 	public float countTime = 3;
 	public float explodeTime;
 	private Vector3 newScale;
 	public float sign = 1;
 	// Use this for initialization
+	private void Awake()
+	{
+		gameManager = FindObjectOfType<FireGameManager>();
+	}
 	void Start () {
 		newScale = transform.localScale;
 		StartBurn();
@@ -27,7 +33,8 @@ public class Fire : MonoBehaviour {
 		countTime = countTime + sign;
 		newScale = new Vector3(transform.localScale.x + sign * scaleValue,transform.localScale.y + sign * scaleValue, 1);
 		if (countTime >= explodeTime) {
-			Debug.Log("You Lose!");
+			gameManager.GameOver();
+			//Debug.Log("You Lose!");
 			StopCoroutine(this.BurnUp());
 		} else if (countTime <= 0) {
 			StopBurn();
@@ -37,12 +44,12 @@ public class Fire : MonoBehaviour {
 	}
 	void StopBurn() {
 		StopCoroutine(this.BurnUp());
+		ScoreManager.instance.AddScore();
 		Destroy(this.gameObject);
-		Debug.Log("AAAAAAAAAAa");
 	}
 	private void OnTriggerEnter2D(Collider2D other) {
 		if (other.CompareTag("Player")) {
-			sign = -1;
+			sign = -1 * downScale;
 		}
 	}
 	private void OnTriggerExit2D(Collider2D other) {

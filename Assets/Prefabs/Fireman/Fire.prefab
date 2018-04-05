@@ -78,9 +78,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef75fc4cd5e38444b76f922fddbec16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
   scaleValue: 1
-  countTime: 0
+  downScale: 2
+  countTime: 3
   explodeTime: 20
+  sign: 1
 --- !u!212 &212065150446634346
 SpriteRenderer:
   m_ObjectHideFlags: 1
