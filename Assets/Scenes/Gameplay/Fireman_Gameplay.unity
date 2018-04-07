@@ -316,6 +316,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   water: {fileID: 1665006658}
+  transitionTime: 0.5
+  onClickedSize: {x: 0.8, y: 0.8, z: 0.8}
+  onReleaseSize: {x: 1, y: 1, z: 1}
+  newSize: {x: 0, y: 0, z: 0}
 --- !u!4 &41929789 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4532184642085096, guid: 4f888f030699a7f4fb5ed22e67b27eba,
