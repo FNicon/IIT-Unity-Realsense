@@ -505,8 +505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 797d2903ba162eb4c9c187efd30e0c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  holdCotton: {fileID: 2043911847}
-  holdBandage: {fileID: 554059630}
+  holdCotton: {fileID: 2043911848}
+  holdBandage: {fileID: 554059631}
   transition: {fileID: 75360469}
 --- !u!114 &75360469
 MonoBehaviour:
@@ -1330,6 +1330,8 @@ GameObject:
   m_Component:
   - component: {fileID: 554059629}
   - component: {fileID: 554059630}
+  - component: {fileID: 554059631}
+  - component: {fileID: 554059632}
   m_Layer: 0
   m_Name: Bandage
   m_TagString: Untagged
@@ -1394,6 +1396,44 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &554059631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 554059628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad32aa44dce0f48469cd3c34f435d39b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnTrigger: 0
+  offsetMousePosition: {x: -0.137, y: 0.259}
+--- !u!61 &554059632
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 554059628}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.4166667, y: 0.7037037}
+    newSize: {x: 0.8055556, y: 0.8888889}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.4166667, y: 0.7037037}
+  m_EdgeRadius: 0
 --- !u!1 &619136839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3635,6 +3675,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2043911846}
   - component: {fileID: 2043911847}
+  - component: {fileID: 2043911848}
+  - component: {fileID: 2043911849}
   m_Layer: 0
   m_Name: Cotton
   m_TagString: Untagged
@@ -3699,6 +3741,44 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &2043911848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2043911845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f898d8a7007813f40894c887b2b7ea01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnTrigger: 0
+  offsetMousePosition: {x: -0.222, y: 0.054}
+--- !u!61 &2043911849
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2043911845}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.9814814, y: 1.4074074}
+    newSize: {x: 0.8055556, y: 0.8888889}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.9814814, y: 1.4074074}
+  m_EdgeRadius: 0
 --- !u!1 &2075125078
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DoctorController : MonoBehaviour {
-	public SpriteRenderer holdCotton;
-	public SpriteRenderer holdBandage;
+	public Cotton holdCotton;
+	public Bandage holdBandage;
 	private GameObject holdObject;
 	private GameObject putObject;
 	public CursorTransition transition;
+	private bool isHolding;
 	// Use this for initialization
 	void Start () {
-		holdBandage.enabled = false;
-		holdCotton.enabled = false;
+		holdBandage.ViewBandage(false);
+		holdCotton.ViewCotton(false);
 		CursorController.OnMouseDown += OnCursorDown;
 		CursorController.OnMouseUp += OnCursorUp;
 	}
@@ -30,26 +31,32 @@ public class DoctorController : MonoBehaviour {
 			putObject = null;
 		}
 	}
+	IEnumerator Transition() {
+		yield return new WaitUntil(() => transition.IsTransitionFinished());
+		if (holdObject!= null) {
+			if (holdObject.CompareTag("cotton")) {
+				holdCotton.ViewCotton(isHolding);
+			} else if (holdObject.CompareTag("bandage")) {
+				holdBandage.ViewBandage(isHolding);
+			}
+			if (!isHolding) {
+				holdObject = null;
+			}
+		}
+	}
 	void OnCursorDown() {
 		transition.ChangeToClickSize();
 		holdObject = CursorController.instance.GetFirstClickedObj();
 		if (holdObject!= null) {
-			if (holdObject.CompareTag("cotton")) {
-				holdCotton.enabled = true;
-			} else if (holdObject.CompareTag("bandage")) {
-				holdBandage.enabled = true;
-			}
+			isHolding = true;
+			StartCoroutine(Transition());
 		}
 	}
 	void OnCursorUp() {
 		transition.ChangeToReleaseSize();
 		if (holdObject!= null) {
-			if (holdObject.CompareTag("cotton")) {
-				holdCotton.enabled = false;
-			} else if (holdObject.CompareTag("bandage")) {
-				holdBandage.enabled = false;
-			}
-			holdObject = null;
+			isHolding = false;
+			StartCoroutine(Transition());
 		}
 	}
 }
