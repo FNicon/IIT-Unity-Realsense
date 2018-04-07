@@ -40,9 +40,15 @@ public class FireSpawner : MonoBehaviour {
 				}
 			}
 			StartCoroutine(SpawnFire());
-		} else {
+		}
+		if (IsEndGame()) {
 			gameManager.GameOver();
 		}
+	}
+	public bool IsEndGame() {
+		Fire[] fire = FindObjectsOfType<Fire>();
+		Debug.Log(fire.Length);
+		return ((fireCount >= fireSpawnLimit) && (fire.Length <= 0));
 	}
 	int GenerateSpawnPointIndex() {
 		int tryCount = 0;
