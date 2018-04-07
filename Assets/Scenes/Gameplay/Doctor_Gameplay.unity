@@ -769,6 +769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 97996798}
   - component: {fileID: 97996799}
+  - component: {fileID: 97996800}
   m_Layer: 0
   m_Name: Med Kit
   m_TagString: Untagged
@@ -810,6 +811,24 @@ MonoBehaviour:
   - {fileID: 1293331214}
   - {fileID: 554059628}
   woundManager: {fileID: 1175620573}
+  plateAnimation: {fileID: 97996800}
+--- !u!95 &97996800
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 97996797}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 17f385ba4b2bc3e418e6cff7b67b6ea1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &103086753
 GameObject:
   m_ObjectHideFlags: 0
