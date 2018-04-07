@@ -8,6 +8,8 @@ TagManager:
   - kotak
   - segitiga
   - water
+  - cotton
+  - bandage
   layers:
   - Default
   - TransparentFX
