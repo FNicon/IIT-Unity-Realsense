@@ -98,8 +98,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90138d8e275aef445b047a059b1ee1d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  growScale: 0.15
-  shrinkScale: 0.2
+  scalePhases:
+  - {x: 0.1, y: 0.1, z: 1}
+  - {x: 0.3, y: 0.3, z: 1}
+  - {x: 0.45, y: 0.45, z: 1}
+  - {x: 0.6, y: 0.6, z: 1}
   growTime: 0.2
   startSize: {x: 0.3, y: 0.3, z: 1}
 --- !u!114 &114733034751493326
@@ -113,9 +116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef75fc4cd5e38444b76f922fddbec16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countTime: 0
-  explodeTime: 3
   growDelay: 4
+  spawnPoint: {fileID: 0}
 --- !u!114 &114793941019134300
 MonoBehaviour:
   m_ObjectHideFlags: 1

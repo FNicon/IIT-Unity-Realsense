@@ -546,6 +546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 237453018}
   - component: {fileID: 237453019}
+  - component: {fileID: 237453020}
   m_Layer: 0
   m_Name: Fire Spawn 1
   m_TagString: Untagged
@@ -610,6 +611,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &237453020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237453017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd11f00d15d6d54f82ff0027023240f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnFire: 0
 --- !u!1 &452218234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,6 +1082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 875020206}
   - component: {fileID: 875020207}
+  - component: {fileID: 875020208}
   m_Layer: 0
   m_Name: Fire Spawn 6
   m_TagString: Untagged
@@ -1133,6 +1147,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &875020208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 875020205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd11f00d15d6d54f82ff0027023240f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnFire: 0
 --- !u!1 &970080358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,14 +1340,14 @@ MonoBehaviour:
   fireChance: 7
   minSpawnPoint: {x: -8, y: -4}
   maxSpawnPoint: {x: 8, y: 4}
-  fireCooldown: 1
+  fireCooldown: 5
   spawnPoints:
-  - {fileID: 237453018}
-  - {fileID: 1157618822}
-  - {fileID: 1303173195}
-  - {fileID: 1315620369}
-  - {fileID: 1148285861}
-  - {fileID: 875020206}
+  - {fileID: 237453020}
+  - {fileID: 1157618824}
+  - {fileID: 1303173197}
+  - {fileID: 1315620371}
+  - {fileID: 1148285863}
+  - {fileID: 875020208}
 --- !u!4 &1036920875
 Transform:
   m_ObjectHideFlags: 0
@@ -1420,6 +1446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148285861}
   - component: {fileID: 1148285862}
+  - component: {fileID: 1148285863}
   m_Layer: 0
   m_Name: Fire Spawn 5
   m_TagString: Untagged
@@ -1484,6 +1511,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1148285863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1148285860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd11f00d15d6d54f82ff0027023240f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnFire: 0
 --- !u!1 &1157618821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,6 +1532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1157618822}
   - component: {fileID: 1157618823}
+  - component: {fileID: 1157618824}
   m_Layer: 0
   m_Name: Fire Spawn 2
   m_TagString: Untagged
@@ -1557,6 +1597,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1157618824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1157618821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd11f00d15d6d54f82ff0027023240f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnFire: 0
 --- !u!1 &1303173194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1618,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1303173195}
   - component: {fileID: 1303173196}
+  - component: {fileID: 1303173197}
   m_Layer: 0
   m_Name: Fire Spawn 3
   m_TagString: Untagged
@@ -1630,6 +1683,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1303173197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1303173194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd11f00d15d6d54f82ff0027023240f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnFire: 0
 --- !u!1 &1315620368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,6 +1704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1315620369}
   - component: {fileID: 1315620370}
+  - component: {fileID: 1315620371}
   m_Layer: 0
   m_Name: Fire Spawn 4
   m_TagString: Untagged
@@ -1703,6 +1769,18 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1315620371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1315620368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd11f00d15d6d54f82ff0027023240f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOnFire: 0
 --- !u!1 &1406389233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,7 +1939,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1665006661
 Animator:
@@ -2256,105 +2334,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minuteHand: {fileID: 1723796620}
   hourHand: {fileID: 579015370}
---- !u!1001 &2089894349
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4813830971836360, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -2.95
-      objectReference: {fileID: 0}
-    - target: {fileID: 4813830971836360, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 4813830971836360, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4813830971836360, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4813830971836360, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4813830971836360, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4813830971836360, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4813830971836360, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[1].x
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[1].y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[1].z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[2].x
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[2].y
-      value: 0.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[2].z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114733034751493326, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: explodePhase
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[3].x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[3].y
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[3].z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
-        type: 2}
-      propertyPath: scalePhases.Array.data[0].z
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
-  m_IsPrefabParent: 0

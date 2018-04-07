@@ -9,9 +9,11 @@ public class FireSpawner : MonoBehaviour {
 	public Vector2 minSpawnPoint;
 	public Vector2 maxSpawnPoint;
 	public float fireCooldown;
-	public Transform[] spawnPoints;
+	public FireSpawnPoint[] spawnPoints;
+	private int fireCount;
 	// Use this for initialization
 	void Start () {
+		fireCount = 0;
 		StartCoroutine(SpawnFire());
 	}
 	
@@ -21,16 +23,32 @@ public class FireSpawner : MonoBehaviour {
 	}
 	IEnumerator SpawnFire() {
 		yield return new WaitForSeconds(fireCooldown);
-		for (int i=0;i<fireObjects.Length;i++) {
+		if (fireCount <= spawnPoints.Length) {
+			int spawnCount = Random.Range(0,fireObjects.Length);
 			if (IsSpawnFire()) {
-				GameObject fire = Instantiate(fireObjects[i],GenerateSpawnPoint(),this.transform.rotation);
+				int spawnPointIndex = GenerateSpawnPointIndex();
+				if (spawnPointIndex != -1) {
+					Vector3 spawnPosition = spawnPoints[spawnPointIndex].transform.position;
+					GameObject fire = Instantiate(fireObjects[spawnCount],spawnPosition,this.transform.rotation);
+					fire.GetComponent<Fire>().spawnPoint = spawnPoints[spawnPointIndex];
+					fireCount = fireCount + 1;
+				}
 			}
 		}
 		StartCoroutine(SpawnFire());
 	}
-	Vector3 GenerateSpawnPoint() {
+	int GenerateSpawnPointIndex() {
+		int tryCount = 0;
 		int choosenSpawnPoint = Random.Range(0,spawnPoints.Length);
-		return (spawnPoints[choosenSpawnPoint].position);
+		while (spawnPoints[choosenSpawnPoint].isOnFire && tryCount < spawnPoints.Length) {
+			choosenSpawnPoint = Random.Range(0,spawnPoints.Length);
+			tryCount = tryCount + 1;
+		}
+		if (tryCount == spawnPoints.Length) {
+			return (-1);
+		} else {
+			return (choosenSpawnPoint);
+		}
 	}
 
 	bool IsSpawnFire() {

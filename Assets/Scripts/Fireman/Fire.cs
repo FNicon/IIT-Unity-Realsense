@@ -8,6 +8,7 @@ public class Fire : MonoBehaviour {
 	private FireSize fireSize;
 	private bool isBurnUp;
 	public float growDelay;
+	public FireSpawnPoint spawnPoint;
 	
 	// Use this for initialization
 	private void Awake() {
@@ -19,6 +20,7 @@ public class Fire : MonoBehaviour {
 		StartBurn();
 	}
 	void StartBurn() {
+		spawnPoint.isOnFire = true;
 		isBurnUp = true;
 		StartCoroutine(BurnUp());
 	}
@@ -27,6 +29,7 @@ public class Fire : MonoBehaviour {
 		isBurnUp = false;
 		StopCoroutine(this.BurnDown());
 		ScoreManager.instance.AddScore();
+		spawnPoint.isOnFire = false;
 		Destroy(this.gameObject);
 	}
 	private void OnTriggerEnter2D(Collider2D other) {
@@ -59,7 +62,9 @@ public class Fire : MonoBehaviour {
 	public IEnumerator BurnDown() {
 		if (!isBurnUp) {
 			fireSize.Shrink();
-			fireFade.FadeOut();
+			if (fireSize.GetCurrentPhase() <= 1) {
+				fireFade.FadeOut();
+			}
 			if (fireSize.IsOnZeroPhase() && !fireSize.IsStillShrinking()) {
 				StopBurn();
 			} else {
