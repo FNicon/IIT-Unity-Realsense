@@ -20,11 +20,21 @@ public class FireSpawner : MonoBehaviour {
 	void Start () {
 		fireCount = 0;
 		StartCoroutine(SpawnFire());
+		StartCoroutine(CheckEndGame());
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
+	}
+	IEnumerator CheckEndGame() {
+		yield return new WaitForSeconds(1f);
+		if (IsEndGame()) {
+			gameManager.GameOver();
+			StopAllCoroutines();
+		} else {
+			StartCoroutine(CheckEndGame());
+		}
 	}
 	IEnumerator SpawnFire() {
 		yield return new WaitForSeconds(fireCooldown);
@@ -40,9 +50,6 @@ public class FireSpawner : MonoBehaviour {
 				}
 			}
 			StartCoroutine(SpawnFire());
-		}
-		if (IsEndGame()) {
-			gameManager.GameOver();
 		}
 	}
 	public bool IsEndGame() {
