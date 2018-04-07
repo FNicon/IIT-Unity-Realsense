@@ -31,13 +31,17 @@ public class FiremanController : MonoBehaviour {
 		water.SetActive(waterActive);
 	}
 	public void OnCursorDown() {
-		newSize = onClickedSize;
-		waterActive = true;
-		StartCoroutine(Transition());
+		if (Time.timeScale != 0) {
+			newSize = onClickedSize;
+			waterActive = true;
+			StartCoroutine(Transition());
+		}
 	}
 	public void OnCursorUp() {
-		newSize = onReleaseSize;
-		waterActive = false;
-		water.SetActive(waterActive);
+		if (Time.timeScale != 0) {
+			newSize = onReleaseSize;
+			waterActive = false;
+			water.SetActive(waterActive);
+		}
 	}
 }
