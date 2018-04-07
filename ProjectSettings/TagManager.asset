@@ -10,6 +10,7 @@ TagManager:
   - water
   - cotton
   - bandage
+  - wound
   layers:
   - Default
   - TransparentFX

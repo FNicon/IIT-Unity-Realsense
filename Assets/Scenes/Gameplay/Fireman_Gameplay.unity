@@ -315,11 +315,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ead69a1b84c4ac4db01d463108bf8f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 41929787}
   water: {fileID: 1665006658}
-  transitionTime: 0.5
-  onClickedSize: {x: 0.8, y: 0.8, z: 0.8}
+--- !u!114 &41929787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41929784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522bfb6a644688747988c347c30937f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickTransitionTime: 0.5
+  releaseTransitionTime: 0.8
+  onClickedSize: {x: 0.8, y: 0.8, z: 1}
   onReleaseSize: {x: 1, y: 1, z: 1}
-  newSize: {x: 0, y: 0, z: 0}
 --- !u!4 &41929789 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4532184642085096, guid: 4f888f030699a7f4fb5ed22e67b27eba,
