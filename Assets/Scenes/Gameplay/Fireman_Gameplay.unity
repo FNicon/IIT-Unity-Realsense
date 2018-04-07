@@ -457,6 +457,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOnFire: 0
+  spawnPointDanger: {fileID: 21300000, guid: ccca552e4e493124a86548faa37033df, type: 3}
+  spawnPointSafe: {fileID: 21300000, guid: 097f5ee270686d74bad69b17cbeb539b, type: 3}
 --- !u!1 &452218234
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,6 +663,18 @@ Prefab:
         type: 2}
       propertyPath: m_SortingLayer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532184642085096, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532184642085096, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4532184642085096, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60401678010841462, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
@@ -993,6 +1007,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOnFire: 0
+  spawnPointDanger: {fileID: 21300000, guid: ccca552e4e493124a86548faa37033df, type: 3}
+  spawnPointSafe: {fileID: 21300000, guid: 097f5ee270686d74bad69b17cbeb539b, type: 3}
 --- !u!1 &970080358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,12 +1185,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e121c44842c764289bebb1b7e1e021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fireSpawnLimit: 6
   fireObjects:
   - {fileID: 1076902636039180, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
   fireChance: 7
   minSpawnPoint: {x: -8, y: -4}
   maxSpawnPoint: {x: 8, y: 4}
-  fireCooldown: 5
+  fireCooldown: 3
   spawnPoints:
   - {fileID: 237453020}
   - {fileID: 1157618824}
@@ -1357,6 +1374,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOnFire: 0
+  spawnPointDanger: {fileID: 21300000, guid: ccca552e4e493124a86548faa37033df, type: 3}
+  spawnPointSafe: {fileID: 21300000, guid: 097f5ee270686d74bad69b17cbeb539b, type: 3}
 --- !u!1 &1157618821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,6 +1462,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOnFire: 0
+  spawnPointDanger: {fileID: 21300000, guid: ccca552e4e493124a86548faa37033df, type: 3}
+  spawnPointSafe: {fileID: 21300000, guid: 097f5ee270686d74bad69b17cbeb539b, type: 3}
 --- !u!1 &1303173194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,6 +1550,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOnFire: 0
+  spawnPointDanger: {fileID: 21300000, guid: ccca552e4e493124a86548faa37033df, type: 3}
+  spawnPointSafe: {fileID: 21300000, guid: 097f5ee270686d74bad69b17cbeb539b, type: 3}
 --- !u!1 &1315620368
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,6 +1638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOnFire: 0
+  spawnPointDanger: {fileID: 21300000, guid: ccca552e4e493124a86548faa37033df, type: 3}
+  spawnPointSafe: {fileID: 21300000, guid: 097f5ee270686d74bad69b17cbeb539b, type: 3}
 --- !u!1 &1406389233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,8 +1778,8 @@ SpriteRenderer:
   m_SortingLayerID: 348995561
   m_SortingLayer: 3
   m_SortingOrder: 48
-  m_Sprite: {fileID: 21300000, guid: 085fe0638e0d9bf4d89b8ecbafff9566, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 1245876873f962e4eb59e171f6cefa32, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5882353}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

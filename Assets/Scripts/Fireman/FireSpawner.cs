@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FireSpawner : MonoBehaviour {
+	public int fireSpawnLimit;
 	public GameObject[] fireObjects;
 	[Range(0,10)]
 	public int fireChance;
@@ -11,6 +12,10 @@ public class FireSpawner : MonoBehaviour {
 	public float fireCooldown;
 	public FireSpawnPoint[] spawnPoints;
 	private int fireCount;
+	private FireGameManager gameManager;
+	private void Awake() {
+		gameManager = FindObjectOfType<FireGameManager>();	
+	}
 	// Use this for initialization
 	void Start () {
 		fireCount = 0;
@@ -23,7 +28,7 @@ public class FireSpawner : MonoBehaviour {
 	}
 	IEnumerator SpawnFire() {
 		yield return new WaitForSeconds(fireCooldown);
-		if (fireCount <= spawnPoints.Length) {
+		if (fireCount < fireSpawnLimit) {
 			int spawnCount = Random.Range(0,fireObjects.Length);
 			if (IsSpawnFire()) {
 				int spawnPointIndex = GenerateSpawnPointIndex();
@@ -34,8 +39,10 @@ public class FireSpawner : MonoBehaviour {
 					fireCount = fireCount + 1;
 				}
 			}
+			StartCoroutine(SpawnFire());
+		} else {
+			gameManager.GameOver();
 		}
-		StartCoroutine(SpawnFire());
 	}
 	int GenerateSpawnPointIndex() {
 		int tryCount = 0;
