@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Water : MonoBehaviour {
+public class Hose : MonoBehaviour {
+
 	// Use this for initialization
 	void Start () {
 		
