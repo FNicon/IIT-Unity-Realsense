@@ -304,6 +304,18 @@ PolygonCollider2D:
       - {x: -0.025208334, y: -1.2279423}
       - {x: 0.13864583, y: -1.1901299}
       - {x: 0.21427083, y: -1.1901299}
+--- !u!114 &41929786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41929784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ead69a1b84c4ac4db01d463108bf8f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  water: {fileID: 1665006658}
 --- !u!4 &41929789 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4532184642085096, guid: 4f888f030699a7f4fb5ed22e67b27eba,
