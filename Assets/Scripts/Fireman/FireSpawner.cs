@@ -54,7 +54,7 @@ public class FireSpawner : MonoBehaviour {
 	}
 	public bool IsEndGame() {
 		Fire[] fire = FindObjectsOfType<Fire>();
-		Debug.Log(fire.Length);
+		//Debug.Log(fire.Length);
 		return ((fireCount >= fireSpawnLimit) && (fire.Length <= 0));
 	}
 	int GenerateSpawnPointIndex() {
