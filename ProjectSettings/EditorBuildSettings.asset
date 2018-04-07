@@ -4,4 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/Arkeolog_Tutorial.unity
+    guid: 9980b03e7958598469fa453f4054d417
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Astronot_Gameplay.unity
+    guid: e95fd25b14ac0614483040d218aa0a84
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/Doctor_Tutorial.unity
+    guid: 02b463fb06174b44aa555c62591994c7
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Doctor_Gameplay.unity
+    guid: fd14833677639d04dbf5b7ac677829ae
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/Fireman_Tutorial.unity
+    guid: dfbc2efcd3c161b45b47f49f7710ea10
+  - enabled: 1
+    path: Assets/Scenes/Gameplay/Fireman_Gameplay.unity
+    guid: dfd64f7fac3cc0e4c88e3ae8920f33e6
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/Polisi_Tutorial.unity
+    guid: 646c11e1ff46727418f274cc49fbfa43

@@ -3,58 +3,74 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Fire : MonoBehaviour {
-	public FireGameManager gameManager;
-	public float scaleValue;
-	public float downScale;
-	public float countTime = 3;
-	public float explodeTime;
-	private Vector3 newScale;
-	public float sign = 1;
+	private FireGameManager gameManager;
+	private FireFade fireFade;
+	private FireSize fireSize;
+	private bool isBurnUp;
+	public float growDelay;
+	public FireSpawnPoint spawnPoint;
+	
 	// Use this for initialization
-	private void Awake()
-	{
+	private void Awake() {
 		gameManager = FindObjectOfType<FireGameManager>();
+		fireFade = gameObject.GetComponent<FireFade>();
+		fireSize = gameObject.GetComponent<FireSize>();
 	}
 	void Start () {
-		newScale = transform.localScale;
 		StartBurn();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		transform.localScale = Vector3.MoveTowards(transform.localScale,newScale,Time.deltaTime);
-	}
 	void StartBurn() {
+		spawnPoint.isOnFire = true;
+		isBurnUp = true;
 		StartCoroutine(BurnUp());
-		countTime = 0;
 	}
-	IEnumerator BurnUp() {
-		yield return new WaitForSeconds(1f);
-		countTime = countTime + sign;
-		newScale = new Vector3(transform.localScale.x + sign * scaleValue,transform.localScale.y + sign * scaleValue, 1);
-		if (countTime >= explodeTime) {
-			gameManager.GameOver();
-			//Debug.Log("You Lose!");
-			StopCoroutine(this.BurnUp());
-		} else if (countTime <= 0) {
-			StopBurn();
-		} else {
-			StartCoroutine(BurnUp());
-		}
-	}
+
 	void StopBurn() {
-		StopCoroutine(this.BurnUp());
+		isBurnUp = false;
+		StopCoroutine(this.BurnDown());
 		ScoreManager.instance.AddScore();
+		spawnPoint.isOnFire = false;
 		Destroy(this.gameObject);
 	}
 	private void OnTriggerEnter2D(Collider2D other) {
-		if (other.CompareTag("Player")) {
-			sign = -1 * downScale;
+		if (other.CompareTag("water") && isBurnUp) {
+			isBurnUp = false;
+			StopCoroutine(this.BurnUp());
+			StartCoroutine(this.BurnDown());	
 		}
 	}
 	private void OnTriggerExit2D(Collider2D other) {
-		if (other.CompareTag("Player")) {
-			sign = 1;
+		if (other.CompareTag("water") && !isBurnUp) {
+			isBurnUp = true;
+			StopCoroutine(this.BurnDown());
+			StartCoroutine(this.BurnUp());
+		}
+	}
+	public IEnumerator BurnUp() {
+		yield return new WaitForSeconds(growDelay);
+		if (isBurnUp) {
+			fireSize.Grow();
+			fireFade.FadeIn();
+			if (fireSize.IsOnExplodePhase() && !fireSize.IsStillGrowing()) {
+				gameManager.GameOver();
+				StopCoroutine(this.BurnUp());
+			} else {	
+				StartCoroutine(BurnUp());
+			}
+		}
+	}
+	public IEnumerator BurnDown() {
+		if (!isBurnUp) {
+			fireSize.Shrink();
+			if (fireSize.GetCurrentPhase() <= 1) {
+				fireFade.FadeOut();
+			}
+			if (fireSize.IsOnZeroPhase() && !fireSize.IsStillShrinking()) {
+				StopBurn();
+			} else {
+				yield return new WaitForSeconds(1f);
+				StartCoroutine(BurnDown());
+			}
 		}
 	}
 }
