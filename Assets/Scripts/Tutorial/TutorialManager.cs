@@ -20,6 +20,7 @@ public class TutorialManager : MonoBehaviour {
 		}
 	}
 	bool IsVideoEnd() {
-		return ((tutorialVideo.frame >= endFrame) || (tutorialVideo.frame >= (long)tutorialVideo.frameCount));
+		return (tutorialVideo.frame >= endFrame);
+		//return ((tutorialVideo.frame >= endFrame) || (tutorialVideo.frame >= (long)tutorialVideo.frameCount));
 	}
 }
