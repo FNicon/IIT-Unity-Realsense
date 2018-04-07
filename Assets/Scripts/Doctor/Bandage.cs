@@ -6,6 +6,7 @@ public class Bandage : MonoBehaviour {
 	private SpriteRenderer bandageImage;
 	public bool isOnTrigger;
 	public Vector2 offsetMousePosition;
+	private bool onHold;
 	private void Awake() {
 		bandageImage = GetComponent<SpriteRenderer>();	
 	}
@@ -17,17 +18,7 @@ public class Bandage : MonoBehaviour {
 		}
 	}
 	bool IsOnHold() {
-		return (bandageImage.enabled);
-	}
-	private void OnTriggerEnter2D(Collider2D other) {
-		if (other.CompareTag("wound")) {
-			isOnTrigger = true;
-		}
-	}
-	private void OnTriggerExit2D(Collider2D other) {
-		if (other.CompareTag("wound")) {
-			isOnTrigger = false;
-		}
+		return (onHold);
 	}
 	void FollowMouse() {
 		transform.position = CursorController.instance.GetPosition() + offsetMousePosition;
@@ -36,6 +27,7 @@ public class Bandage : MonoBehaviour {
 		if (!isEnable) {
 			transform.position = new Vector2(-20,0);
 		}
+		onHold = isEnable;
 		bandageImage.enabled = isEnable;
 	}
 }

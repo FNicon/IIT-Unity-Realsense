@@ -22,12 +22,12 @@ public class DoctorController : MonoBehaviour {
 
 	}
 	private void OnTriggerEnter2D(Collider2D other) {
-		if (other.CompareTag("wound")) {
+		if (other.GetComponent<Wound>()!=null) {
 			putObject = other.gameObject;
 		}
 	}
 	private void OnTriggerExit2D(Collider2D other) {
-		if (other.CompareTag("wound")) {
+		if (other.GetComponent<Wound>()!=null) {
 			putObject = null;
 		}
 	}
@@ -49,6 +49,11 @@ public class DoctorController : MonoBehaviour {
 		holdObject = CursorController.instance.GetFirstClickedObj();
 		if (holdObject!= null) {
 			isHolding = true;
+			if (holdObject.CompareTag("cotton")) {
+				holdCotton.SetOnHold(true);
+			} else if (holdObject.CompareTag("bandage")) {
+				holdCotton.SetOnHold(true);
+			}
 			StartCoroutine(Transition());
 		}
 	}
@@ -56,6 +61,14 @@ public class DoctorController : MonoBehaviour {
 		transition.ChangeToReleaseSize();
 		if (holdObject!= null) {
 			isHolding = false;
+			if (holdObject.CompareTag("cotton")) {
+				holdCotton.SetOnHold(false);
+			} else if (holdObject.CompareTag("bandage")) {
+				holdCotton.SetOnHold(false);
+			}
+			if (putObject!=null) {
+				putObject.GetComponent<Wound>().NextPhase(holdObject.tag);
+			}
 			StartCoroutine(Transition());
 		}
 	}

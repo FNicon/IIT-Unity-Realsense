@@ -272,7 +272,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94632ec9f2b58c4abf58eaebf31d2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  woundSprites: []
+  woundSprites:
+  - {fileID: 21300000, guid: 0ce485b0f0111df40b4b05e50351f647, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 8dc3fa4aa7c6861498e0fb02da0956ec, type: 3}
+  cureWounds:
+  - cotton
+  - bandage
+  woundManager: {fileID: 1175620573}
 --- !u!61 &31639951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1334,7 +1341,7 @@ GameObject:
   - component: {fileID: 554059632}
   m_Layer: 0
   m_Name: Bandage
-  m_TagString: Untagged
+  m_TagString: bandage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1383,8 +1390,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 348995561
-  m_SortingLayer: 3
+  m_SortingLayerID: 849729583
+  m_SortingLayer: 2
   m_SortingOrder: 49
   m_Sprite: {fileID: 21300000, guid: 8dc3fa4aa7c6861498e0fb02da0956ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1418,7 +1425,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1927,7 +1934,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94632ec9f2b58c4abf58eaebf31d2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  woundSprites: []
+  woundSprites:
+  - {fileID: 21300000, guid: 8580b35562cdeb54bbbd07fe00408165, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 8dc3fa4aa7c6861498e0fb02da0956ec, type: 3}
+  cureWounds:
+  - cotton
+  - bandage
+  woundManager: {fileID: 1175620573}
 --- !u!212 &979453426
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2226,7 +2240,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94632ec9f2b58c4abf58eaebf31d2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  woundSprites: []
+  woundSprites:
+  - {fileID: 21300000, guid: fa3f2cb4fd31c7c4781537b75c68d512, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 8dc3fa4aa7c6861498e0fb02da0956ec, type: 3}
+  cureWounds:
+  - cotton
+  - bandage
+  woundManager: {fileID: 1175620573}
 --- !u!212 &1170802161
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2338,7 +2359,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94632ec9f2b58c4abf58eaebf31d2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  woundSprites: []
+  woundSprites:
+  - {fileID: 21300000, guid: f2b182f7d69a3b44a8416e0bfbe1cf61, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 8dc3fa4aa7c6861498e0fb02da0956ec, type: 3}
+  cureWounds:
+  - cotton
+  - bandage
+  woundManager: {fileID: 1175620573}
 --- !u!212 &1173111846
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2416,6 +2444,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1175620572}
+  - component: {fileID: 1175620573}
   m_Layer: 0
   m_Name: Wound Point
   m_TagString: Untagged
@@ -2441,6 +2470,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1175620573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1175620571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e86d89cd8ddf14388b17094c58a90c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woundAmount: 5
+  patientAnimation: {fileID: 540883618}
 --- !u!1 &1230971749
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,7 +2639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1293331215
 Transform:
   m_ObjectHideFlags: 0
@@ -2902,7 +2944,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94632ec9f2b58c4abf58eaebf31d2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  woundSprites: []
+  woundSprites:
+  - {fileID: 21300000, guid: 4f8ed1ec792eabf4cbe0dbf8d36e6070, type: 3}
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 8dc3fa4aa7c6861498e0fb02da0956ec, type: 3}
+  cureWounds:
+  - cotton
+  - bandage
+  woundManager: {fileID: 1175620573}
 --- !u!212 &1413278809
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3679,7 +3728,7 @@ GameObject:
   - component: {fileID: 2043911849}
   m_Layer: 0
   m_Name: Cotton
-  m_TagString: Untagged
+  m_TagString: cotton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3728,8 +3777,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 348995561
-  m_SortingLayer: 3
+  m_SortingLayerID: 849729583
+  m_SortingLayer: 2
   m_SortingOrder: 49
   m_Sprite: {fileID: 21300000, guid: b2b77e3926c6d20428cd1ce7dc2bee93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3752,7 +3801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f898d8a7007813f40894c887b2b7ea01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOnTrigger: 0
   offsetMousePosition: {x: -0.222, y: 0.054}
 --- !u!61 &2043911849
 BoxCollider2D:
@@ -3763,7 +3811,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
