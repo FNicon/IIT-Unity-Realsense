@@ -29,6 +29,9 @@ public class Wound : MonoBehaviour {
 			}
 		}
 	}
+	public int CurrentPhase() {
+		return (phaseCount);
+	}
 	void ViewPhase() {
 		wound.sprite = woundSprites[phaseCount];
 		woundManager.isCuring();

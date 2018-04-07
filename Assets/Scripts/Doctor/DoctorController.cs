@@ -48,6 +48,7 @@ public class DoctorController : MonoBehaviour {
 		transition.ChangeToClickSize();
 		holdObject = CursorController.instance.GetFirstClickedObj();
 		if (holdObject!= null) {
+			holdObject.GetComponent<GrabbableObject>().ChangeToClickSize();
 			isHolding = true;
 			if (holdObject.CompareTag("cotton")) {
 				holdCotton.SetOnHold(true);
