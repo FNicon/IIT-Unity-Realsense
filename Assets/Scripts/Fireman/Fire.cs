@@ -33,14 +33,14 @@ public class Fire : MonoBehaviour {
 		Destroy(this.gameObject);
 	}
 	private void OnTriggerEnter2D(Collider2D other) {
-		if (other.CompareTag("Player") && isBurnUp) {
+		if (other.CompareTag("water") && isBurnUp) {
 			isBurnUp = false;
 			StopCoroutine(this.BurnUp());
 			StartCoroutine(this.BurnDown());	
 		}
 	}
 	private void OnTriggerExit2D(Collider2D other) {
-		if (other.CompareTag("Player") && !isBurnUp) {
+		if (other.CompareTag("water") && !isBurnUp) {
 			isBurnUp = true;
 			StopCoroutine(this.BurnDown());
 			StartCoroutine(this.BurnUp());
