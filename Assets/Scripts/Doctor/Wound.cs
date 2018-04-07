@@ -5,6 +5,7 @@ using UnityEngine;
 public class Wound : MonoBehaviour {
 	private SpriteRenderer wound;
 	public Sprite[] woundSprites;
+	public GameObject bandageObject;
 	public string[] cureWounds;
 	private int phaseCount;
 	public WoundManager woundManager;
@@ -12,6 +13,7 @@ public class Wound : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		wound = GetComponent<SpriteRenderer>();
+		bandageObject.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -19,7 +21,7 @@ public class Wound : MonoBehaviour {
 		
 	}
 	public bool IsCured() {
-		return (phaseCount >= woundSprites.Length - 1);
+		return (phaseCount >= woundSprites.Length);
 	}
 	public void NextPhase(string medInput) {
 		if (!IsCured()) {
@@ -33,7 +35,11 @@ public class Wound : MonoBehaviour {
 		return (phaseCount);
 	}
 	void ViewPhase() {
-		wound.sprite = woundSprites[phaseCount];
+		if (phaseCount >= woundSprites.Length) {
+			bandageObject.SetActive(true);
+		} else {
+			wound.sprite = woundSprites[phaseCount];
+		}
 		woundManager.isCuring();
 		if (IsCured()) {
 			woundManager.AddCuredWound();

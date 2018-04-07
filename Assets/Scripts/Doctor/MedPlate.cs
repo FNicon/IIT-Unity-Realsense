@@ -8,6 +8,7 @@ public class MedPlate : MonoBehaviour {
 	public GameObject[] bandages;
 	public WoundManager woundManager;
 	public Animator plateAnimation;
+	public float delayTime;
 	// Use this for initialization
 	void Start () {
 		SetCotton();
@@ -22,7 +23,7 @@ public class MedPlate : MonoBehaviour {
 	}
 	IEnumerator ChangePhase() {
 		plateAnimation.SetBool("isShow",false);
-		yield return new WaitForSeconds(1.5f);
+		yield return new WaitForSeconds(delayTime);
 		plateAnimation.SetBool("isShow",true);
 		foreach (GameObject bandage in bandages) {
 			bandage.SetActive(true);
