@@ -10,7 +10,8 @@ public class FireFade : MonoBehaviour {
 		fireSprite = gameObject.GetComponent<SpriteRenderer>();
 	}
 	void Start () {
-		newColor = new Vector4(fireSprite.color.r,fireSprite.color.g,fireSprite.color.b,fireSprite.color.a);
+		fireSprite.color = new Vector4(255,255,255,0);
+		newColor = new Vector4(fireSprite.color.r,fireSprite.color.g,fireSprite.color.b,100);
 	}
 	
 	// Update is called once per frame

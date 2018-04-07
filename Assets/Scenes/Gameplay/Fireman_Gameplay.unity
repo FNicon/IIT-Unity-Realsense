@@ -1297,7 +1297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1036920874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2263,6 +2263,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4813830971836360, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}
       propertyPath: m_LocalPosition.x
       value: -2.95
@@ -2297,8 +2302,58 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
         type: 2}
-      propertyPath: growTime
-      value: 0.2
+      propertyPath: scalePhases.Array.data[1].x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.data[1].y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.data[1].z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.data[2].x
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.data[2].y
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.data[2].z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114733034751493326, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: explodePhase
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.data[3].x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.data[3].y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.data[3].z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114297644530911118, guid: a08a44aef874b144f93d726f2e8eb57f,
+        type: 2}
+      propertyPath: scalePhases.Array.data[0].z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a08a44aef874b144f93d726f2e8eb57f, type: 2}

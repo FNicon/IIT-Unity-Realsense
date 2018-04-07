@@ -24,17 +24,12 @@ public class FireSpawner : MonoBehaviour {
 		for (int i=0;i<fireObjects.Length;i++) {
 			if (IsSpawnFire()) {
 				GameObject fire = Instantiate(fireObjects[i],GenerateSpawnPoint(),this.transform.rotation);
-				//Debug.Log("Fire");
 			}
 		}
 		StartCoroutine(SpawnFire());
 	}
 	Vector3 GenerateSpawnPoint() {
-		//Vector3 spawnPoint;
 		int choosenSpawnPoint = Random.Range(0,spawnPoints.Length);
-		//spawnPoint.x = Random.Range(minSpawnPoint.x,maxSpawnPoint.x);
-		//spawnPoint.y = Random.Range(minSpawnPoint.y,maxSpawnPoint.y);
-		//spawnPoint.z = 0;
 		return (spawnPoints[choosenSpawnPoint].position);
 	}
 
