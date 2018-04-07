@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 114733034751493326}
   - component: {fileID: 61813982239085010}
   - component: {fileID: 95032510796519794}
+  - component: {fileID: 114793941019134300}
+  - component: {fileID: 114297644530911118}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
@@ -37,8 +39,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1076902636039180}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -2.95, y: -1.35, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -85,6 +87,21 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114297644530911118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076902636039180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90138d8e275aef445b047a059b1ee1d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  growScale: 0.15
+  shrinkScale: 0.2
+  growTime: 0.2
+  startSize: {x: 0.3, y: 0.3, z: 1}
 --- !u!114 &114733034751493326
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -96,12 +113,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ef75fc4cd5e38444b76f922fddbec16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  scaleValue: 1
-  downScale: 2
-  countTime: 3
-  explodeTime: 20
-  sign: 1
+  countTime: 0
+  explodeTime: 3
+  growDelay: 4
+--- !u!114 &114793941019134300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076902636039180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2f5c5127528714d9f77088b434d7a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212065150446634346
 SpriteRenderer:
   m_ObjectHideFlags: 1

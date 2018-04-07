@@ -4,62 +4,75 @@ using UnityEngine;
 
 public class Fire : MonoBehaviour {
 	private FireGameManager gameManager;
-	public float growScale;
-	public float shrinkScale;
-	public float countTime = 3;
-	public float explodeTime;
-	public float growTime;
-	public Vector3 startSize;
-	private Vector3 newSize;
-	private float sign = 1;
+	public float countTime = 0;
+	public float explodePhase;
 	public float growDelay;
+	private FireFade fireFade;
+	private FireSize fireSize;
+	private bool isBurnUp;
+	
 	// Use this for initialization
 	private void Awake()
 	{
 		gameManager = FindObjectOfType<FireGameManager>();
+		fireFade = gameObject.GetComponent<FireFade>();
+		fireSize = gameObject.GetComponent<FireSize>();
 	}
 	void Start () {
-		transform.localScale = startSize;
-		newSize = transform.localScale;
 		StartBurn();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		transform.localScale = Vector3.MoveTowards(transform.localScale,newSize,Time.deltaTime * growTime);
-	}
 	void StartBurn() {
+		isBurnUp = true;
 		StartCoroutine(BurnUp());
 		countTime = 0;
 	}
-	IEnumerator BurnUp() {
-		yield return new WaitForSeconds(growDelay);
-		countTime = countTime + sign;
-		newSize = new Vector3(transform.localScale.x + sign * growScale,transform.localScale.y + sign * growScale, 1);
-		if (countTime >= explodeTime) {
-			gameManager.GameOver();
-			//Debug.Log("You Lose!");
-			StopCoroutine(this.BurnUp());
-		} else if (countTime <= 0) {
-			StopBurn();
-		} else {
-			StartCoroutine(BurnUp());
-		}
-	}
+
 	void StopBurn() {
-		StopCoroutine(this.BurnUp());
+		isBurnUp = false;
+		StopCoroutine(this.BurnDown());
 		ScoreManager.instance.AddScore();
 		Destroy(this.gameObject);
 	}
 	private void OnTriggerEnter2D(Collider2D other) {
 		if (other.CompareTag("Player")) {
-			sign = -1 * shrinkScale;
-			newSize = new Vector3(transform.localScale.x + sign * growScale,transform.localScale.y + sign * growScale, 1);
+			isBurnUp = false;
+			StopCoroutine(this.BurnUp());
+			StartCoroutine(this.BurnDown());	
 		}
 	}
 	private void OnTriggerExit2D(Collider2D other) {
 		if (other.CompareTag("Player")) {
-			sign = 1;
+			isBurnUp = true;
+			fireFade.StopFade();
+			fireSize.StopSizeChange();
+			StopCoroutine(this.BurnDown());
+			StartCoroutine(this.BurnUp());
+		}
+	}
+	public IEnumerator BurnUp() {
+		if (countTime >= explodePhase) {
+			gameManager.GameOver();
+			StopCoroutine(this.BurnUp());
+		}
+		yield return new WaitForSeconds(growDelay);
+		if (isBurnUp) {
+			countTime = countTime + 1;
+			fireSize.Grow();
+			fireFade.FadeIn();
+			
+			StartCoroutine(BurnUp());
+		}
+	}
+	public IEnumerator BurnDown() {
+		if (transform.localScale.x <= 0) {
+			StopBurn();
+		}
+		if (!isBurnUp) {
+			countTime = countTime - 1;
+			fireFade.FadeOut();
+			fireSize.Shrink();	
+			yield return new WaitForSeconds(1f);
+			StartCoroutine(BurnDown());
 		}
 	}
 }
