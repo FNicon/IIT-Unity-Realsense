@@ -9,6 +9,7 @@ public class FireSpawner : MonoBehaviour {
 	public Vector2 minSpawnPoint;
 	public Vector2 maxSpawnPoint;
 	public float fireCooldown;
+	public Transform[] spawnPoints;
 	// Use this for initialization
 	void Start () {
 		StartCoroutine(SpawnFire());
@@ -29,11 +30,12 @@ public class FireSpawner : MonoBehaviour {
 		StartCoroutine(SpawnFire());
 	}
 	Vector3 GenerateSpawnPoint() {
-		Vector3 spawnPoint;
-		spawnPoint.x = Random.Range(minSpawnPoint.x,maxSpawnPoint.x);
-		spawnPoint.y = Random.Range(minSpawnPoint.y,maxSpawnPoint.y);
-		spawnPoint.z = 0;
-		return (spawnPoint);
+		//Vector3 spawnPoint;
+		int choosenSpawnPoint = Random.Range(0,spawnPoints.Length);
+		//spawnPoint.x = Random.Range(minSpawnPoint.x,maxSpawnPoint.x);
+		//spawnPoint.y = Random.Range(minSpawnPoint.y,maxSpawnPoint.y);
+		//spawnPoint.z = 0;
+		return (spawnPoints[choosenSpawnPoint].position);
 	}
 
 	bool IsSpawnFire() {
