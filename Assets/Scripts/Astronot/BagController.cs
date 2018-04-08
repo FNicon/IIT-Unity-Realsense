@@ -42,6 +42,7 @@ public class BagController : MonoBehaviour {
 
 	public void CursorUp(){
 		if(objInTrigger != null){
+			transform.localScale = new Vector3(1.0f,1.0f);
 			Destroy(objInTrigger);
 			ScoreManager.instance.AddScore();
 		}

@@ -22,7 +22,10 @@ public class AstronotPlayerController : MonoBehaviour {
 			Vector2 secondOffset = CursorController.instance.GetPosition() - clickedObj.position;
 			//clickedObj.position = CursorController.instance.GetPosition() + offset;
 			Vector2 movePos = clickedObj.position + secondOffset + offset;
-			clickedObj.MovePosition(movePos);
+			if(clickedObj.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("bounceAnim"))
+				clickedObj.transform.position = movePos;
+			else
+				clickedObj.MovePosition(movePos);
 		}
 	}
 
@@ -32,6 +35,8 @@ public class AstronotPlayerController : MonoBehaviour {
 			clickedObj.velocity = Vector2.zero;
 			clickedObj.angularVelocity = 0;
 			clickedObj.mass /= massDivider;
+			clickedObj.gameObject.layer = 8;
+			clickedObj.gameObject.GetComponent<Animator>().SetTrigger("bounce");
 			offset =  clickedObj.position - CursorController.instance.GetPosition();
 
 			storedMaterial = clickedObj.sharedMaterial;
@@ -43,6 +48,7 @@ public class AstronotPlayerController : MonoBehaviour {
 		if (storedMaterial == null) {
 		} else {
 			//Debug.Log(storedMaterial.name);
+			clickedObj.gameObject.layer = 0;
 			clickedObj.sharedMaterial = storedMaterial;
 			clickedObj.velocity = new Vector2(Random.Range(-0.7f,0.7f), Random.Range(-0.7f,0.7f));
 			clickedObj.angularVelocity = Random.Range(-0.7f,0.7f);
