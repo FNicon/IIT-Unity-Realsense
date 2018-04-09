@@ -21,7 +21,7 @@ public class DoctorController : MonoBehaviour {
 	void Update () {
 
 	}
-	private void OnTriggerEnter2D(Collider2D other) {
+	private void OnTriggerStay2D(Collider2D other) {
 		if (other.GetComponent<Wound>()!=null) {
 			putObject = other.gameObject;
 		}
