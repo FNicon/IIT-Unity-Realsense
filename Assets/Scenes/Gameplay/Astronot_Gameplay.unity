@@ -748,7 +748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eba8dd80e196bd418fd1d29a473adda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfRotation: 8
+  numberOfRotation: 1
   minuteHand: {fileID: 1770675116}
   hourHand: {fileID: 1346553204}
 --- !u!1 &744032802
