@@ -852,7 +852,7 @@ MonoBehaviour:
   - {fileID: 554059628}
   woundManager: {fileID: 1175620573}
   plateAnimation: {fileID: 97996800}
-  delayTime: 0
+  delayTime: 1
 --- !u!95 &97996800
 Animator:
   serializedVersion: 3
