@@ -7,6 +7,7 @@ public class CursorController : MonoBehaviour {
 	public delegate void HandCursor();
 	public static event HandCursor OnMouseDown;
 	public static event HandCursor OnMouseUp;
+	public static bool isHandClicked;
 
 	[SerializeField]
 	private Sprite mouseDownImage;
@@ -48,6 +49,13 @@ public class CursorController : MonoBehaviour {
 			cursorSprite.sprite = mouseUpImage;
 			OnCursorUp();
 		}
+		/*if (isHandClicked) {
+			cursorSprite.sprite = mouseDownImage;
+			OnCursorDown();
+		} else {
+			cursorSprite.sprite = mouseUpImage;
+			OnCursorUp();
+		}*/
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
