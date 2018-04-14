@@ -47,6 +47,7 @@ public class RealsenseClick : MonoBehaviour {
 					if (_outputData.QueryFiredGestureData(i, out _gestureData) == pxcmStatus.PXCM_STATUS_NO_ERROR) {
 						//Display the gestures:  explained in rendering the frame section
 						if (_gestureData.name != "spreadfingers") {
+							Debug.Log("Clicked!");
 							CursorController.isHandClicked = true;
 						} else if (_gestureData.name == "spreadfingers") {
 							CursorController.isHandClicked = false;
@@ -58,7 +59,7 @@ public class RealsenseClick : MonoBehaviour {
 		}
 
 		/* Realease the frame to process the next frame */
-		SenseToolkitManager.Instance.SenseManager.ReleaseFrame();	
+		//SenseToolkitManager.Instance.SenseManager.ReleaseFrame();	
 	}
 	private void OnDisable() {
 		handAnalyzer.Dispose();
