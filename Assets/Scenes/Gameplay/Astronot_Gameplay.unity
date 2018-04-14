@@ -173,6 +173,7 @@ GameObject:
   - component: {fileID: 32767709}
   - component: {fileID: 32767710}
   - component: {fileID: 32767711}
+  - component: {fileID: 32767712}
   m_Layer: 0
   m_Name: segitiga1
   m_TagString: segitiga
@@ -373,6 +374,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!95 &32767712
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 32767707}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 3b900b98f921e3747b9a101fe317d4a1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &299773519
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +580,7 @@ GameObject:
   - component: {fileID: 559191136}
   - component: {fileID: 559191137}
   - component: {fileID: 559191138}
+  - component: {fileID: 559191139}
   m_Layer: 0
   m_Name: bulat2
   m_TagString: bulat
@@ -661,6 +680,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!95 &559191139
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 559191134}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: a7a472c3b99769f47bcfc69f19f65bbb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &706664191 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4870508377085810, guid: b1566d3f3eb05d3408934ae814f16680,
@@ -698,7 +734,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 79, y: -22}
+  m_AnchoredPosition: {x: 794, y: -22}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &732608383
@@ -712,6 +748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eba8dd80e196bd418fd1d29a473adda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numberOfRotation: 1
   minuteHand: {fileID: 1770675116}
   hourHand: {fileID: 1346553204}
 --- !u!1 &744032802
@@ -900,7 +937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dbce9ad935f437458cb38350fbbb0fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 10
+  time: 30
 --- !u!4 &888457299
 Transform:
   m_ObjectHideFlags: 0
@@ -1258,6 +1295,7 @@ GameObject:
   - component: {fileID: 1219711939}
   - component: {fileID: 1219711940}
   - component: {fileID: 1219711941}
+  - component: {fileID: 1219711942}
   m_Layer: 0
   m_Name: bulat1
   m_TagString: bulat
@@ -1272,7 +1310,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1219711937}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.81, y: 1.84, z: 9.876953}
+  m_LocalPosition: {x: 5.46, y: 1.8, z: 9.876953}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 19782579}
@@ -1357,6 +1395,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!95 &1219711942
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1219711937}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e7820de8acdb11d4cbc87f580aae83f8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1284896176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,6 +1493,7 @@ GameObject:
   - component: {fileID: 1313547888}
   - component: {fileID: 1313547889}
   - component: {fileID: 1313547890}
+  - component: {fileID: 1313547891}
   m_Layer: 0
   m_Name: kotak2
   m_TagString: kotak
@@ -1453,7 +1509,7 @@ Transform:
   m_GameObject: {fileID: 1313547886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.3, y: -0.4, z: 9.876953}
-  m_LocalScale: {x: 0.85, y: 0.85, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 19782579}
   m_RootOrder: 3
@@ -1547,6 +1603,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!95 &1313547891
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1313547886}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: a7a472c3b99769f47bcfc69f19f65bbb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1346553203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,21 +1634,21 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1346553204
 RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1346553203}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0, z: 0.9659259, w: -0.25881898}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 744032803}
   m_Father: {fileID: 1284896177}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 210}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1824,6 +1897,7 @@ GameObject:
   - component: {fileID: 1453882091}
   - component: {fileID: 1453882092}
   - component: {fileID: 1453882093}
+  - component: {fileID: 1453882094}
   m_Layer: 0
   m_Name: kotak1
   m_TagString: kotak
@@ -1933,6 +2007,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!95 &1453882094
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1453882089}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 3b900b98f921e3747b9a101fe317d4a1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1507047346
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,7 +2055,11 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 5}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 8.873724, y: -0.007704258}
+  - {x: 7.385465, y: -0.0077061653}
+  - {x: 6.3090057, y: -0.7257414}
+  - {x: 6.1918135, y: -1.6908596}
+  - {x: 6.9138865, y: -2.502819}
+  - {x: 8.872807, y: -2.4582725}
   - {x: 8.8928585, y: -9.976325}
   - {x: 8.044729, y: -9.977913}
   - {x: 8.150671, y: -8.973619}
@@ -1980,11 +2075,11 @@ EdgeCollider2D:
   - {x: -8.251744, y: -9.992046}
   - {x: -8.883499, y: -9.992506}
   - {x: -8.9, y: -2.2723162}
-  - {x: -7.148237, y: -2.429725}
-  - {x: -6.0528746, y: -2.4148316}
-  - {x: -5.359925, y: -1.9340618}
+  - {x: -7.5410304, y: -2.153315}
+  - {x: -7.405828, y: -1.280097}
+  - {x: -7.7166805, y: 0.00080537796}
   - {x: -5.276454, y: 0}
-  - {x: 8.888388, y: 0}
+  - {x: 7.3264523, y: 0.00000047683716}
 --- !u!4 &1507047348
 Transform:
   m_ObjectHideFlags: 0
@@ -1998,6 +2093,112 @@ Transform:
   m_Father: {fileID: 706664191}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1541664266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1541664267}
+  - component: {fileID: 1541664270}
+  - component: {fileID: 1541664269}
+  - component: {fileID: 1541664268}
+  m_Layer: 8
+  m_Name: collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1541664267
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1541664266}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1608283376}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1541664268
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1541664266}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 6.52, y: -4.71}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.371111, y: 1.8066666}
+    newSize: {x: 4.371111, y: 1.8066666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.371111, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &1541664269
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1541664266}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -5.48, y: -4.66}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.371111, y: 1.8066666}
+    newSize: {x: 4.371111, y: 1.8066666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.371111, y: 1}
+  m_EdgeRadius: 0
+--- !u!61 &1541664270
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1541664266}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.57, y: -4.72}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.371111, y: 1.8066666}
+    newSize: {x: 4.371111, y: 1.8066666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.371111, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1568283179
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,6 +2267,7 @@ Transform:
   - {fileID: 1656384046}
   - {fileID: 2037405852}
   - {fileID: 2077874340}
+  - {fileID: 1541664267}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2294,6 +2496,7 @@ GameObject:
   - component: {fileID: 1937805678}
   - component: {fileID: 1937805679}
   - component: {fileID: 1937805680}
+  - component: {fileID: 1937805681}
   m_Layer: 0
   m_Name: segitiga2
   m_TagString: segitiga
@@ -2494,6 +2697,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!95 &1937805681
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937805676}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 973fa669bcd3b4b48b007462bfaa201b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2037405850
 GameObject:
   m_ObjectHideFlags: 0
