@@ -23,4 +23,12 @@ public class SceneLoader : MonoBehaviour {
 	public void loadSpecificScene(string inputScene) {
 		SceneManager.LoadScene(inputScene);
 	}
+
+	public void ExitGame() {
+		#if UNITY_EDITOR
+			UnityEditor.EditorApplication.isPlaying = false;
+		#else
+			Application.Quit();
+		#endif
+	}
 }
