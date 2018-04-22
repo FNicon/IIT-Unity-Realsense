@@ -49,13 +49,13 @@ public class CursorController : MonoBehaviour {
 			cursorSprite.sprite = mouseUpImage;
 			OnCursorUp();
 		}
-		/*if (isHandClicked) {
+		if (isHandClicked) {
 			cursorSprite.sprite = mouseDownImage;
 			OnCursorDown();
 		} else {
 			cursorSprite.sprite = mouseUpImage;
 			OnCursorUp();
-		}*/
+		}
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
