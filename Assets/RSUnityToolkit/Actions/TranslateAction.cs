@@ -211,7 +211,8 @@ public class TranslateAction : VirtualWorldBoxAction {
 				vec = this.gameObject.transform.parent.transform.TransformPoint(vec);
 			}
 			 
-			this.gameObject.GetComponent<Rigidbody>().MovePosition(vec);			
+			this.gameObject.transform.position = vec;
+			//this.gameObject.GetComponent<Rigidbody2D>().MovePosition(vec);			
 		}
 	}
 	

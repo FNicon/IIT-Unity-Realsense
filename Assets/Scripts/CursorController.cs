@@ -19,7 +19,7 @@ public class CursorController : MonoBehaviour {
 	private SpriteRenderer cursorSprite;
 	List<GameObject> gameObjList;
 	List<string> objTags;
-	// Use this for initialization
+	bool isMouseDown = false;
 	void Awake () {
 		if(instance == null) {
 			instance = this;
@@ -39,23 +39,19 @@ public class CursorController : MonoBehaviour {
 	void Update () {
 		Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		
-		if(InsideScreen())
-			transform.position = mousePos;
+		//if(InsideScreen())
+			// transform.position = mousePos;
+		Debug.Log("is hand clicked? " + isHandClicked);
+		if(Input.GetMouseButtonDown(0) || (isHandClicked )){
+			cursorSprite.sprite = mouseDownImage;
+			OnCursorDown();
+			isMouseDown = true;
+		} else if(Input.GetMouseButtonUp(0) || !isHandClicked){
+			cursorSprite.sprite = mouseUpImage;
+			OnCursorUp();
+			isMouseDown = false;
+		}
 
-		if(Input.GetMouseButtonDown(0)){
-			cursorSprite.sprite = mouseDownImage;
-			OnCursorDown();
-		} else if(Input.GetMouseButtonUp(0)){
-			cursorSprite.sprite = mouseUpImage;
-			OnCursorUp();
-		}
-		if (isHandClicked) {
-			cursorSprite.sprite = mouseDownImage;
-			OnCursorDown();
-		} else {
-			cursorSprite.sprite = mouseUpImage;
-			OnCursorUp();
-		}
 	}
 
 	void OnTriggerEnter2D(Collider2D col){

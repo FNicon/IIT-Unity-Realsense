@@ -46,14 +46,17 @@ public class RealsenseClick : MonoBehaviour {
 				for(int i = 0; i < _outputData.QueryFiredGesturesNumber(); i++) {
 					if (_outputData.QueryFiredGestureData(i, out _gestureData) == pxcmStatus.PXCM_STATUS_NO_ERROR) {
 						//Display the gestures:  explained in rendering the frame section
-						if (_gestureData.name != "spreadfingers") {
-							Debug.Log("Clicked!");
-							CursorController.isHandClicked = true;
-						} else if (_gestureData.name == "spreadfingers") {
+						Debug.Log(_gestureData.name);
+						if (_gestureData.name == "spreadfingers") {
+							Debug.Log("Unclicked");
 							CursorController.isHandClicked = false;
+						} else {
+							Debug.Log("Clicked");
+							CursorController.isHandClicked = true;
 						}
 					}
 				}
+				Debug.Log("out!");
 				// Release Frame
 			}
 		}
