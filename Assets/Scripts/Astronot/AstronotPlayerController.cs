@@ -46,7 +46,7 @@ public class AstronotPlayerController : MonoBehaviour {
 
 	public void OnCursorUp(){
 		if (storedMaterial == null) {
-		} else {
+		} else if (clickedObj != null) {
 			//Debug.Log(storedMaterial.name);
 			clickedObj.gameObject.layer = 0;
 			clickedObj.sharedMaterial = storedMaterial;
