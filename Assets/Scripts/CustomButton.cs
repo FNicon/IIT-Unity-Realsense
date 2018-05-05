@@ -21,11 +21,12 @@ public class CustomButton : MonoBehaviour {
 	private void OnTriggerStay2D(Collider2D other){
 		if (other.CompareTag(mouseTag)) {
 			isHover = true;
-			//Debug.Log("Hover");
 		}
 	}
 	public void OnCursorDown(){
-		
+		if (isHover) {
+			sceneLoader.loadSpecificScene(sceneToLoad);	
+		}
 	}
 
 	public void OnCursorUp(){

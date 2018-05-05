@@ -4,18 +4,12 @@ using UnityEngine;
 using RSUnityToolkit;
 
 public class RealsenseClick : MonoBehaviour {
-	public GameObject realsenseManager;
-	//PXCMSenseManager psm;
 	pxcmStatus sts;
 	PXCMHandModule handAnalyzer;
 	PXCMHandConfiguration config;
-	//PXCMHandData.JointData joints;
 	// Use this for initialization
 	void Start () {
-		//var sense = FindObjectOfType(typeof(SenseToolkitManager));
-		//SenseToolkitManager sense = FindObjectOfType<SenseToolkitManager>();
-		//psm = sense.SenseManager;
-		//psm = SenseToolkitManager.Instance.SenseManager;
+		//handAnalyzer = FindObjectOfType<SenseToolkitManager>().SenseManager.QueryHand();
 		//InitializeSenseManager();
 		//InitializeHandModule();
 		//SetHandConfig();
@@ -46,21 +40,18 @@ public class RealsenseClick : MonoBehaviour {
 				for(int i = 0; i < _outputData.QueryFiredGesturesNumber(); i++) {
 					if (_outputData.QueryFiredGestureData(i, out _gestureData) == pxcmStatus.PXCM_STATUS_NO_ERROR) {
 						//Display the gestures:  explained in rendering the frame section
-						Debug.Log(_gestureData.name);
-						if (_gestureData.name == "spreadfingers") {
-							Debug.Log("Unclicked");
-							CursorController.isHandClicked = false;
-						} else {
-							Debug.Log("Clicked");
+						//Debug.Log(_gestureData.name);
+						if (_gestureData.name == "fist") {
 							CursorController.isHandClicked = true;
+						} else if (_gestureData.name == "v_sign") {
+							transform.position = new Vector3(0,0,0);
+						} else {
+							CursorController.isHandClicked = false;
 						}
 					}
 				}
-				Debug.Log("out!");
-				// Release Frame
 			}
 		}
-
 		/* Realease the frame to process the next frame */
 		//SenseToolkitManager.Instance.SenseManager.ReleaseFrame();	
 	}

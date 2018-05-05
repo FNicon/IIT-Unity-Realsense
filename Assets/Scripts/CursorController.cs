@@ -41,7 +41,7 @@ public class CursorController : MonoBehaviour {
 		
 		//if(InsideScreen())
 			// transform.position = mousePos;
-		Debug.Log("is hand clicked? " + isHandClicked);
+		//Debug.Log("is hand clicked? " + isHandClicked);
 		if(Input.GetMouseButtonDown(0) || (isHandClicked )){
 			cursorSprite.sprite = mouseDownImage;
 			OnCursorDown();

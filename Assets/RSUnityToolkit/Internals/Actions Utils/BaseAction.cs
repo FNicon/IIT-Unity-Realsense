@@ -57,14 +57,14 @@ public abstract class BaseAction : MonoBehaviour
     /// </summary>
     protected BaseAction()
     {
-		#if UNITY_EDITOR
+		//#if UNITY_EDITOR
         // Only call it if this is a new instance - i.e. duplicate or copy&paste
-        if (this.GetInstanceID() < 0)
-        {
+        //if (this.GetInstanceID() < 0)
+        //{
             // Delay this call so it will happen after copy serialization
-            UnityEditor.EditorApplication.delayCall += LateInit;
-        }
-		#endif
+            //UnityEditor.EditorApplication.delayCall += LateInit;
+        //}
+		//#endif
     }
 
     #endregion
