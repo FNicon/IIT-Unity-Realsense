@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FiremanController
+  m_Controller: {fileID: 9100000, guid: 53d03101b45ce97429380adbd8aa2a8e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 74519325540405170, guid: 53d03101b45ce97429380adbd8aa2a8e,
+      type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ea628f0c60ea0f240ae2b159fa90f4b2, type: 2}
+  - m_OriginalClip: {fileID: 74940873784672102, guid: 53d03101b45ce97429380adbd8aa2a8e,
+      type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 93dac3b166dfff645acda65961d4fc98, type: 2}
+  - m_OriginalClip: {fileID: 74383431601504498, guid: 53d03101b45ce97429380adbd8aa2a8e,
+      type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 870fd7b08858ed140b098d8c0dd6ca21, type: 2}

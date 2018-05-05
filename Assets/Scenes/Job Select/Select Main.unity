@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 209102599}
   - component: {fileID: 209102598}
   - component: {fileID: 209102597}
+  - component: {fileID: 209102600}
   m_Layer: 5
   m_Name: Button 2
   m_TagString: Untagged
@@ -167,7 +168,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -181,16 +182,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: 
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 209102598}
+  m_TargetGraphic: {fileID: 1176108653}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 576551020}
-        m_MethodName: loadSpecificScene
+      - m_Target: {fileID: 1390752817}
+        m_MethodName: OnSelectLoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -235,6 +236,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 209102595}
+--- !u!95 &209102600
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 209102595}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: e113816ff40407a4da59a84071e55b30, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &239610810
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,6 +264,7 @@ GameObject:
   - component: {fileID: 239610814}
   - component: {fileID: 239610813}
   - component: {fileID: 239610812}
+  - component: {fileID: 239610815}
   m_Layer: 5
   m_Name: Button 5
   m_TagString: Untagged
@@ -289,7 +308,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -303,16 +322,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: 
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 239610813}
+  m_TargetGraphic: {fileID: 1176108653}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 576551020}
-        m_MethodName: loadSpecificScene
+      - m_Target: {fileID: 1390752817}
+        m_MethodName: OnSelectLoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -357,6 +376,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 239610810}
+--- !u!95 &239610815
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 239610810}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 5daa4532eeb5c48419961358d240f0c3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &340763494
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,6 +404,7 @@ GameObject:
   - component: {fileID: 340763498}
   - component: {fileID: 340763497}
   - component: {fileID: 340763496}
+  - component: {fileID: 340763499}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -411,7 +448,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -425,16 +462,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: 
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 340763497}
+  m_TargetGraphic: {fileID: 1176108653}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 576551020}
-        m_MethodName: loadSpecificScene
+      - m_Target: {fileID: 1390752817}
+        m_MethodName: OnSelectLoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -479,6 +516,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 340763494}
+--- !u!95 &340763499
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 340763494}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 3b27c813e7389394eade1f18dd30afb4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &471312401
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,7 +662,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -147.3}
+  m_AnchoredPosition: {x: 0, y: -122.2}
   m_SizeDelta: {x: 246.43, y: 92.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &488091739
@@ -1046,7 +1100,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.90624994, y: 0.8533342}
   m_AnchorMax: {x: 0.90624994, y: 0.8533342}
-  m_AnchoredPosition: {x: 42.79, y: 1.4346161}
+  m_AnchoredPosition: {x: 42.79001, y: 1.4346313}
   m_SizeDelta: {x: 81.99, y: 83.87}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &825194398
@@ -1358,6 +1412,7 @@ GameObject:
   - component: {fileID: 1176108654}
   - component: {fileID: 1176108653}
   - component: {fileID: 1176108652}
+  - component: {fileID: 1176108655}
   m_Layer: 5
   m_Name: Button 3
   m_TagString: Untagged
@@ -1401,7 +1456,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1415,16 +1470,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: 
     m_DisabledTrigger: Disabled
   m_Interactable: 1
   m_TargetGraphic: {fileID: 1176108653}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 576551020}
-        m_MethodName: loadSpecificScene
+      - m_Target: {fileID: 1390752817}
+        m_MethodName: OnSelectLoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1469,6 +1524,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1176108650}
+--- !u!95 &1176108655
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1176108650}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53d03101b45ce97429380adbd8aa2a8e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1186616508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,6 +1552,7 @@ GameObject:
   - component: {fileID: 1186616512}
   - component: {fileID: 1186616511}
   - component: {fileID: 1186616510}
+  - component: {fileID: 1186616513}
   m_Layer: 5
   m_Name: Button 4
   m_TagString: Untagged
@@ -1523,7 +1596,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 3
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1537,16 +1610,16 @@ MonoBehaviour:
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
+    m_HighlightedTrigger: Normal
+    m_PressedTrigger: 
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1186616511}
+  m_TargetGraphic: {fileID: 1176108653}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 576551020}
-        m_MethodName: loadSpecificScene
+      - m_Target: {fileID: 1390752817}
+        m_MethodName: OnSelectLoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1591,6 +1664,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1186616508}
+--- !u!95 &1186616513
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1186616508}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 069d14ab58d793842bc9a403e665065d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1263317505
 GameObject:
   m_ObjectHideFlags: 0
@@ -1685,7 +1775,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -147.29999}
+  m_AnchoredPosition: {x: 0, y: -122.2}
   m_SizeDelta: {x: 246.43, y: 92.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304814052
@@ -1830,6 +1920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77bcf2fcda865ad459a80d1e6c8b35a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneLoader: {fileID: 576551020}
   selectedObject: {fileID: 0}
   childObjects:
   - {fileID: 0}
@@ -1837,6 +1928,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  uiButtons:
+  - {fileID: 825194398}
+  - {fileID: 2033568296}
+  - {fileID: 820118605}
 --- !u!1 &1461203684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,7 +1964,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -147.29999}
+  m_AnchoredPosition: {x: 0, y: -122.2}
   m_SizeDelta: {x: 246.43, y: 92.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1461203686
@@ -1937,7 +2032,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -147.29999}
+  m_AnchoredPosition: {x: 0, y: -122.2}
   m_SizeDelta: {x: 246.43, y: 92.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1680069585
@@ -2005,7 +2100,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -147.29999}
+  m_AnchoredPosition: {x: 0, y: -122.2}
   m_SizeDelta: {x: 246.43, y: 92.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1799808139

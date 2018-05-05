@@ -4,16 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class CharacterSelect : MonoBehaviour {
+	public SceneLoader sceneLoader;
 	public RectTransform selectedObject;
 	public RectTransform[] childObjects;
+
+	public List<Button> uiButtons;
 	// Use this for initialization
 	private void Awake() {
+		GameObject temp = GameObject.Find("Scene Loader");
+		if(temp != null)
+			sceneLoader = temp.GetComponent<SceneLoader>();
 		UpdateChildObjects();
 	} 
 	// Update is called once per frame
 	void Update () {
 		
 	}
+
 	public void SwipeRight() {
 		Transform tempObject;
 		tempObject = childObjects[childObjects.Length - 1];
@@ -35,6 +42,7 @@ public class CharacterSelect : MonoBehaviour {
 			childObjects[i] = transform.GetChild(i).GetComponent<RectTransform>();
 			childObjects[i].gameObject.SetActive(true);
 			childObjects[i].GetComponent<Image>().color = new Color(1, 1, 1, 0.7f);
+			childObjects[i].GetComponent<Button>().interactable = false;
 		}
 		childObjects[0].gameObject.SetActive(false);
 		childObjects[4].gameObject.SetActive(false);
@@ -45,8 +53,9 @@ public class CharacterSelect : MonoBehaviour {
 		selectedObject = childObjects[2];
 		//Vector3 currentScale = selectedObject.transform.localScale;
 		selectedObject.GetChild(0).gameObject.SetActive(true);
-		selectedObject.GetChild(0).transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
-		selectedObject.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+		selectedObject.GetChild(0).transform.localScale = new Vector3(0.6f, 0.6f, 0.6f);
+		selectedObject.transform.localScale = new Vector3(1.4f, 1.4f, 1.4f);
+		selectedObject.GetComponent<Button>().interactable = true;
 		/*selectedObject.transform.localScale = new Vector3(
 			currentScale.x + 0.2f, currentScale.y + 0.2f, currentScale.z + 0.2f);*/
 		selectedObject.GetComponent<Image>().color = Color.white;
@@ -60,5 +69,22 @@ public class CharacterSelect : MonoBehaviour {
 		childObjects[0].SetSiblingIndex(childObjects.Length - 1);
 		//ResetChildObject(1);
 		UpdateChildObjects();
+	}
+
+	public void OnSelectLoadScene(string scene){
+		StartCoroutine("LoadScene", scene);
+	}
+
+	IEnumerator LoadScene(string scene){
+		Animator anim = selectedObject.GetComponent<Animator>();
+		anim.SetTrigger("Pressed");
+		selectedObject.GetComponent<Button>().enabled = false;
+		foreach(Button btn in uiButtons){
+			btn.enabled = false;
+			btn.gameObject.GetComponent<Image>().raycastTarget = false;
+		}
+		yield return new WaitUntil(() => anim.GetCurrentAnimatorStateInfo(0).IsName("Pressed"));
+		yield return new WaitForSeconds(anim.GetNextAnimatorClipInfo(0)[0].clip.length);
+		sceneLoader.loadSpecificScene(scene);
 	}
 }
