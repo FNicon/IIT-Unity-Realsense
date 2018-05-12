@@ -2011,7 +2011,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1556945604213158, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1556945604213158, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
       propertyPath: m_Layer
