@@ -5,15 +5,16 @@ AnimatorOverrideController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: PolisiController
+  m_Name: ArkeologController
   m_Controller: {fileID: 9100000, guid: 53d03101b45ce97429380adbd8aa2a8e, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 74519325540405170, guid: 53d03101b45ce97429380adbd8aa2a8e,
       type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 573ebf405c4605a45907d72890669587, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 795dc2e163107ad4cb10e214104c4554, type: 2}
   - m_OriginalClip: {fileID: 74383431601504498, guid: 53d03101b45ce97429380adbd8aa2a8e,
       type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: db66747e56b0ced42b08bd838ef76636, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 483a48deb0884f64f9ca729f40e5a0a6, type: 2}
   - m_OriginalClip: {fileID: 74940873784672102, guid: 53d03101b45ce97429380adbd8aa2a8e,
       type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: b0ad4cbf67921934d8cac869b783fc58, type: 2}
+    m_OverrideClip: {fileID: 74940873784672102, guid: 53d03101b45ce97429380adbd8aa2a8e,
+      type: 2}
