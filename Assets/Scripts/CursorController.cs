@@ -39,8 +39,9 @@ public class CursorController : MonoBehaviour {
 	void Update () {
 		Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		
-		//if(InsideScreen())
-			// transform.position = mousePos;
+		if(InsideScreen()) {
+			transform.position = mousePos;
+		}
 		//Debug.Log("is hand clicked? " + isHandClicked);
 		if(Input.GetMouseButtonDown(0) || (isHandClicked )){
 			cursorSprite.sprite = mouseDownImage;

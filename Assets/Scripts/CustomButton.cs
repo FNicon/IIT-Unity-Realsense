@@ -25,13 +25,13 @@ public class CustomButton : MonoBehaviour {
 	}
 	public void OnCursorDown(){
 		if (isHover) {
-			sceneLoader.loadSpecificScene(sceneToLoad);	
+			//sceneLoader.loadSpecificScene(sceneToLoad);	
 		}
 	}
 
 	public void OnCursorUp(){
 		if (isHover) {
-			sceneLoader.loadSpecificScene(sceneToLoad);	
+			//sceneLoader.loadSpecificScene(sceneToLoad);	
 		}
 	}
 }
