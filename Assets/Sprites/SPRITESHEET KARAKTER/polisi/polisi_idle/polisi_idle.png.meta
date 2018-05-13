@@ -1,7 +1,35 @@
 fileFormatVersion: 2
 guid: 08ed1df239ae656428aa035315bdbd74
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: polisi_idle_0
+    21300002: polisi_idle_1
+    21300004: polisi_idle_2
+    21300006: polisi_idle_3
+    21300008: polisi_idle_4
+    21300010: polisi_idle_5
+    21300012: polisi_idle_6
+    21300014: polisi_idle_7
+    21300016: polisi_idle_8
+    21300018: polisi_idle_9
+    21300020: polisi_idle_10
+    21300022: polisi_idle_11
+    21300024: polisi_idle_12
+    21300026: polisi_idle_13
+    21300028: polisi_idle_14
+    21300030: polisi_idle_15
+    21300032: polisi_idle_16
+    21300034: polisi_idle_17
+    21300036: polisi_idle_18
+    21300038: polisi_idle_19
+    21300040: polisi_idle_20
+    21300042: polisi_idle_21
+    21300044: polisi_idle_22
+    21300046: polisi_idle_23
+    21300048: polisi_idle_24
+    21300050: polisi_idle_25
+    21300052: polisi_idle_26
+    21300054: polisi_idle_27
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +66,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +95,591 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: polisi_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f17d9a893f800e44be6a27eb2843313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_1
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae334edd70fab07429204573a61e06bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_2
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b8f00d0c4df894a8466404b1a006c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_3
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6ee11830a8a75448cd18a7a5c19183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_4
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b27fe7edf551549b8f9daa4cbe7f7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_5
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b8e81c5c49be145aa53deb01ac4693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_6
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac34f820863deb24a86db530b809d73b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2872e493230c0364c8764b495798bf51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_8
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ae7ca5da7e12b48a00f2321ac53aa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_9
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1eb29542c845148b07e6015b052bb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_10
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406b28b892607744eb1793ba1f944db6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_11
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a5e523ecdf9154484ef49d77cff7fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_12
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bba897ac5ff264891d146445d9251b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_13
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d873af62147a2b04f9e1d39fd4a06440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddb4d960b65d9144a140b3f588b8556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_15
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c2645ec457c8f409de1edaa3cf9035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_16
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911728b798211c748b8f110dbd40f1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_17
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824e786ba9b77254fa6039882992c5f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_18
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c1c5cebeb3bc743a41295bfbe300a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_19
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2948acb7ac2b0344bf7e3ececf8e49e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_20
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37093934d7cff54fa23cf36fa1b67b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804c339c2146f8744992ebfa19928292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_22
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f29f908c919d98488036693867214e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_23
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd1a40626f9c44419dcb52d60b6251f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_24
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec11990af42311547ae9c1ccea3f67ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_25
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b032b1514d8f4c488a9119b288d0033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_26
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9590ce67ba9d44d45a789a0dbf80575c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polisi_idle_27
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9b138ff0f920a49b79950443bfc1ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

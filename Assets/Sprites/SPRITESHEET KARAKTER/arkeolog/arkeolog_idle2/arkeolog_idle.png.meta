@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: e99974fe0eae31a4b89e9106024b26d0
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: arkeolog_idle_0
+    21300002: arkeolog_idle_1
+    21300004: arkeolog_idle_2
+    21300006: arkeolog_idle_3
+    21300008: arkeolog_idle_4
+    21300010: arkeolog_idle_5
+    21300012: arkeolog_idle_6
+    21300014: arkeolog_idle_7
+    21300016: arkeolog_idle_8
+    21300018: arkeolog_idle_9
+    21300020: arkeolog_idle_10
+    21300022: arkeolog_idle_11
+    21300024: arkeolog_idle_12
+    21300026: arkeolog_idle_13
+    21300028: arkeolog_idle_14
+    21300030: arkeolog_idle_15
+    21300032: arkeolog_idle_16
+    21300034: arkeolog_idle_17
+    21300036: arkeolog_idle_18
+    21300038: arkeolog_idle_19
+    21300040: arkeolog_idle_20
+    21300042: arkeolog_idle_21
+    21300044: arkeolog_idle_22
+    21300046: arkeolog_idle_23
+    21300048: arkeolog_idle_24
+    21300050: arkeolog_idle_25
+    21300052: arkeolog_idle_26
+    21300054: arkeolog_idle_27
+    21300056: arkeolog_idle_28
+    21300058: arkeolog_idle_29
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +68,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +97,631 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: arkeolog_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4512
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23d05792fc95a34cb6a2333f9fe9032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_1
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 4512
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fbdd63cdd3d2b439da3f3bef96be1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_2
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 4512
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32924045daf65f4c9b936363719856a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_3
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 4512
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354b0488a2995a044a3826bc2ff20e3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_4
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 4512
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfb73a7d080bc4479890a6e09e92b92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_5
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 4512
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b433d3340cf9f484da3bee7dc0f4fccd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_6
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 4512
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4830029b338ae934197ec6583d21966e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_7
+      rect:
+        serializedVersion: 2
+        x: 6650
+        y: 4512
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262741bbdabbdfc4581208879a97ad06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faec6b511d30d4940aee5736de54c7f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_9
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0907dfff6e41d4e9f9939fb9bb7a2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_10
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee343c16d82aca428e306469d0d9628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_11
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6583cbbe28fde4f9edc4f9ed161276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_12
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d7b64aeb012aa4a831c4cd5e7d6e95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_13
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d51fbf6d2f30dc49a14d7d7310d848b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_14
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fbe2d92d22dbc4babeee050f2f86a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_15
+      rect:
+        serializedVersion: 2
+        x: 6650
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3303f2cf8670a634d9a6edf25a489a26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003571e5dd71c144383c6bd109b5d4b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_17
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911440199ad5caa4794d0fbc007029f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_18
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35a5f544a9592844ba5940a8917f1a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_19
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6674e2a3550664bb992e1458df7e3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_20
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b01dc845a2aec04a82761cb33978132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_21
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21718ddf9ec481a49a5572f5a6092c1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_22
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eebb6278e7acd4384b4bfe8997cd3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_23
+      rect:
+        serializedVersion: 2
+        x: 6650
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e4599692038cf43a73d172575e4e37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6409ecfee9f23fe4e8b7de9c965630c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_25
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887eae5dd7e48bc4e861ede9d1087574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_26
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dc246f0a0d2184a87051c3651089c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_27
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1b5af5127fb5e40aaca88d83360f7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_28
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68d6cff6d0400947891cfe84c868b66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arkeolog_idle_29
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457ffa9b08ed62a4889002d3802b1d41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,35 @@
 fileFormatVersion: 2
 guid: eeba9de70b46595418ab0c974b196e1b
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: damkar_idle_0
+    21300002: damkar_idle_1
+    21300004: damkar_idle_2
+    21300006: damkar_idle_3
+    21300008: damkar_idle_4
+    21300010: damkar_idle_5
+    21300012: damkar_idle_6
+    21300014: damkar_idle_7
+    21300016: damkar_idle_8
+    21300018: damkar_idle_9
+    21300020: damkar_idle_10
+    21300022: damkar_idle_11
+    21300024: damkar_idle_12
+    21300026: damkar_idle_13
+    21300028: damkar_idle_14
+    21300030: damkar_idle_15
+    21300032: damkar_idle_16
+    21300034: damkar_idle_17
+    21300036: damkar_idle_18
+    21300038: damkar_idle_19
+    21300040: damkar_idle_20
+    21300042: damkar_idle_21
+    21300044: damkar_idle_22
+    21300046: damkar_idle_23
+    21300048: damkar_idle_24
+    21300050: damkar_idle_25
+    21300052: damkar_idle_26
+    21300054: damkar_idle_27
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +66,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +95,591 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: damkar_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361038a1f39ffa541b661e943b478da4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_1
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fa6859e6d05e74b8fde8e1dbe1c247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_2
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa41a12d34a0dea4db562201d0d82ca9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_3
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d48b211458db7141a65567de9b00924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_4
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8366cf0919288645945358d9a851c73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_5
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fd5173d58b83a45af4b453ed2e4b6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e62206be79f11c43afac9920a173836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_7
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71455b1a9864d154ebc3672f15883fd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_8
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f526360b8e1e8e04c854d38c11bfb3dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_9
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cbe1464be2d514bb5382cebc62680a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_10
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc3416681f06d6428ce9e8171f7af7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_11
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c1315fcfd7b844ea4f014e8d7ca061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ac2d38314a08e4d926b10e275559c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_13
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59c5a4a945d9e24bbaea6f53a6fe849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_14
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95675975720d71646b4d51eeef4e9789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_15
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7f46787ccb50d4c91d9a37c4ae3808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_16
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3924e9a695268c046a7c91c334b5be65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_17
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff8f10ec518474480457d54fcb8ce1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacfceca842dc3547818eb448c842996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_19
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320bdd677cb816545a4e2e4feb1293cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_20
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb6e3f2be19d9a4684ad05b4dcee7f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_21
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10ac1ed2dc5d304c9b35ad387d6e503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_22
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a8b69b2a203274a90f277b7ad0e6f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_23
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6378c17e1532142418dc64c129f406b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff580789292e9d141a869b522ef5651f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_25
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7093cd92ee869804ea00680b5938d63d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_26
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2698428fca514b40ad577c70f52d847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_idle_27
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f66403fab28244dadf9fd79f90472b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

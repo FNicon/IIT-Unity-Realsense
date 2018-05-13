@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 5d343131e9e327749b9ec1de0dd0df7a
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Arkeolog_click-1_0
+    21300002: Arkeolog_click-1_1
+    21300004: Arkeolog_click-1_2
+    21300006: Arkeolog_click-1_3
+    21300008: Arkeolog_click-1_4
+    21300010: Arkeolog_click-1_5
+    21300012: Arkeolog_click-1_6
+    21300014: Arkeolog_click-1_7
+    21300016: Arkeolog_click-1_8
+    21300018: Arkeolog_click-1_9
+    21300020: Arkeolog_click-1_10
+    21300022: Arkeolog_click-1_11
+    21300024: Arkeolog_click-1_12
+    21300026: Arkeolog_click-1_13
+    21300028: Arkeolog_click-1_14
+    21300030: Arkeolog_click-1_15
+    21300032: Arkeolog_click-1_16
+    21300034: Arkeolog_click-1_17
+    21300036: Arkeolog_click-1_18
+    21300038: Arkeolog_click-1_19
+    21300040: Arkeolog_click-1_20
+    21300042: Arkeolog_click-1_21
+    21300044: Arkeolog_click-1_22
+    21300046: Arkeolog_click-1_23
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +62,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +91,511 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Arkeolog_click-1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3caa12f952affe4ca66a16383b9c993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_1
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3d3497c735b05468a1e16ad17c6a82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_2
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdca3bab7743b7341961140a701bb071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_3
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6807baa238224e4fa14c5a83cbc1b54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_4
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31efbd39238ef8a4b8e305a16483c442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_5
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b17f5356d91454393f3169e31c3cf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_6
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a8de59c96cd8040b029a737f1e13cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_7
+      rect:
+        serializedVersion: 2
+        x: 6650
+        y: 3008
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36069fbfbbd74014a9afae736868be72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84001864479704f429b8fdaa70fe6602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_9
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f114701d9268af640807720a415ff223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_10
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2abbc52dc30fb48a63159825a00223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_11
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da7d92062485ba48a43805dbf195872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_12
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6a121a856cc0848b33c31e9db124e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_13
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597eb5e6aa4e3d945a2c6517d2ea89ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_14
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929502540e0fa8941a5e27d863ffd49a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_15
+      rect:
+        serializedVersion: 2
+        x: 6650
+        y: 1504
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff89950874c1d64d87c58c92c494ad6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f45a8877037e449ac95ddbadaebc97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_17
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1244816c9d768b489fa81a7127b976b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_18
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d3a3e83691eab4ebb26f56ac8cca3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_19
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94f788946b47fa40b6216d1e8fa40ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_20
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304bc65d70578b6469a27cc87c45e5d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_21
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a30721b73804845b2c7d98b4a2479a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_22
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2300bcc948dbf4d981a18b2b2c1835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arkeolog_click-1_23
+      rect:
+        serializedVersion: 2
+        x: 6650
+        y: 0
+        width: 950
+        height: 1504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719b6086986b0264d9e843c6f81fd5d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,36 @@
 fileFormatVersion: 2
 guid: 959662052729a54458e99c87572e207a
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: ASTRONOT_click-1_0
+    21300002: ASTRONOT_click-1_1
+    21300004: ASTRONOT_click-1_2
+    21300006: ASTRONOT_click-1_3
+    21300008: ASTRONOT_click-1_4
+    21300010: ASTRONOT_click-1_5
+    21300012: ASTRONOT_click-1_6
+    21300014: ASTRONOT_click-1_7
+    21300016: ASTRONOT_click-1_8
+    21300018: ASTRONOT_click-1_9
+    21300020: ASTRONOT_click-1_10
+    21300022: ASTRONOT_click-1_11
+    21300024: ASTRONOT_click-1_12
+    21300026: ASTRONOT_click-1_13
+    21300028: ASTRONOT_click-1_14
+    21300030: ASTRONOT_click-1_15
+    21300032: ASTRONOT_click-1_16
+    21300034: ASTRONOT_click-1_17
+    21300036: ASTRONOT_click-1_18
+    21300038: ASTRONOT_click-1_19
+    21300040: ASTRONOT_click-1_20
+    21300042: ASTRONOT_click-1_21
+    21300044: ASTRONOT_click-1_22
+    21300046: ASTRONOT_click-1_23
+    21300048: ASTRONOT_click-1_24
+    21300050: ASTRONOT_click-1_25
+    21300052: ASTRONOT_click-1_26
+    21300054: ASTRONOT_click-1_27
+    21300056: ASTRONOT_click-1_28
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +67,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +96,611 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6456
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797ad86c1ff2403409a497df2f4bc33f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_1
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 6456
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495029bce53255c4ebe474e657f8e344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_2
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 6456
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66d796acdc699b4f8ce7af0371ca333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_3
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 6456
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c5b80df682a9f44b75c47ff38b433a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_4
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 6456
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719f211a76bed464d9804af89074e9e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_5
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 6456
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e50c1f7831e9424f81e5a43fd95ee6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e69f070275d074d98c94ecd3c569ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_7
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d137d48439f014e907beef21573dff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_8
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb3746ef36e0654691d24dd078273a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_9
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84c5cab0455e0241993578240d2cdff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_10
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7a32d54206c4d4e9ef45d8467bbf60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_11
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decd3aa2ea17c474b966f1e4abbd4e05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131627f1535ca04419f596aaae089957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_13
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b121ea9c8faa64dbca0f92b53e5455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_14
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ab0755e64157246ba339b7cc30110c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_15
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca9bd77530fcc74ebb792295b2db1b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_16
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c1279d750d69c4794946aff723af5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_17
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f9ce046c048c542994f95cb88a8364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ec8fbb832519c4e9653491352abcf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_19
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437d61478112dbe44a124d2304ef533b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_20
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a8ca4d19bca924281e150e88f782e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_21
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd05cec09d584844b9a8f3429d4f23b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_22
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb322419bc5a2b428534f8227893c62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_23
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e567f9150e3d255479be9e7de0421f73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1a23e901848d44e87c96ad8e1bc46a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_25
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc658dff058bda41be0f5cc9a111515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_26
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cb1941203c7714faad4289a51a6046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_27
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e28a8cc515737c45865231dd39ea536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTRONOT_click-1_28
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2065ce8b5e0a80a4aa073d1b80a38efc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

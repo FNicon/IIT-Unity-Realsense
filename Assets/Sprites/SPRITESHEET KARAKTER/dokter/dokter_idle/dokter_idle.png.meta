@@ -1,7 +1,35 @@
 fileFormatVersion: 2
 guid: 30c7d56733fd46c4680f05cc19d96d42
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: dokter_idle_0
+    21300002: dokter_idle_1
+    21300004: dokter_idle_2
+    21300006: dokter_idle_3
+    21300008: dokter_idle_4
+    21300010: dokter_idle_5
+    21300012: dokter_idle_6
+    21300014: dokter_idle_7
+    21300016: dokter_idle_8
+    21300018: dokter_idle_9
+    21300020: dokter_idle_10
+    21300022: dokter_idle_11
+    21300024: dokter_idle_12
+    21300026: dokter_idle_13
+    21300028: dokter_idle_14
+    21300030: dokter_idle_15
+    21300032: dokter_idle_16
+    21300034: dokter_idle_17
+    21300036: dokter_idle_18
+    21300038: dokter_idle_19
+    21300040: dokter_idle_20
+    21300042: dokter_idle_21
+    21300044: dokter_idle_22
+    21300046: dokter_idle_23
+    21300048: dokter_idle_24
+    21300050: dokter_idle_25
+    21300052: dokter_idle_26
+    21300054: dokter_idle_27
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +66,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +95,591 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dokter_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d8b010db113d549bb8771d13abcbbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_1
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7c109b78608ff40ae196d57988a9c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_2
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03492169fa819904f992fe85ec562929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_3
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcafecf91a32d5c408ed013a54b5b96e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_4
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554a0dadbd052864797620e17f0a5677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_5
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d86cd0bd7e363f419c2b44062ed315a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_6
+      rect:
+        serializedVersion: 2
+        x: 5868
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2146ab3e1801c49add3652b4d2397a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ea5ff53373b3d4b857db4fb640e47b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_8
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda0978e5c076c4429291116ff3f700a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_9
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8d796215ced1b46b2116a87d5f7d4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_10
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f92da715d8854a4795cdabbaae10c00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_11
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a5fc9826aa18842a09a3c061f7215f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_12
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12083509163426e469aa188b9ea745e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_13
+      rect:
+        serializedVersion: 2
+        x: 5868
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a99bfa792c0e0c4eabca3c4afef37b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce71fe83f135e324bb8172ad2ec0dba9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_15
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae7d554336fca64794abbe207516afa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_16
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604216c636736ca478f57527976087fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_17
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2987cc5931f76d846bcb276432c91852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_18
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb863efcc6bad84798dfb51f390f98c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_19
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d663d1faf67164191e711654790b37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_20
+      rect:
+        serializedVersion: 2
+        x: 5868
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ea6417c2fb64e4683eac6b56292451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d9498e198edb94d8127ec3c5ad9d86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_22
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3dbc4f49001fa4585ba329a71bf0e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_23
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bbf5d0b4b499f4d9dc0544c75675c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_24
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07654297d255fd04ea6bb70766c87ba4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_25
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8575a8b977b7b4b9a8452586a1f103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_26
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac08fed3ca1384c4980eae420a4fe2b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_idle_27
+      rect:
+        serializedVersion: 2
+        x: 5868
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad730f54749e5a548987ee1a28597e70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

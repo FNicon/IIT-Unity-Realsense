@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 1ce7927e08f537d4e9111aba2652ed4c
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: damkar_click-0_0
+    21300002: damkar_click-0_1
+    21300004: damkar_click-0_2
+    21300006: damkar_click-0_3
+    21300008: damkar_click-0_4
+    21300010: damkar_click-0_5
+    21300012: damkar_click-0_6
+    21300014: damkar_click-0_7
+    21300016: damkar_click-0_8
+    21300018: damkar_click-0_9
+    21300020: damkar_click-0_10
+    21300022: damkar_click-0_11
+    21300024: damkar_click-0_12
+    21300026: damkar_click-0_13
+    21300028: damkar_click-0_14
+    21300030: damkar_click-0_15
+    21300032: damkar_click-0_16
+    21300034: damkar_click-0_17
+    21300036: damkar_click-0_18
+    21300038: damkar_click-0_19
+    21300040: damkar_click-0_20
+    21300042: damkar_click-0_21
+    21300044: damkar_click-0_22
+    21300046: damkar_click-0_23
+    21300048: damkar_click-0_24
+    21300050: damkar_click-0_25
+    21300052: damkar_click-0_26
+    21300054: damkar_click-0_27
+    21300056: damkar_click-0_28
+    21300058: damkar_click-0_29
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +68,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +97,631 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: damkar_click-0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7a55187445586479346dfaa2d09a9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_1
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7ba266c1055cc458cb0099675070ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_2
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2847317c530ff142a93f50711edbb17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_3
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594013921ef70e74a80ba69a58241620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_4
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e15617c5d934546a664918d18bd541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_5
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 5620
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c5c15f608695c4bbfcecf12b1a4494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af94fddec72e0f4bb623f95db5e8707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_7
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07e2ef699f7a9f45930e40e5638ef91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_8
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbc6fcdc47295243b05e1ab3e518835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_9
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0c4b1d4ea791c41b9ac99b1e7f51f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_10
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef9546c055e18d4bab4ce76b20fffde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_11
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 4215
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e920db58b7026d341ab3642c8b3a9be0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0ecfcba6224ef4eab534a3f7a6c194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_13
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c82e18425f7854f98e03f1b5ab90ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_14
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebdb96940d9aa44193ec58c67b3aae0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_15
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2569c47abab3bc14a98e44f4ef421a66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_16
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5693550ce167c449e4154223c36561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_17
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 2810
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f97030d091fb1e44991fc5ce2135109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fdfcfd55af23741a7920bb8d8dd7db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_19
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263042cfe535208458f78e692633af97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_20
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7aceee67dc87c4eadc3a524aeca7ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_21
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69406b8d0912f054aae8dce99726f85c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_22
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285be6bb5762fde4083d701a55ee219c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_23
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 1405
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c747ff9685934d43a89eaf4e345aeeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69a0e6b2901cd843b7be1ac49505d7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_25
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2084466849faa394499600dae0762ce5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_26
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c594c8c8cd0abfb429824d7e6e3e2614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_27
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd3fb2050243e6458ff6eca1a2ed61e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_28
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777c6f51efc4963429d52d2fc13d5d3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damkar_click-0_29
+      rect:
+        serializedVersion: 2
+        x: 6305
+        y: 0
+        width: 1261
+        height: 1405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a82e87a10d9a94da650970190fe16d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

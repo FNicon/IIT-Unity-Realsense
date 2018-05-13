@@ -1,7 +1,35 @@
 fileFormatVersion: 2
 guid: cf7402a54981a8e498d2067ac810ebc7
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: astronot_idle_0
+    21300002: astronot_idle_1
+    21300004: astronot_idle_2
+    21300006: astronot_idle_3
+    21300008: astronot_idle_4
+    21300010: astronot_idle_5
+    21300012: astronot_idle_6
+    21300014: astronot_idle_7
+    21300016: astronot_idle_8
+    21300018: astronot_idle_9
+    21300020: astronot_idle_10
+    21300022: astronot_idle_11
+    21300024: astronot_idle_12
+    21300026: astronot_idle_13
+    21300028: astronot_idle_14
+    21300030: astronot_idle_15
+    21300032: astronot_idle_16
+    21300034: astronot_idle_17
+    21300036: astronot_idle_18
+    21300038: astronot_idle_19
+    21300040: astronot_idle_20
+    21300042: astronot_idle_21
+    21300044: astronot_idle_22
+    21300046: astronot_idle_23
+    21300048: astronot_idle_24
+    21300050: astronot_idle_25
+    21300052: astronot_idle_26
+    21300054: astronot_idle_27
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +66,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +95,591 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: astronot_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bb1ddf3359b0144b5f01e5cc5fa849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_1
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939610a5935e78f4a9a4b78aff506e8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_2
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e32f5b562ce634eafb6b3cb71cfa6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_3
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e5e562e03fde4487a92763bc1b162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_4
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bab376acf14e1143a35777e3770713c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_5
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721ff3af742643d46b239db14385a99c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_6
+      rect:
+        serializedVersion: 2
+        x: 6288
+        y: 4842
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e77beb5af07ce0469b20e91842a4764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee7819ed93c3884ba821d0038d1a1a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_8
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af2b4317c5d9814eaac463cf39bb52a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_9
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee7477f74a259a40b9307d9df2b625b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_10
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b1c92872f7ef24aac8904e4faa7356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_11
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cbaa3bf20ec3141a362873aa806fb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_12
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4a80e8dbd1c92488aaaf1d7d91339d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_13
+      rect:
+        serializedVersion: 2
+        x: 6288
+        y: 3228
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15e6db6e91ab6d48a22d156e12da81d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d727b676dbea284ba7109a956ee2477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_15
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10224482cb2553d4eb7942d3f949e922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_16
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f855ee3efed27e4fa3a217083d9498a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_17
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6c3280dcc73fc42a93751c1da7f2d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_18
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a76f6008a47afd4ca320802e7268cb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_19
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66379e4d4b196364fa1da6094c0e3b7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_20
+      rect:
+        serializedVersion: 2
+        x: 6288
+        y: 1614
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11da8e18eee0f354d854d89a9b6e3f1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f8bd7c2c211634fa9f6441a46550aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_22
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec40d639b0657d4dae81dd5eab9fb4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_23
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f769f3bf97ec20040a42d006d23b1b17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_24
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed6add5e57a82742889e4abc0c3cba8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_25
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9631b80a997ba42931716c009a310d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_26
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696df4726deb2c24992b3d5a933e8c8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: astronot_idle_27
+      rect:
+        serializedVersion: 2
+        x: 6288
+        y: 0
+        width: 1048
+        height: 1614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453d916f58bf19e40b2f2236214341ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

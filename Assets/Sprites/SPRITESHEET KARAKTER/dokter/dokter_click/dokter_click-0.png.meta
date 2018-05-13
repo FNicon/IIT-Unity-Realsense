@@ -1,7 +1,47 @@
 fileFormatVersion: 2
 guid: f0b24ae37fcbbb7468f28b8bef1881fe
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: dokter_click-0_0
+    21300002: dokter_click-0_1
+    21300004: dokter_click-0_2
+    21300006: dokter_click-0_3
+    21300008: dokter_click-0_4
+    21300010: dokter_click-0_5
+    21300012: dokter_click-0_6
+    21300014: dokter_click-0_7
+    21300016: dokter_click-0_8
+    21300018: dokter_click-0_9
+    21300020: dokter_click-0_10
+    21300022: dokter_click-0_11
+    21300024: dokter_click-0_12
+    21300026: dokter_click-0_13
+    21300028: dokter_click-0_14
+    21300030: dokter_click-0_15
+    21300032: dokter_click-0_16
+    21300034: dokter_click-0_17
+    21300036: dokter_click-0_18
+    21300038: dokter_click-0_19
+    21300040: dokter_click-0_20
+    21300042: dokter_click-0_21
+    21300044: dokter_click-0_22
+    21300046: dokter_click-0_23
+    21300048: dokter_click-0_24
+    21300050: dokter_click-0_25
+    21300052: dokter_click-0_26
+    21300054: dokter_click-0_27
+    21300056: dokter_click-0_28
+    21300058: dokter_click-0_29
+    21300060: dokter_click-0_30
+    21300062: dokter_click-0_31
+    21300064: dokter_click-0_32
+    21300066: dokter_click-0_33
+    21300068: dokter_click-0_34
+    21300070: dokter_click-0_35
+    21300072: dokter_click-0_36
+    21300074: dokter_click-0_37
+    21300076: dokter_click-0_38
+    21300078: dokter_click-0_39
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +78,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +107,831 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dokter_click-0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5584
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a57104f02b6a7a4b8efa046e1e47308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_1
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 5584
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebb38734c9edee4bbd84c433f613d3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_2
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 5584
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14d28ed48325fa43bb11314c338a2ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_3
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 5584
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026448a71a869b24486cc34de2e159cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_4
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 5584
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6a9aa34ae20904b94c7eaf2d5fb78d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_5
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 5584
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7af44c20986034d84fa1a37ed79f01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_6
+      rect:
+        serializedVersion: 2
+        x: 5868
+        y: 5584
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b9a03ed6654c648969aacf3e1b2736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_7
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 5584
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b48c82c741cd746a038c12e38e9ba5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0094c78c3119da459270585ba5840ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_9
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df80f5a3f17246d4bb39886914def96a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_10
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab4bd017ac98304da72aeddba48b9ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_11
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e53ec04de291043a821d52d1998a8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_12
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446c5631cf2f64b49bb6542f735c6665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_13
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8bfb837b8862744a75849eef16e319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_14
+      rect:
+        serializedVersion: 2
+        x: 5868
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583a2d8b0b66a3442afc6485484ef839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_15
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 4188
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902afb4a0547c5944b48dab8286e8269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71f8e81121fbb642ab1b23ae00c28fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_17
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc7a9230dac8c14a82ef501bdef729d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_18
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c91173f561b90d458be1ec7145826e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_19
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ee5515dc352d74296845fd82fa0b6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_20
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6995fc2ea0636304eb8871b0b3947bfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_21
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757892705e62f9742978c8c584900ec3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_22
+      rect:
+        serializedVersion: 2
+        x: 5868
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588c6eae79d4dfa4ba1ea9f400da352d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_23
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 2792
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2791770d5db3bc942af4f759cc4bd181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b495295beeee745835be4e5954cf16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_25
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92b30cef139e5943a3d2cae8cb6b619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_26
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644479d76dec9f44fb8b4e788c948134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_27
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3de1702ca5b0140b2c7fce3a50a980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_28
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d367d5188d2e04aa262dd99f0967c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_29
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e23bfa08e6a374c9e5677a1008d61f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_30
+      rect:
+        serializedVersion: 2
+        x: 5868
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6671a26f51109d24685f7185c0a21cc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_31
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 1396
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecca290d091bfb4abec739283b6baa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7993ec63b0c76c46a49c67c46713796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_33
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e906c8bc8912e194ea5297cdd0d6ddaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_34
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936a46721ea12f14eae002c5d1b24170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_35
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4ca4e402bda9e4d92151f2c240c5f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_36
+      rect:
+        serializedVersion: 2
+        x: 3912
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b935371a8e8a39848b71c3a06e565992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_37
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbae8f78a47ac494d9994527390d56f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_38
+      rect:
+        serializedVersion: 2
+        x: 5868
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae9198188982954d81b4a10e9ee36d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dokter_click-0_39
+      rect:
+        serializedVersion: 2
+        x: 6846
+        y: 0
+        width: 978
+        height: 1396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f5f5328c2609343911497db7532091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

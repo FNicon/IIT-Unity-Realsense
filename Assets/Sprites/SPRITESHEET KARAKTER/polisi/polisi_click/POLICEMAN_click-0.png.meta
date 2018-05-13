@@ -1,7 +1,42 @@
 fileFormatVersion: 2
 guid: 70600bfab64825744b97e1688e4e8236
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: POLICEMAN_click-0_0
+    21300002: POLICEMAN_click-0_1
+    21300004: POLICEMAN_click-0_2
+    21300006: POLICEMAN_click-0_3
+    21300008: POLICEMAN_click-0_4
+    21300010: POLICEMAN_click-0_5
+    21300012: POLICEMAN_click-0_6
+    21300014: POLICEMAN_click-0_7
+    21300016: POLICEMAN_click-0_8
+    21300018: POLICEMAN_click-0_9
+    21300020: POLICEMAN_click-0_10
+    21300022: POLICEMAN_click-0_11
+    21300024: POLICEMAN_click-0_12
+    21300026: POLICEMAN_click-0_13
+    21300028: POLICEMAN_click-0_14
+    21300030: POLICEMAN_click-0_15
+    21300032: POLICEMAN_click-0_16
+    21300034: POLICEMAN_click-0_17
+    21300036: POLICEMAN_click-0_18
+    21300038: POLICEMAN_click-0_19
+    21300040: POLICEMAN_click-0_20
+    21300042: POLICEMAN_click-0_21
+    21300044: POLICEMAN_click-0_22
+    21300046: POLICEMAN_click-0_23
+    21300048: POLICEMAN_click-0_24
+    21300050: POLICEMAN_click-0_25
+    21300052: POLICEMAN_click-0_26
+    21300054: POLICEMAN_click-0_27
+    21300056: POLICEMAN_click-0_28
+    21300058: POLICEMAN_click-0_29
+    21300060: POLICEMAN_click-0_30
+    21300062: POLICEMAN_click-0_31
+    21300064: POLICEMAN_click-0_32
+    21300066: POLICEMAN_click-0_33
+    21300068: POLICEMAN_click-0_34
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -38,7 +73,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +102,731 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5704
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec55da91f89b7b4593f638d3b4ec25f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_1
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 5704
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d28f878d6cc97442abf6d9ffac1f0a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_2
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 5704
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e605bda94a89fcc4ea2d66c4c7a23893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_3
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 5704
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557b85a40e0df05449425b05b711a84c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_4
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 5704
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd93a713c5222b4988b9262cb6a6f8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_5
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 5704
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdf3be75c7441541aa2744d849ccf64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_6
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 5704
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c8f07c80d0d774d900af2c1922ba26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f940493808f7b42bbe33d400780518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_8
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359f506249fe39c4e9f27f6f40afa257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_9
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4857974fc2bd8984286f3d2bdad4fe8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_10
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cade9de5dacdec4fb87dbf4916d66a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_11
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f179e13e5892c4bb45f39be9a8dad0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_12
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32adbb1c396f3040964829bbe8bdc6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_13
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 4278
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86d319ba64d6ec4d97bfb3caa322c38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfea8904f4d71c34db8775316a0b857b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_15
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b678a12ecb02d6a4091cdb01f2ab8378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_16
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fc469a0c1f35a4aa0000fd0bc1e003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_17
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b435b2d14f693f498a27f8dbae32aa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_18
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3548a895cec5504cbf0f3d4cdcd8e84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_19
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e708d3fbde6f0e8409fc73ceb779427a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_20
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 2852
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c33bc71c9d561e4ea5727a00cb96903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a83123bdb614494eb14658954bc329b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_22
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6322ea298e0dc428fd058d6fcb7eee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_23
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a94461b5b403742a188ab4600fc415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_24
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc55d81e6c8428c4dafcf1a23bbb6f39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_25
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf65475354c8b51408dc6f320dc670e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_26
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766fa590ffb87f542b824e3c7e982bf3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_27
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 1426
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14040a8ef0cb908409bf3d9d72924fd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe15d017b775a94f9b2e25c7f5961e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_29
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f8c2b9845d14141a4a0d4b50afa583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_30
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba9499ac20142745a8bc546da46d871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_31
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331ab55a78a2f1e49ae7e2fb0f939c5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_32
+      rect:
+        serializedVersion: 2
+        x: 4396
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36eb35732c52d149ae4bd88f217132e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_33
+      rect:
+        serializedVersion: 2
+        x: 5495
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ea8f5ca7ba935429465a9919fdc9cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: POLICEMAN_click-0_34
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 0
+        width: 1099
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663006b53a27424428417cef67e7d664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
