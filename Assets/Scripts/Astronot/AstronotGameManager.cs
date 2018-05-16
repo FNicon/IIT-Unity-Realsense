@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AstronotGameManager : MonoBehaviour {
 	public static AstronotGameManager instance = null;
+	public GameObject endPanel;
 	// Use this for initialization
 	void Awake () {
 		if(instance == null) {
@@ -15,7 +16,11 @@ public class AstronotGameManager : MonoBehaviour {
 	}
 
 	public void GameOver(){
-		Time.timeScale = 0;
+		endPanel.SetActive(true);
+		Animator anim = endPanel.GetComponentInChildren<Animator>();
+		anim.SetInteger("State", ScoreManager.instance.GetNumberOfStar());
+		Destroy(GameObject.FindGameObjectWithTag("batu"));
+		//Time.timeScale = 0;
 		Debug.Log("GAME OVER");
 		Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
 	}

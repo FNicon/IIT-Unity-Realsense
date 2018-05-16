@@ -13,6 +13,7 @@ public class ArkeologGameManager : MonoBehaviour
     private List<Transform> artifact;
     private List<Transform> artifactDusts;
     public float levelUpSpeed;
+    public GameObject endPanel;
     // Use this for initialization
     void Start()
     {
@@ -30,6 +31,7 @@ public class ArkeologGameManager : MonoBehaviour
         // Debug.Log("My name is " + artifact[2].name);
         currentLevel = 0;
         SetupLevel(currentLevel);
+        TimeManager.Timesup += GameOver;
     }
 
     // Update is called once per frame
@@ -109,4 +111,13 @@ public class ArkeologGameManager : MonoBehaviour
         // artifact[2].position = new Vector2(4, 19);
         // artifact[1].rotation = new Quaternion.Euler(-45, 0, 0);
     }
+
+    public void GameOver(){
+		endPanel.SetActive(true);
+		Animator anim = endPanel.GetComponentInChildren<Animator>();
+		anim.SetInteger("WIN STATUS", ScoreManager.instance.GetNumberOfStar());
+		//Time.timeScale = 0;
+		Debug.Log("GAME OVER");
+		Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
+	}
 }

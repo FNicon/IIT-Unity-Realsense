@@ -12,6 +12,7 @@ TagManager:
   - cotton
   - bandage
   - wound
+  - batu
   layers:
   - Default
   - TransparentFX
