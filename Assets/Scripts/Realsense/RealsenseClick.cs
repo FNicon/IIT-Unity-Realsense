@@ -56,14 +56,10 @@ public class RealsenseClick : MonoBehaviour {
 		//SenseToolkitManager.Instance.SenseManager.ReleaseFrame();	
 	}
 	private void OnDisable() {
-		if (handAnalyzer == null) {
+		if (handAnalyzer != null) {
 			handAnalyzer.Dispose();
-		} else {
-
 		}
-		if (SenseToolkitManager.Instance.SenseManager == null) {
-
-		} else {
+		if (SenseToolkitManager.Instance.SenseManager != null) {
 			SenseToolkitManager.Instance.SenseManager.Dispose();
 		}
 	}
