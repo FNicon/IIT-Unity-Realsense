@@ -43,23 +43,27 @@ public class CursorController : MonoBehaviour {
 			transform.position = mousePos;
 		}
 		//Debug.Log("is hand clicked? " + isHandClicked);
-		if(Input.GetMouseButtonDown(0) || isHandClicked) {
+		if(Input.GetMouseButtonDown(0)) {
 			cursorSprite.sprite = mouseDownImage;
 			OnCursorDown();
+			isHandClicked = true;
 			//isMouseDown = true;
-		} else if(Input.GetMouseButtonUp(0) || !isHandClicked) {
+		} else if(Input.GetMouseButtonUp(0)) {
 			cursorSprite.sprite = mouseUpImage;
 			OnCursorUp();
+			isHandClicked = false;
 			//isMouseDown = false;
-		}/* else if (isHandClicked) {
+		} else if (isHandClicked) {
 			cursorSprite.sprite = mouseDownImage;
 			OnCursorDown();
+			//isHandClicked = true;
 			//isMouseDown = true;
 		} else if (!isHandClicked) {
 			cursorSprite.sprite = mouseUpImage;
 			OnCursorUp();
+			//isHandClicked = false;
 			//isMouseDown = false;
-		}*/
+		}
 
 	}
 

@@ -9,7 +9,7 @@ public class SceneLoader : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		currentScene = SceneManager.GetActiveScene ().name;
+		currentScene = SceneManager.GetActiveScene().name;
 	}
 	
 	// Update is called once per frame
