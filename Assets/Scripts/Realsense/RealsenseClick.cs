@@ -29,7 +29,7 @@ public class RealsenseClick : MonoBehaviour {
 		if (handAnalyzer != null) {
 			/* Retrieve an instance of hand tracking Data */
 			PXCMHandData _outputData = handAnalyzer.CreateOutput();
-			Debug.Log("B");
+			//Debug.Log("B");
 			if (_outputData != null) {
 				_outputData.Update();
 				//Retrieve joint data, gesture recognition data and alert notification data
@@ -38,20 +38,20 @@ public class RealsenseClick : MonoBehaviour {
 				//AcquireFrame
 				/* Retrieve Gesture Data */
 				PXCMHandData.GestureData _gestureData;
-				Debug.Log(_outputData.QueryFiredGesturesNumber());
+				//Debug.Log(_outputData.QueryFiredGesturesNumber());
 				for(int i = 0; i < _outputData.QueryFiredGesturesNumber(); i++) {
-					Debug.Log("C");
+					//Debug.Log("C");
 					if (_outputData.QueryFiredGestureData(i, out _gestureData) == pxcmStatus.PXCM_STATUS_NO_ERROR) {
 						//Display the gestures:  explained in rendering the frame section
-						Debug.Log(_gestureData.name);
-						if ((_gestureData.name == "spreadfingers") && (_gestureData.name == "tap") &&
+						//Debug.Log(_gestureData.name);
+						if ((_gestureData.name == "spreadfingers") || (_gestureData.name == "tap") ||
 							 (_gestureData.name == "swipe")) {
 							CursorController.isHandClicked = false;
-						} else if ((_gestureData.name == "fist") && (_gestureData.name == "full_pinch") && 
-									(_gestureData.name == "thumb_down") && (_gestureData.name == "thumb_up") && 
-									(_gestureData.name == "two_fingers_pinch_open") && (_gestureData.name == "v_sign")) {
+						} else if ((_gestureData.name == "fist") || (_gestureData.name == "full_pinch") || 
+									(_gestureData.name == "thumb_down") || (_gestureData.name == "thumb_up") || 
+									(_gestureData.name == "two_fingers_pinch_open") || (_gestureData.name == "v_sign")) {
 							CursorController.isHandClicked = true;
-							Debug.Log(_gestureData.name);
+							//Debug.Log(_gestureData.name);
 						} else if (_gestureData.name == "wave") {
 							transform.position = new Vector3(0,0,0);
 						}
