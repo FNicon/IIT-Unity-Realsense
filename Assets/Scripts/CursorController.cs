@@ -19,7 +19,7 @@ public class CursorController : MonoBehaviour {
 	private SpriteRenderer cursorSprite;
 	List<GameObject> gameObjList;
 	List<string> objTags;
-	bool isMouseDown = false;
+	//bool isMouseDown = false;
 	void Awake () {
 		if(instance == null) {
 			instance = this;
@@ -43,11 +43,11 @@ public class CursorController : MonoBehaviour {
 			transform.position = mousePos;
 		}
 		//Debug.Log("is hand clicked? " + isHandClicked);
-		if(Input.GetMouseButtonDown(0)) {
+		if(Input.GetMouseButtonDown(0) || isHandClicked) {
 			cursorSprite.sprite = mouseDownImage;
 			OnCursorDown();
 			//isMouseDown = true;
-		} else if(Input.GetMouseButtonUp(0)) {
+		} else if(Input.GetMouseButtonUp(0) || !isHandClicked) {
 			cursorSprite.sprite = mouseUpImage;
 			OnCursorUp();
 			//isMouseDown = false;

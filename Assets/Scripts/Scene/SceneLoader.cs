@@ -18,7 +18,7 @@ public class SceneLoader : MonoBehaviour {
 	}
 
 	public void nextScene () {
-		SceneManager.LoadScene (sceneToLoad);
+		SceneManager.LoadScene(sceneToLoad);
 	}
 	public void loadSpecificScene(string inputScene) {
 		SceneManager.LoadScene(inputScene);

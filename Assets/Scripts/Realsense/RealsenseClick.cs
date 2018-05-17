@@ -41,12 +41,12 @@ public class RealsenseClick : MonoBehaviour {
 					if (_outputData.QueryFiredGestureData(i, out _gestureData) == pxcmStatus.PXCM_STATUS_NO_ERROR) {
 						//Display the gestures:  explained in rendering the frame section
 						//Debug.Log(_gestureData.name);
-						if (_gestureData.name == "fist") {
+						if (_gestureData.name == "spreadfingers") {
+							CursorController.isHandClicked = false;
+						} else if (_gestureData.name == "fist") {
 							CursorController.isHandClicked = true;
 						} else if (_gestureData.name == "v_sign") {
 							transform.position = new Vector3(0,0,0);
-						} else {
-							CursorController.isHandClicked = false;
 						}
 					}
 				}
