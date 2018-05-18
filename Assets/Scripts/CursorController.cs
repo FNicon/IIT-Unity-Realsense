@@ -7,6 +7,7 @@ public class CursorController : MonoBehaviour {
 	public delegate void HandCursor();
 	public static event HandCursor OnMouseDown;
 	public static event HandCursor OnMouseUp;
+	public static event HandCursor OnMouseHover;
 	public static bool isHandClicked;
 
 	[SerializeField]
@@ -53,7 +54,7 @@ public class CursorController : MonoBehaviour {
 			OnCursorUp();
 			isHandClicked = false;
 			//isMouseDown = false;
-		} else if (isHandClicked) {
+		} /*else if (isHandClicked) {
 			cursorSprite.sprite = mouseDownImage;
 			OnCursorDown();
 			//isHandClicked = true;
@@ -63,12 +64,13 @@ public class CursorController : MonoBehaviour {
 			OnCursorUp();
 			//isHandClicked = false;
 			//isMouseDown = false;
-		}
+		}*/
 
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
 		if(objTags.Contains(col.tag)){
+			OnCursorHover();
 			gameObjList.Add(col.gameObject);
 		}
 	}
@@ -87,6 +89,12 @@ public class CursorController : MonoBehaviour {
 	void OnCursorUp(){
 		if(OnMouseUp != null)
 			OnMouseUp();
+	}
+
+	void OnCursorHover(){
+		if(OnMouseHover != null) {
+			OnMouseHover();
+		}
 	}
 
 	bool InsideScreen(){

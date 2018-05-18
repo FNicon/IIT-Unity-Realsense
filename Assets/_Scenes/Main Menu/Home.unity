@@ -1178,6 +1178,7 @@ GameObject:
   - component: {fileID: 1505965238}
   - component: {fileID: 1505965237}
   - component: {fileID: 1505965236}
+  - component: {fileID: 1505965239}
   m_Layer: 5
   m_Name: Logo
   m_TagString: Untagged
@@ -1200,7 +1201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.78000003}
   m_AnchorMax: {x: 0.5, y: 0.78000003}
-  m_AnchoredPosition: {x: 0.0000019073486, y: 0.9883423}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 266.11, y: 133.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1505965236
@@ -1277,6 +1278,24 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1505965234}
+--- !u!95 &1505965239
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505965234}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6196be8f4ef92f54d8e718479bf46c0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1542552523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1893,6 +1912,7 @@ GameObject:
   - component: {fileID: 2144353975}
   - component: {fileID: 2144353977}
   - component: {fileID: 2144353976}
+  - component: {fileID: 2144353978}
   m_Layer: 5
   m_Name: BG MOBIL
   m_TagString: Untagged
@@ -1951,3 +1971,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2144353974}
+--- !u!95 &2144353978
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2144353974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 997e094382ab52f4294c34ee2530ec81, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

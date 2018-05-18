@@ -9,12 +9,15 @@ public class DoctorController : MonoBehaviour {
 	private GameObject putObject;
 	public CursorTransition transition;
 	private bool isHolding;
+	public AudioClip[] soundEffects;
+	public DoctorSFX soundPlayer;
 	// Use this for initialization
 	void Start () {
 		holdBandage.ViewBandage(false);
 		holdCotton.ViewCotton(false);
 		CursorController.OnMouseDown += OnCursorDown;
 		CursorController.OnMouseUp += OnCursorUp;
+		CursorController.OnMouseHover += OnCursorHover;
 	}
 	
 	// Update is called once per frame
@@ -50,6 +53,7 @@ public class DoctorController : MonoBehaviour {
 		if (holdObject!= null) {
 			holdObject.GetComponent<GrabbableObject>().ChangeToClickSize();
 			isHolding = true;
+			soundPlayer.PlaySFX(soundEffects[0]);
 			if (holdObject.CompareTag("cotton")) {
 				holdCotton.SetOnHold(true);
 			} else if (holdObject.CompareTag("bandage")) {
@@ -69,8 +73,15 @@ public class DoctorController : MonoBehaviour {
 			}
 			if (putObject!=null) {
 				putObject.GetComponent<Wound>().NextPhase(holdObject.tag);
+				soundPlayer.PlaySFX(soundEffects[1]);
+			} else {
+				soundPlayer.PlaySFX(soundEffects[2]);
 			}
 			StartCoroutine(Transition());
 		}
+	}
+	void OnCursorHover() {
+		soundPlayer.PlaySFX(soundEffects[3]);
+		Debug.Log("AAAAAAA");
 	}
 }
