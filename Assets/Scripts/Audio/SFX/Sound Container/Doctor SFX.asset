@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b81fd44d47920c469ff6826e39f8826, type: 3}
+  m_Name: Doctor SFX
+  m_EditorClassIdentifier: 
+  soundEffects:
+  - {fileID: 8300000, guid: 1761b0a88a831524d8d15a2ff60a49e2, type: 3}
+  - {fileID: 8300000, guid: 95244de0c1568ab4981da61b619bb793, type: 3}
+  - {fileID: 8300000, guid: 99066371efd41ce4c83fa4b79c16607c, type: 3}
+  - {fileID: 8300000, guid: 275fd9c4163e4e94bb4b97f5a936b8c1, type: 3}
+  identifier:
+  - click
+  - benar
+  - salah
+  - hover

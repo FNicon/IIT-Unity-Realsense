@@ -918,12 +918,7 @@ MonoBehaviour:
   holdCotton: {fileID: 2043911848}
   holdBandage: {fileID: 554059631}
   transition: {fileID: 75360469}
-  soundEffects:
-  - {fileID: 8300000, guid: 1761b0a88a831524d8d15a2ff60a49e2, type: 3}
-  - {fileID: 8300000, guid: 95244de0c1568ab4981da61b619bb793, type: 3}
-  - {fileID: 8300000, guid: 99066371efd41ce4c83fa4b79c16607c, type: 3}
-  - {fileID: 8300000, guid: 275fd9c4163e4e94bb4b97f5a936b8c1, type: 3}
-  soundPlayer: {fileID: 408781581}
+  soundManager: {fileID: 408781581}
 --- !u!114 &75360469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1839,6 +1834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 408781579}
+  container: {fileID: 11400000, guid: bc5b5a60224e1be488be70afae611bd0, type: 2}
 --- !u!1 &440447947
 GameObject:
   m_ObjectHideFlags: 0
