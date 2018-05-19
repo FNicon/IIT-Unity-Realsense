@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class CustomButtonManager : MonoBehaviour {
 	public List<GameObject> buttonObjects;
-	//public string[] sceneToLoad;
 	private void Awake() {
 		FindButtons();
 		ChangeComponentButtons();
@@ -30,12 +29,21 @@ public class CustomButtonManager : MonoBehaviour {
 	private void ChangeComponentButtons() {
 		int i = 0;
 		foreach (GameObject button in buttonObjects) {
-			button.AddComponent<CustomButton>();
-			button.AddComponent<BoxCollider2D>();
-			button.GetComponent<BoxCollider2D>().isTrigger = true;
-			//button.GetComponent<BoxCollider2D>().size *= 100;
-			button.GetComponent<CustomButton>().mouseTag = FindObjectOfType<RealsenseClick>().tag;
-			button.GetComponent<CustomButton>().sceneLoader = FindObjectOfType<SceneLoader>();
+			CustomButton buttonCustom = button.GetComponent<CustomButton>();
+			BoxCollider2D buttonCollider = button.GetComponent<BoxCollider2D>();
+			if (buttonCustom == null) {
+				button.AddComponent<CustomButton>();
+				buttonCustom = button.GetComponent<CustomButton>();
+			}
+			if (buttonCollider == null) {
+				button.AddComponent<BoxCollider2D>();
+				buttonCollider = button.GetComponent<BoxCollider2D>();
+			}
+			buttonCollider.isTrigger = true;
+			buttonCollider.size *= 100;
+			buttonCustom.mouseTag = FindObjectOfType<RealsenseClick>().tag;
+			buttonCustom.sceneLoader = FindObjectOfType<SceneLoader>();
+			buttonCustom.soundEffects = FindObjectOfType<SFXManager>();
 			//button.GetComponent<CustomButton>().sceneToLoad = sceneToLoad[i];
 			i = i + 1;
 		}

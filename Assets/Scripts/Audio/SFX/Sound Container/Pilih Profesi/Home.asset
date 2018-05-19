@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b81fd44d47920c469ff6826e39f8826, type: 3}
+  m_Name: Home
+  m_EditorClassIdentifier: 
+  soundEffects:
+  - {fileID: 8300000, guid: 864aac8ad49be8d41b219148bdf7f805, type: 3}
+  - {fileID: 8300000, guid: b45fa081a4ce37b4f95a70c7d9d0a21b, type: 3}
+  identifier:
+  - hover
+  - click

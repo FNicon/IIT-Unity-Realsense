@@ -46,6 +46,10 @@ public class CharacterSelect : MonoBehaviour {
 		}
 		childObjects[0].gameObject.SetActive(false);
 		childObjects[4].gameObject.SetActive(false);
+
+		childObjects[1].GetComponent<BoxCollider2D>().enabled = false;
+		childObjects[3].GetComponent<BoxCollider2D>().enabled = false;
+
 		if(selectedObject != null){
 			selectedObject.GetChild(0).gameObject.SetActive(false);
 			selectedObject.transform.localScale = Vector3.one;
