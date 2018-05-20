@@ -9,6 +9,7 @@ public class Fire : MonoBehaviour {
 	private bool isBurnUp;
 	public float growDelay;
 	public FireSpawnPoint spawnPoint;
+	public SFXManager soundEffects;
 	
 	// Use this for initialization
 	private void Awake() {
@@ -30,6 +31,7 @@ public class Fire : MonoBehaviour {
 		StopCoroutine(this.BurnDown());
 		ScoreManager.instance.AddScore();
 		spawnPoint.isOnFire = false;
+		soundEffects.PlayFromString("apimati");
 		Destroy(this.gameObject);
 	}
 	private void OnTriggerEnter2D(Collider2D other) {

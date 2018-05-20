@@ -14,6 +14,10 @@ public class SFXManager : MonoBehaviour {
 	void Update () {
 		
 	}
+	public void Stop() {
+		sourceSound.Stop();
+		Debug.Log("AAAAAA");
+	}
 	public void PlayFromString(string input) {
 		AudioClip choosenSound = container.soundEffects[FindAudioFromString(input)];
 		PlaySFX(choosenSound);
