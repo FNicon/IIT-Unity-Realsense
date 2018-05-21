@@ -9,13 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b81fd44d47920c469ff6826e39f8826, type: 3}
-  m_Name: Polisi
+  m_Name: FiremanBantu
   m_EditorClassIdentifier: 
   soundEffects:
-  - {fileID: 8300000, guid: 881e6da8442e28e448b572f2297a455c, type: 3}
-  - {fileID: 8300000, guid: c33807386b2f9de4d87664f5103a68f7, type: 3}
-  - {fileID: 8300000, guid: 949a82a98f9307b45a648f13820ccf45, type: 3}
+  - {fileID: 8300000, guid: 9382b8a92d04d2640aa939e23a7b2046, type: 3}
+  - {fileID: 8300000, guid: 0d17d171228e028429fa68224677aade, type: 3}
   identifier:
-  - 1
-  - 2
-  - 3
+  - hover
+  - click

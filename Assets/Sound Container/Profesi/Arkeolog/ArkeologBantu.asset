@@ -9,13 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b81fd44d47920c469ff6826e39f8826, type: 3}
-  m_Name: Arkeolog
+  m_Name: ArkeologBantu
   m_EditorClassIdentifier: 
   soundEffects:
-  - {fileID: 8300000, guid: 290936fc95d3c2f4395e80b09d306f9a, type: 3}
+  - {fileID: 8300000, guid: 9382b8a92d04d2640aa939e23a7b2046, type: 3}
   - {fileID: 8300000, guid: 0d17d171228e028429fa68224677aade, type: 3}
-  - {fileID: 8300000, guid: dec3ec8b64d15a949951d6e8999dec74, type: 3}
   identifier:
-  - karakter
-  - bantu
-  - siapa
+  - hover
+  - click

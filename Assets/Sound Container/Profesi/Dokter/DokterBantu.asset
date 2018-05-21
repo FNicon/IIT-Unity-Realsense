@@ -9,13 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b81fd44d47920c469ff6826e39f8826, type: 3}
-  m_Name: Dokter
+  m_Name: DokterBantu
   m_EditorClassIdentifier: 
   soundEffects:
-  - {fileID: 8300000, guid: 822cc784d042266458bad2319efc32f6, type: 3}
+  - {fileID: 8300000, guid: 468cca55f3bd5ed4d862366b2b413437, type: 3}
   - {fileID: 8300000, guid: c259217c489fd614db758ce7b4395a8d, type: 3}
-  - {fileID: 8300000, guid: e147247b13601794d911410500a5219f, type: 3}
   identifier:
-  - karakter
-  - bantu
-  - siapa
+  - hover
+  - click

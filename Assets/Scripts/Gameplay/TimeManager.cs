@@ -9,6 +9,7 @@ public class TimeManager : MonoBehaviour {
 	public static event TimeMonitor Timesup;
 	[SerializeField]
 	private float time;
+	public static bool isGamePause;
 
 	float timeCounter = 0;
 
@@ -21,9 +22,11 @@ public class TimeManager : MonoBehaviour {
 	}
 	
 	void Update () {
-		timeCounter += Time.deltaTime;
-		if(timeCounter >= time){
-			OnTimesUp();
+		if (isGamePause) {
+			timeCounter += Time.deltaTime;
+			if(timeCounter >= time){
+				OnTimesUp();
+			}
 		}
 	}
 

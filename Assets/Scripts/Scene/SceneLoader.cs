@@ -12,6 +12,9 @@ public class SceneLoader : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		currentScene = SceneManager.GetActiveScene().name;
+		/*if (sceneToLoad != "") {
+			StartCoroutine(AsyncLoad(sceneToLoad));
+		}*/
 	}
 	
 	// Update is called once per frame
@@ -34,12 +37,12 @@ public class SceneLoader : MonoBehaviour {
 	}
 
 	public void nextScene () {
-		SceneManager.LoadScene(sceneToLoad);
+		transition.SetBool("isFadeIn",true);
+		StartCoroutine(WaitLoadScene(sceneToLoad));
 	}
 	public void loadSpecificScene(string inputScene) {
 		transition.SetBool("isFadeIn",true);
 		StartCoroutine(WaitLoadScene(inputScene));
-		//SceneManager.LoadScene(inputScene);
 	}
 
 	public void ExitGame() {

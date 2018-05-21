@@ -48,6 +48,7 @@ public class CharacterSelect : MonoBehaviour {
 		childObjects[4].gameObject.SetActive(false);
 
 		childObjects[1].GetComponent<BoxCollider2D>().enabled = false;
+		childObjects[2].GetComponent<BoxCollider2D>().enabled = true;
 		childObjects[3].GetComponent<BoxCollider2D>().enabled = false;
 
 		if(selectedObject != null){

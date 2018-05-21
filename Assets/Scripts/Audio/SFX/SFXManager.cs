@@ -16,11 +16,13 @@ public class SFXManager : MonoBehaviour {
 	}
 	public void Stop() {
 		sourceSound.Stop();
-		Debug.Log("AAAAAA");
 	}
 	public void PlayFromString(string input) {
-		AudioClip choosenSound = container.soundEffects[FindAudioFromString(input)];
-		PlaySFX(choosenSound);
+		int choosenIndex = FindAudioFromString(input);
+		if (choosenIndex != -1) {
+			AudioClip choosenSound = container.soundEffects[choosenIndex];
+			PlaySFX(choosenSound);
+		}
 	}
 	public void PlaySFX(AudioClip audio) {
 		sourceSound.clip = audio;
