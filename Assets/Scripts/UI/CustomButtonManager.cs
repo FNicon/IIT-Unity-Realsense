@@ -42,7 +42,7 @@ public class CustomButtonManager : MonoBehaviour {
 			buttonCollider.isTrigger = true;
 			buttonCollider.size *= 100;
 			buttonCustom.mouseTag = FindObjectOfType<RealsenseClick>().tag;
-			buttonCustom.sceneLoader = FindObjectOfType<SceneLoader>();
+			//buttonCustom.sceneLoader = FindObjectOfType<SceneLoader>();
 			//buttonCustom.soundEffects = FindObjectOfType<SFXManager>();
 			//button.GetComponent<CustomButton>().sceneToLoad = sceneToLoad[i];
 			i = i + 1;

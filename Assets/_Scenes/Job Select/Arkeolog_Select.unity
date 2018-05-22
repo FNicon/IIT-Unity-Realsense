@@ -1107,9 +1107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseTag: 
-  sceneLoader: {fileID: 0}
   isHover: 0
-  buttonAnimation: {fileID: 0}
   soundEffects: {fileID: 358274465}
 --- !u!1 &935687195
 GameObject:
@@ -1312,9 +1310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseTag: 
-  sceneLoader: {fileID: 0}
   isHover: 0
-  buttonAnimation: {fileID: 0}
   soundEffects: {fileID: 1406963753}
 --- !u!1 &1140888849
 GameObject:
@@ -1517,9 +1513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseTag: 
-  sceneLoader: {fileID: 0}
   isHover: 0
-  buttonAnimation: {fileID: 0}
   soundEffects: {fileID: 412224208}
 --- !u!1 &1247003108
 GameObject:
@@ -1963,6 +1957,7 @@ GameObject:
   - component: {fileID: 1547430615}
   - component: {fileID: 1547430614}
   - component: {fileID: 1547430618}
+  - component: {fileID: 1547430619}
   m_Layer: 5
   m_Name: Character
   m_TagString: Untagged
@@ -2092,10 +2087,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseTag: 
-  sceneLoader: {fileID: 0}
   isHover: 0
-  buttonAnimation: {fileID: 0}
   soundEffects: {fileID: 1562317667}
+--- !u!114 &1547430619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1547430612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a964feed429cc4c8854ad615fc3716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseTag: Player
+  isHover: 0
 --- !u!1 &1562317665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2532,9 +2538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseTag: 
-  sceneLoader: {fileID: 0}
   isHover: 0
-  buttonAnimation: {fileID: 0}
   soundEffects: {fileID: 1695995864}
 --- !u!1 &1646720627
 GameObject:
@@ -3090,9 +3094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseTag: 
-  sceneLoader: {fileID: 0}
   isHover: 0
-  buttonAnimation: {fileID: 0}
   soundEffects: {fileID: 452083387}
 --- !u!1001 &1947118260
 Prefab:

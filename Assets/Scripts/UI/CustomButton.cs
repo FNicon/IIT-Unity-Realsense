@@ -5,10 +5,7 @@ using UnityEngine.UI;
 
 public class CustomButton : MonoBehaviour {
 	public string mouseTag;
-	public SceneLoader sceneLoader;
 	public bool isHover;
-	public Animator buttonAnimation;
-	Button button;
 	public SFXManager soundEffects;
 	// Use this for initialization
 	void Start () {
@@ -23,7 +20,6 @@ public class CustomButton : MonoBehaviour {
 	private void OnTriggerStay2D(Collider2D other){
 		if (other.CompareTag(mouseTag)) {
 			isHover = true;
-			button = GetComponent<Button>();
 		}
 	}
 	private void OnTriggerEnter2D(Collider2D other) {
@@ -38,10 +34,8 @@ public class CustomButton : MonoBehaviour {
 	}
 	public void OnCursorDown(){
 		if (isHover) {
-			if (button != null) {
-				button.onClick.Invoke();
-				soundEffects.PlayFromString("click");
-			}	
+			GetComponent<Button>().onClick.Invoke();
+			soundEffects.PlayFromString("click");
 		}
 	}
 
@@ -49,5 +43,8 @@ public class CustomButton : MonoBehaviour {
 		if (isHover) {
 			//sceneLoader.loadSpecificScene(sceneToLoad);	
 		}
+	}
+	private void OnDisable() {
+		isHover = false;
 	}
 }
