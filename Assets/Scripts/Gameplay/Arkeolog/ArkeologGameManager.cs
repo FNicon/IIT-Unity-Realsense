@@ -14,6 +14,7 @@ public class ArkeologGameManager : MonoBehaviour
     private List<Transform> artifactDusts;
     public float levelUpSpeed;
     public GameObject endPanel;
+    private bool once = false;
     // Use this for initialization
     void Start()
     {
@@ -43,7 +44,7 @@ public class ArkeologGameManager : MonoBehaviour
             sliderHealth += trans.GetComponent<SpriteRenderer>().color.a;
         }
         slider.value = sliderHealth;
-        if (currentLevel < 4)
+        if (currentLevel < artifact.Count)
         {
             if (isLevellingUp)
             {
@@ -54,14 +55,19 @@ public class ArkeologGameManager : MonoBehaviour
                 isLevellingUp = true;
                 currentLevel++;
                 //Scale and glow artifacts
-                SetupLevel(currentLevel);
+                if (currentLevel <= artifact.Count - 1) {
+                    SetupLevel(currentLevel);
+                }
                 LevelUp();
+                ScoreManager.instance.AddScore();
             }
             else
             {
                 //Win Screen
                 ShowWinScreen();
             }
+        } else {
+            GameOver();
         }
     }
 
@@ -113,11 +119,14 @@ public class ArkeologGameManager : MonoBehaviour
     }
 
     public void GameOver(){
-		endPanel.SetActive(true);
-		Animator anim = endPanel.GetComponentInChildren<Animator>();
-		anim.SetInteger("WIN STATUS", ScoreManager.instance.GetNumberOfStar());
-		//Time.timeScale = 0;
-		Debug.Log("GAME OVER");
-		Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
+        if (!once) {
+            once = true;
+            endPanel.SetActive(true);
+            Animator anim = endPanel.GetComponentInChildren<Animator>();
+            anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
+            //Time.timeScale = 0;
+            Debug.Log("GAME OVER");
+            Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
+        }
 	}
 }

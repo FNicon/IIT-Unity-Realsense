@@ -9,7 +9,7 @@ public class TimeManager : MonoBehaviour {
 	public static event TimeMonitor Timesup;
 	[SerializeField]
 	private float time;
-	public static bool isGamePause;
+	public bool isGameStart;
 
 	float timeCounter = 0;
 
@@ -22,7 +22,7 @@ public class TimeManager : MonoBehaviour {
 	}
 	
 	void Update () {
-		if (isGamePause) {
+		if (isGameStart) {
 			timeCounter += Time.deltaTime;
 			if(timeCounter >= time){
 				OnTimesUp();
@@ -37,5 +37,9 @@ public class TimeManager : MonoBehaviour {
 
 	public float GetTimeRemainingNormalized(){
 		return ((timeCounter) * 1f / time);
+	}
+
+	public void ResumeGame() {
+		isGameStart = true;
 	}
 }

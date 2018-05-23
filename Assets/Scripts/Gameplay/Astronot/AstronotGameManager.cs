@@ -18,7 +18,7 @@ public class AstronotGameManager : MonoBehaviour {
 	public void GameOver(){
 		endPanel.SetActive(true);
 		Animator anim = endPanel.GetComponentInChildren<Animator>();
-		anim.SetInteger("State", ScoreManager.instance.GetNumberOfStar());
+		anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
 		Destroy(GameObject.FindGameObjectWithTag("batu"));
 		//Time.timeScale = 0;
 		Debug.Log("GAME OVER");
