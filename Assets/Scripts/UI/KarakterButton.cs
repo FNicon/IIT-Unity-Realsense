@@ -11,6 +11,7 @@ public class KarakterButton : MonoBehaviour {
 		CursorController.OnMouseDown += OnCursorDown;
 		CursorController.OnMouseUp += OnCursorUp;
 		anim = GetComponent<Animator>();
+		mouseTag = "Player";
 	}
 	
 	// Update is called once per frame

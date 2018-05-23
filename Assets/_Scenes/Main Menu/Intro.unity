@@ -760,6 +760,7 @@ GameObject:
   - component: {fileID: 821574655}
   - component: {fileID: 821574654}
   - component: {fileID: 821574659}
+  - component: {fileID: 821574660}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -947,10 +948,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseTag: 
-  sceneLoader: {fileID: 0}
   isHover: 0
-  buttonAnimation: {fileID: 0}
   soundEffects: {fileID: 700929637}
+--- !u!114 &821574660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 821574652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6174d9fe386cfe1479791b082a46c2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseTag: Player
 --- !u!1 &1029176547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,11 +1161,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-        type: 2}
-      propertyPath: gameObjTag.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4532184642085096, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1187,267 +1193,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-        type: 2}
-      propertyPath: MouseUpImage
-      value: 
-      objectReference: {fileID: 21300000, guid: a404c49250bece441923f127cf376c56,
-        type: 3}
-    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-        type: 2}
-      propertyPath: MouseDownImage
-      value: 
-      objectReference: {fileID: 21300000, guid: c4f2680fc9114774297a9d68de28aaea,
-        type: 3}
-    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-        type: 2}
-      propertyPath: gameObjTag
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-        type: 2}
-      propertyPath: mouseUpImage
-      value: 
-      objectReference: {fileID: 21300000, guid: a404c49250bece441923f127cf376c56,
-        type: 3}
-    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-        type: 2}
-      propertyPath: mouseDownImage
-      value: 
-      objectReference: {fileID: 21300000, guid: c4f2680fc9114774297a9d68de28aaea,
-        type: 3}
-    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-        type: 2}
-      propertyPath: gameObjTag.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-        type: 2}
-      propertyPath: gameObjTag.Array.data[1]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-        type: 2}
-      propertyPath: gameObjTag.Array.data[2]
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1556945604213158, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1556945604213158, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1228962383 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1556945604213158, guid: 4f888f030699a7f4fb5ed22e67b27eba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1228962382}
---- !u!114 &1228962384
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4015b9e4cf58a4041b7385ec4ee7677d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActionOwner: {fileID: 1228962392}
-  FriendlyName: Hand Lost
-  Enabled: 1
-  FoldoutOpen: 1
-  AssociatedAction: {fileID: 0}
-  WhichHand: 2
-  HandIndex: 0
-  ContinuousTracking: 0
---- !u!114 &1228962385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a01c4fad645a49241bb164a1e0c2ca23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1228962386
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33140781a3e92d40add2490c4ce1fb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActionOwner: {fileID: 1228962392}
-  ErrorDetected: 0
-  FriendlyName: Stop Event
-  Rules:
-  - {fileID: 1228962384}
-  TriggerAttributeName: EventTriggerAtt
-  FoldoutOpen: 1
-  AssociatedAction: {fileID: 0}
-  Source: 
-  Success: 0
---- !u!114 &1228962387
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9a7f69d0d6a72043810f21920848566, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActionOwner: {fileID: 1228962392}
-  FriendlyName: Hand Move
-  Enabled: 1
-  FoldoutOpen: 1
-  AssociatedAction: {fileID: 0}
-  WhichHand: 2
-  HandIndex: 0
-  ContinuousTracking: 0
-  TrackedJoint: 0
-  RealWorldBoxCenter: {x: 0, y: 0, z: 50}
-  RealWorldBoxDimensions: {x: 100, y: 100, z: 100}
-  Thresholds: {x: 0, y: 0, z: 0}
---- !u!114 &1228962388
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdb2fa0daa8bb1247880623f9aefcacb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActionOwner: {fileID: 1228962392}
-  ErrorDetected: 0
-  FriendlyName: Translation Trigger
-  Rules:
-  - {fileID: 1228962387}
-  TriggerAttributeName: TranslationTriggerAtt
-  FoldoutOpen: 1
-  AssociatedAction: {fileID: 0}
-  Source: 
-  Success: 0
-  Restart: 0
---- !u!114 &1228962389
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bb47ff5857ab8e4f88121a6b662e695, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActionOwner: {fileID: 1228962392}
-  FriendlyName: Hand Detected
-  Enabled: 1
-  FoldoutOpen: 1
-  AssociatedAction: {fileID: 0}
-  WhichHand: 2
-  HandIndex: 0
-  ContinuousTracking: 0
---- !u!114 &1228962390
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7af32bad64e00ae459bee76f086536cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActionOwner: {fileID: 1228962392}
-  FriendlyName: Gesture Detected
-  Enabled: 1
-  FoldoutOpen: 1
-  AssociatedAction: {fileID: 0}
-  Gesture: 3
-  WhichHand: 2
-  HandIndex: 0
-  ContinuousTracking: 0
---- !u!114 &1228962391
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33140781a3e92d40add2490c4ce1fb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ActionOwner: {fileID: 1228962392}
-  ErrorDetected: 0
-  FriendlyName: Start Event
-  Rules:
-  - {fileID: 1228962390}
-  - {fileID: 1228962389}
-  TriggerAttributeName: EventTriggerAtt
-  FoldoutOpen: 1
-  AssociatedAction: {fileID: 0}
-  Source: 
-  Success: 0
---- !u!114 &1228962392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b260ebd1d33883b40a49e08a2b690235, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SupportedTriggers:
-  - {fileID: 1228962391}
-  - {fileID: 1228962388}
-  - {fileID: 1228962386}
-  CustomTag: 
-  CustomActionId: 1
-  VirtualWorldBoxCenter: {x: 0, y: 0, z: 0}
-  VirtualWorldBoxDimensions: {x: 21.223019, y: 10.611508, z: 0}
-  CenterReference: 0
-  ReferenceGameObject: {fileID: 1228962383}
-  Sensitivity: {x: 95, y: 95, z: 0}
-  SmoothingFactor: 0.85
-  SmoothingType: 0
---- !u!50 &1228962393
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1228962383}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1446809841
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1462,7 @@ GameObject:
   - component: {fileID: 1845667947}
   - component: {fileID: 1845667946}
   - component: {fileID: 1845667951}
+  - component: {fileID: 1845667952}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -1901,10 +1650,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseTag: 
-  sceneLoader: {fileID: 0}
   isHover: 0
-  buttonAnimation: {fileID: 0}
   soundEffects: {fileID: 734854320}
+--- !u!114 &1845667952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1845667944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6174d9fe386cfe1479791b082a46c2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseTag: Player
 --- !u!1 &1944278560
 GameObject:
   m_ObjectHideFlags: 0

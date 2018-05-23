@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour {
 	public string sceneToLoad;
 	public Animator transition;
-	private string currentScene;
+	//private string currentScene;
 	AsyncOperation operation;
 
 	// Use this for initialization
 	void Start () {
-		currentScene = SceneManager.GetActiveScene().name;
+		//currentScene = SceneManager.GetActiveScene().name;
 		/*if (sceneToLoad != "") {
 			StartCoroutine(AsyncLoad(sceneToLoad));
 		}*/

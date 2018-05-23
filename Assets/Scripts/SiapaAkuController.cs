@@ -26,8 +26,8 @@ public class SiapaAkuController : MonoBehaviour {
 
 	public void SwipeRight() {
 		if(counter < childObjects.Length-1){
-			Transform tempObject;
-			tempObject = childObjects[childObjects.Length - 1];
+			//Transform tempObject;
+			//tempObject = childObjects[childObjects.Length - 1];
 			for (int i = 0; i<childObjects.Length - 1;i++) {
 				childObjects[i].SetSiblingIndex(i + 1);
 			}
@@ -56,8 +56,8 @@ public class SiapaAkuController : MonoBehaviour {
 	}
 	public void SwipeLeft() {
 		if(counter > 0){
-			Transform tempObject;
-			tempObject = childObjects[0];
+			//Transform tempObject;
+			//tempObject = childObjects[0];
 			for (int i = childObjects.Length - 1; i>0;i--) {
 				childObjects[i].SetSiblingIndex(i - 1);
 			}

@@ -40,7 +40,7 @@ public class CustomButtonManager : MonoBehaviour {
 				buttonCollider = button.GetComponent<BoxCollider2D>();
 			}
 			buttonCollider.isTrigger = true;
-			buttonCollider.size *= 100;
+			buttonCollider.size = new Vector2(100,100);
 			buttonCustom.mouseTag = FindObjectOfType<RealsenseClick>().tag;
 			//buttonCustom.sceneLoader = FindObjectOfType<SceneLoader>();
 			//buttonCustom.soundEffects = FindObjectOfType<SFXManager>();

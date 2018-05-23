@@ -22,8 +22,8 @@ public class CharacterSelect : MonoBehaviour {
 	}
 
 	public void SwipeRight() {
-		Transform tempObject;
-		tempObject = childObjects[childObjects.Length - 1];
+		//Transform tempObject;
+		//tempObject = childObjects[childObjects.Length - 1];
 		for (int i = 0; i<childObjects.Length - 1;i++) {
 			childObjects[i].SetSiblingIndex(i + 1);
 		}
@@ -66,8 +66,8 @@ public class CharacterSelect : MonoBehaviour {
 		selectedObject.GetComponent<Image>().color = Color.white;
 	}
 	public void SwipeLeft() {
-		Transform tempObject;
-		tempObject = childObjects[0];
+		//Transform tempObject;
+		//tempObject = childObjects[0];
 		for (int i = childObjects.Length - 1; i>0;i--) {
 			childObjects[i].SetSiblingIndex(i - 1);
 		}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MedPlate : MonoBehaviour {
-	private int minimalPhase = 0;
+	//private int minimalPhase = 0;
 	public GameObject[] cottons;
 	public GameObject[] bandages;
 	public WoundManager woundManager;
