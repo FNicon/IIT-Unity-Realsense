@@ -4843,6 +4843,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: 
   transition: {fileID: 596060851}
+  once: 0
 --- !u!1 &1554226381
 GameObject:
   m_ObjectHideFlags: 0
@@ -5686,6 +5687,31 @@ GameObject:
   m_PrefabParentObject: {fileID: 1951085453739058, guid: a86629a0ae4244147946c23b50f4154b,
     type: 2}
   m_PrefabInternal: {fileID: 32102506}
+--- !u!61 &1943875093
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1943875092}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100}
+  m_EdgeRadius: 0
 --- !u!114 &1943875094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5934,6 +5960,31 @@ GameObject:
   m_PrefabParentObject: {fileID: 1687453224671790, guid: a86629a0ae4244147946c23b50f4154b,
     type: 2}
   m_PrefabInternal: {fileID: 32102506}
+--- !u!61 &2062735057
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2062735056}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 100, y: 100}
+  m_EdgeRadius: 0
 --- !u!114 &2062735058
 MonoBehaviour:
   m_ObjectHideFlags: 0

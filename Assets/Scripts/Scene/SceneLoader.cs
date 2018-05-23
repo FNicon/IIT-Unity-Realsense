@@ -33,7 +33,7 @@ public class SceneLoader : MonoBehaviour {
 		operation.allowSceneActivation = false;
 		while (!operation.isDone) {
 			yield return null;
-			once = false;
+			//once = false;
 		}
 	}
 
