@@ -10,6 +10,8 @@ public class BagController : MonoBehaviour {
 	string objTag;
 	bool cursorClicking;
 	GameObject objInTrigger;
+	public SFXManager masukSound;
+	public AsteroidCounter counter;
 	
 	void Start () {
 		objTag = gameObjTag.tag;
@@ -36,6 +38,13 @@ public class BagController : MonoBehaviour {
 		}
 	}
 
+	private void OnTriggerStay2D(Collider2D col) {
+		if(col.tag == objTag && cursorClicking && CursorController.instance.GetFirstClickedObj() == col.gameObject){
+			transform.localScale = new Vector3(1.1f,1.1f);
+			objInTrigger = col.gameObject;
+		}
+	}
+
 	public void CursorClicked(){
 		cursorClicking = true;
 	}
@@ -45,6 +54,8 @@ public class BagController : MonoBehaviour {
 			transform.localScale = new Vector3(1.0f,1.0f);
 			Destroy(objInTrigger);
 			ScoreManager.instance.AddScore();
+			masukSound.PlayFromString("masuk");
+			counter.DecreaseAmount();
 		}
 		cursorClicking = false;
 	}

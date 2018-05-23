@@ -20,6 +20,8 @@ public class CursorControllerArkeolog : MonoBehaviour {
 	private SpriteRenderer cursorSprite;
 	List<GameObject> gameObjList;
 	List<string> objTags;
+	public bool isRealsenseActive;
+	public bool isHandClicked;
 	// Use this for initialization
 	void Awake () {
 		if(instance == null) {
@@ -52,6 +54,22 @@ public class CursorControllerArkeolog : MonoBehaviour {
 		} else if(Input.GetMouseButtonUp(0)){
 			mouseAnim.SetBool("MouseDown", false);
 			OnCursorUp();
+		}
+
+		if (isRealsenseActive) {
+			if (isHandClicked) {
+				mouseAnim.SetBool("MouseDown", true);
+				//cursorSprite.sprite = mouseDownImage;
+				OnCursorDown();
+				isHandClicked = true;
+				//isMouseDown = true;
+			} else if (!isHandClicked) {
+				mouseAnim.SetBool("MouseDown", false);
+				//cursorSprite.sprite = mouseUpImage;
+				OnCursorUp();
+				isHandClicked = false;
+				//isMouseDown = false;
+			}	
 		}
 	}
 

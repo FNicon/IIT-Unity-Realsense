@@ -21,18 +21,22 @@ public class FiremanController : MonoBehaviour {
 		}
 	}
 	public void OnCursorDown() {
-		if (Time.timeScale != 0) {
+		if (TimeManager.instance.isGameStart) {
+		//if (Time.timeScale != 0) {
 			transition.ChangeToClickSize();
 			waterActive = true;
 			StartCoroutine(Transition());
+		//}
 		}
 	}
 	public void OnCursorUp() {
-		if (Time.timeScale != 0) {
+		//if (TimeManager.instance.isGameStart) {
+		//if (Time.timeScale != 0) {
 			soundEffects.Stop();
 			transition.ChangeToReleaseSize();
 			waterActive = false;
 			water.SetActive(waterActive);
-		}
+		//}
+		//}
 	}
 }

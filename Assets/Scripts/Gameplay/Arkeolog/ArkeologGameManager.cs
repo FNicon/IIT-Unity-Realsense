@@ -15,6 +15,8 @@ public class ArkeologGameManager : MonoBehaviour
     public float levelUpSpeed;
     public GameObject endPanel;
     private bool once = false;
+    public SFXManager soundEffects;
+    public SFXManager bersihSound;
     // Use this for initialization
     void Start()
     {
@@ -58,6 +60,7 @@ public class ArkeologGameManager : MonoBehaviour
                 if (currentLevel <= artifact.Count - 1) {
                     SetupLevel(currentLevel);
                 }
+                bersihSound.PlayFromString("bersih");
                 LevelUp();
                 ScoreManager.instance.AddScore();
             }
@@ -124,6 +127,8 @@ public class ArkeologGameManager : MonoBehaviour
             endPanel.SetActive(true);
             Animator anim = endPanel.GetComponentInChildren<Animator>();
             anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
+            soundEffects.PlayFromString(ScoreManager.instance.GetNumberOfStar().ToString());
+            TimeManager.instance.PauseGame();
             //Time.timeScale = 0;
             Debug.Log("GAME OVER");
             Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());

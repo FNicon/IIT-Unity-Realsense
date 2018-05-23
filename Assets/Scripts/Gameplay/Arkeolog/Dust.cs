@@ -15,6 +15,7 @@ public class Dust : MonoBehaviour
     private bool isClicked = false;
     private Vector3 lastCursorPos;
     private Vector3 distance;
+    public SFXManager geserSound;
     // Use this for initialization	
     void Start()
     {
@@ -64,9 +65,12 @@ public class Dust : MonoBehaviour
 
     void ReduceAlpha(float f)
     {
-        Color newColor = dustSpriteRenderer.color;
-        float reduceAmount = (f * brushStrength) / 1000;
-        newColor.a -= reduceAmount;
-        dustSpriteRenderer.color = newColor;
+        if (TimeManager.instance.isGameStart) {
+            Color newColor = dustSpriteRenderer.color;
+            float reduceAmount = (f * brushStrength) / 1000;
+            newColor.a -= reduceAmount;
+            dustSpriteRenderer.color = newColor;
+            geserSound.PlayFromString("gerak");
+        }
     }
 }

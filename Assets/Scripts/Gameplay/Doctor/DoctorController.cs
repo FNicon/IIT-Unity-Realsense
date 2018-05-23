@@ -47,18 +47,20 @@ public class DoctorController : MonoBehaviour {
 		}
 	}
 	void OnCursorDown() {
-		transition.ChangeToClickSize();
-		holdObject = CursorController.instance.GetFirstClickedObj();
-		if (holdObject!= null) {
-			holdObject.GetComponent<GrabbableObject>().ChangeToClickSize();
-			isHolding = true;
-			soundManager.PlayFromString("click");
-			if (holdObject.CompareTag("cotton")) {
-				holdCotton.SetOnHold(true);
-			} else if (holdObject.CompareTag("bandage")) {
-				holdCotton.SetOnHold(true);
+		if (TimeManager.instance.isGameStart) {
+			transition.ChangeToClickSize();
+			holdObject = CursorController.instance.GetFirstClickedObj();
+			if (holdObject!= null) {
+				holdObject.GetComponent<GrabbableObject>().ChangeToClickSize();
+				isHolding = true;
+				soundManager.PlayFromString("click");
+				if (holdObject.CompareTag("cotton")) {
+					holdCotton.SetOnHold(true);
+				} else if (holdObject.CompareTag("bandage")) {
+					holdCotton.SetOnHold(true);
+				}
+				StartCoroutine(Transition());
 			}
-			StartCoroutine(Transition());
 		}
 	}
 	void OnCursorUp() {

@@ -5,6 +5,7 @@ using UnityEngine;
 public class AstronotGameManager : MonoBehaviour {
 	public static AstronotGameManager instance = null;
 	public GameObject endPanel;
+	public SFXManager soundEffects;
 	// Use this for initialization
 	void Awake () {
 		if(instance == null) {
@@ -19,6 +20,7 @@ public class AstronotGameManager : MonoBehaviour {
 		endPanel.SetActive(true);
 		Animator anim = endPanel.GetComponentInChildren<Animator>();
 		anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
+		soundEffects.PlayFromString(ScoreManager.instance.GetNumberOfStar().ToString());
 		Destroy(GameObject.FindGameObjectWithTag("batu"));
 		//Time.timeScale = 0;
 		Debug.Log("GAME OVER");

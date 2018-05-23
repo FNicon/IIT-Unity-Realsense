@@ -42,4 +42,7 @@ public class TimeManager : MonoBehaviour {
 	public void ResumeGame() {
 		isGameStart = true;
 	}
+	public void PauseGame() {
+		isGameStart = false;
+	}
 }

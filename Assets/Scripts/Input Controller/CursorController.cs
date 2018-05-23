@@ -20,6 +20,7 @@ public class CursorController : MonoBehaviour {
 	private SpriteRenderer cursorSprite;
 	List<GameObject> gameObjList;
 	List<string> objTags;
+	public bool isRealsenseActive;
 	//bool isMouseDown = false;
 	void Awake () {
 		if(instance == null) {
@@ -54,17 +55,20 @@ public class CursorController : MonoBehaviour {
 			OnCursorUp();
 			isHandClicked = false;
 			//isMouseDown = false;
-		} /*else if (isHandClicked) {
-			cursorSprite.sprite = mouseDownImage;
-			OnCursorDown();
-			//isHandClicked = true;
-			//isMouseDown = true;
-		} else if (!isHandClicked) {
-			cursorSprite.sprite = mouseUpImage;
-			OnCursorUp();
-			//isHandClicked = false;
-			//isMouseDown = false;
-		}*/
+		}
+		if (isRealsenseActive) {
+			if (isHandClicked) {
+				cursorSprite.sprite = mouseDownImage;
+				OnCursorDown();
+				isHandClicked = true;
+				//isMouseDown = true;
+			} else if (!isHandClicked) {
+				cursorSprite.sprite = mouseUpImage;
+				OnCursorUp();
+				isHandClicked = false;
+				//isMouseDown = false;
+			}	
+		}
 
 	}
 
