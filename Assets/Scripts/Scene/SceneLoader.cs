@@ -8,7 +8,7 @@ public class SceneLoader : MonoBehaviour {
 	public Animator transition;
 	//private string currentScene;
 	AsyncOperation operation;
-
+	public bool once = false;
 	// Use this for initialization
 	void Start () {
 		//currentScene = SceneManager.GetActiveScene().name;
@@ -33,16 +33,23 @@ public class SceneLoader : MonoBehaviour {
 		operation.allowSceneActivation = false;
 		while (!operation.isDone) {
 			yield return null;
+			once = false;
 		}
 	}
 
 	public void nextScene () {
-		transition.SetBool("isFadeIn",true);
-		StartCoroutine(WaitLoadScene(sceneToLoad));
+		if (!once) {
+			once = true;
+			transition.SetBool("isFadeIn",true);
+			StartCoroutine(WaitLoadScene(sceneToLoad));
+		}
 	}
 	public void loadSpecificScene(string inputScene) {
-		transition.SetBool("isFadeIn",true);
-		StartCoroutine(WaitLoadScene(inputScene));
+		if (!once) {
+			once = true;
+			transition.SetBool("isFadeIn",true);
+			StartCoroutine(WaitLoadScene(inputScene));
+		}
 	}
 
 	public void ExitGame() {
