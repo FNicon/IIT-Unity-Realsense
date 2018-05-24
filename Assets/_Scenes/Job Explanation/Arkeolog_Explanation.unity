@@ -142,6 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Arkeolog_Gameplay
   transition: {fileID: 2071255411}
+  once: 0
 --- !u!4 &193126215
 Transform:
   m_ObjectHideFlags: 0
@@ -684,6 +685,21 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114892857527098824, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114032047354168592, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: isRealsenseActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
   m_IsPrefabParent: 0
@@ -1142,6 +1158,7 @@ GameObject:
   - component: {fileID: 671821455}
   - component: {fileID: 671821454}
   - component: {fileID: 671821459}
+  - component: {fileID: 671821460}
   m_Layer: 5
   m_Name: Right Button
   m_TagString: Untagged
@@ -1328,9 +1345,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3027355e82c451a49869fbe8ac72cc01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseTag: 
+  mouseTag: Player
   isHover: 0
   soundEffects: {fileID: 1414187609}
+--- !u!114 &671821460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 671821452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6174d9fe386cfe1479791b082a46c2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseTag: Player
 --- !u!1 &803430690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,6 +1697,7 @@ GameObject:
   - component: {fileID: 1048435099}
   - component: {fileID: 1048435098}
   - component: {fileID: 1048435103}
+  - component: {fileID: 1048435104}
   m_Layer: 0
   m_Name: Back
   m_TagString: Untagged
@@ -1854,9 +1884,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3027355e82c451a49869fbe8ac72cc01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseTag: 
+  mouseTag: Player
   isHover: 0
   soundEffects: {fileID: 1465408286}
+--- !u!114 &1048435104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1048435096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6174d9fe386cfe1479791b082a46c2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseTag: Player
 --- !u!1 &1247003108
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,6 +2501,7 @@ GameObject:
   - component: {fileID: 1851531099}
   - component: {fileID: 1851531098}
   - component: {fileID: 1851531103}
+  - component: {fileID: 1851531104}
   m_Layer: 5
   m_Name: Left Button
   m_TagString: Untagged
@@ -2645,9 +2688,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3027355e82c451a49869fbe8ac72cc01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseTag: 
+  mouseTag: Player
   isHover: 0
   soundEffects: {fileID: 1414187609}
+--- !u!114 &1851531104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1851531096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6174d9fe386cfe1479791b082a46c2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseTag: Player
 --- !u!1 &2019181908
 GameObject:
   m_ObjectHideFlags: 0

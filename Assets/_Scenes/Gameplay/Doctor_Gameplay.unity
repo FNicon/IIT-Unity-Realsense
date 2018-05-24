@@ -719,6 +719,16 @@ Prefab:
       propertyPath: isRealsenseActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114892857527098824, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: VirtualWorldBoxDimensions.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114892857527098824, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: VirtualWorldBoxDimensions.y
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 60401678010841462, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}

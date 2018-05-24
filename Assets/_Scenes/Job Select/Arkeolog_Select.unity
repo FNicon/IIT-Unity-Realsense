@@ -376,6 +376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Arkeolog_Gameplay
   transition: {fileID: 1445376988}
+  once: 0
 --- !u!4 &193126215
 Transform:
   m_ObjectHideFlags: 0
@@ -3255,6 +3256,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1556945604213158, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
       propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: isRealsenseActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114892857527098824, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114032047354168592, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

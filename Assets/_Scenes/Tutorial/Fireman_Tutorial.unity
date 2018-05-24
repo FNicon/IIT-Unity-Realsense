@@ -1346,6 +1346,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114653607001310220, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: isRealsenseActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114892857527098824, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: VirtualWorldBoxDimensions.x
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114892857527098824, guid: 4f888f030699a7f4fb5ed22e67b27eba,
+        type: 2}
+      propertyPath: VirtualWorldBoxDimensions.y
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f888f030699a7f4fb5ed22e67b27eba, type: 2}
   m_IsPrefabParent: 0
@@ -1378,6 +1393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Fireman_Gameplay
   transition: {fileID: 0}
+  once: 0
 --- !u!4 &828284070
 Transform:
   m_ObjectHideFlags: 0
@@ -1517,6 +1533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Arkeolog_Gameplay
   transition: {fileID: 1167082725}
+  once: 0
 --- !u!4 &1163292398
 Transform:
   m_ObjectHideFlags: 0
