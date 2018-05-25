@@ -21,6 +21,7 @@ public class CursorController : MonoBehaviour {
 	List<GameObject> gameObjList;
 	List<string> objTags;
 	public bool isRealsenseActive;
+	public bool isAlreadyCalledDown;
 	//bool isMouseDown = false;
 	void Awake () {
 		if(instance == null) {
@@ -86,13 +87,19 @@ public class CursorController : MonoBehaviour {
 	}
 
 	void OnCursorDown(){
-		if(OnMouseDown != null)
-			OnMouseDown();
+		if (!isAlreadyCalledDown) {
+			isAlreadyCalledDown = true;
+			if(OnMouseDown != null) {
+				OnMouseDown();
+			}
+		}
 	}
 
 	void OnCursorUp(){
-		if(OnMouseUp != null)
+		isAlreadyCalledDown = false;
+		if(OnMouseUp != null) {
 			OnMouseUp();
+		}
 	}
 
 	void OnCursorHover(){

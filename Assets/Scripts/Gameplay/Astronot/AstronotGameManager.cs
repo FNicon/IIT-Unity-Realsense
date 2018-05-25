@@ -22,6 +22,7 @@ public class AstronotGameManager : MonoBehaviour {
 		anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
 		soundEffects.PlayFromString(ScoreManager.instance.GetNumberOfStar().ToString());
 		Destroy(GameObject.FindGameObjectWithTag("batu"));
+		TimeManager.instance.PauseGame();
 		//Time.timeScale = 0;
 		Debug.Log("GAME OVER");
 		Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
