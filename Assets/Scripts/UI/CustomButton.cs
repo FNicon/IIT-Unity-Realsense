@@ -47,4 +47,8 @@ public class CustomButton : MonoBehaviour {
 	private void OnDisable() {
 		isHover = false;
 	}
+	private void OnDestroy() {
+		CursorController.OnMouseDown -= OnCursorDown;
+		CursorController.OnMouseUp -= OnCursorUp;
+	}
 }

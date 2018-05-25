@@ -71,4 +71,10 @@ public class AstronotPlayerController : MonoBehaviour {
 	public void OnCursorHover() {
 		batuSound.PlayFromString("hover");
 	}
+
+	private void OnDestroy() {
+		CursorController.OnMouseDown -= OnCursorDown;
+		CursorController.OnMouseUp -= OnCursorUp;
+		CursorController.OnMouseHover -= OnCursorHover;
+	}
 }

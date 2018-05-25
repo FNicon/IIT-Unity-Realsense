@@ -22,6 +22,7 @@ public class CursorControllerArkeolog : MonoBehaviour {
 	List<string> objTags;
 	public bool isRealsenseActive;
 	public bool isHandClicked;
+	public bool isAlreadyCalledDown;
 	// Use this for initialization
 	void Awake () {
 		if(instance == null) {
@@ -86,11 +87,15 @@ public class CursorControllerArkeolog : MonoBehaviour {
 	}
 
 	void OnCursorDown(){
-		if(OnMouseDown != null)
-			OnMouseDown();
+		if (!isAlreadyCalledDown) {
+			isAlreadyCalledDown = true;
+			if(OnMouseDown != null)
+				OnMouseDown();
+		}
 	}
 
 	void OnCursorUp(){
+		isAlreadyCalledDown = false;
 		if(OnMouseUp != null)
 			OnMouseUp();
 	}

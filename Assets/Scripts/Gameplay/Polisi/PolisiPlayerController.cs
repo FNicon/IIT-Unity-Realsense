@@ -36,4 +36,8 @@ public class PolisiPlayerController : MonoBehaviour {
 	public void OnCursorUp(){
 
 	}
+	private void OnDestroy() {
+		CursorController.OnMouseDown -= OnCursorDown;
+		CursorController.OnMouseUp -= OnCursorUp;
+	}
 }

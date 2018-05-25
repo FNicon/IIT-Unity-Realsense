@@ -59,4 +59,9 @@ public class BagController : MonoBehaviour {
 		}
 		cursorClicking = false;
 	}
+
+	private void OnDestroy() {
+		CursorController.OnMouseDown -= CursorClicked;
+		CursorController.OnMouseUp -= CursorUp;
+	}
 }

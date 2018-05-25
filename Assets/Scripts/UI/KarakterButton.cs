@@ -51,4 +51,8 @@ public class KarakterButton : MonoBehaviour {
 		yield return new WaitForSeconds(anim.GetCurrentAnimatorClipInfo(0)[0].clip.length + 2.5f);
 		anim.SetTrigger("Normal");
 	}
+	private void OnDestroy() {
+		CursorController.OnMouseDown -= OnCursorDown;
+		CursorController.OnMouseUp -= OnCursorUp;
+	}
 }

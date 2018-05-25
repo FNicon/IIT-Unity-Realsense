@@ -11,5 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b81fd44d47920c469ff6826e39f8826, type: 3}
   m_Name: Fireman
   m_EditorClassIdentifier: 
-  soundEffects: []
-  identifier: []
+  soundEffects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  identifier:
+  - 1
+  - 2
+  - 3

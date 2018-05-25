@@ -39,4 +39,8 @@ public class FiremanController : MonoBehaviour {
 		//}
 		//}
 	}
+	private void OnDestroy() {
+		CursorController.OnMouseDown -= OnCursorDown;
+		CursorController.OnMouseUp -= OnCursorUp;
+	}
 }

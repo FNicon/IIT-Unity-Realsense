@@ -84,4 +84,10 @@ public class DoctorController : MonoBehaviour {
 	void OnCursorHover() {
 		soundManager.PlayFromString("hover");
 	}
+
+	private void OnDestroy() {
+		CursorController.OnMouseDown -= OnCursorDown;
+		CursorController.OnMouseUp -= OnCursorUp;
+		CursorController.OnMouseHover -= OnCursorHover;
+	}
 }
