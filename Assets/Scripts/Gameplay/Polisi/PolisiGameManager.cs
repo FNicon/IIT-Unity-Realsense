@@ -6,6 +6,7 @@ public class PolisiGameManager : MonoBehaviour {
 	public static PolisiGameManager instance = null;
 	public GameObject endPanel;
 	public SFXManager soundEffects;
+	public AudioSource bgmSource;
 	// Use this for initialization
 	void Awake () {
 		if(instance == null) {
@@ -32,6 +33,7 @@ public class PolisiGameManager : MonoBehaviour {
 		soundEffects.PlayFromString(ScoreManager.instance.GetNumberOfStar().ToString());
 		Destroy(GameObject.FindGameObjectWithTag("pencuri"));
 		TimeManager.instance.PauseGame();
+		bgmSource.Stop();
 		//Time.timeScale = 0;
 		Debug.Log("GAME OVER");
 		Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());

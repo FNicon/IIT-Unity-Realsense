@@ -461,7 +461,7 @@ Animator:
   m_GameObject: {fileID: 81393649}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 033d80db137183944aa97146522837f0, type: 2}
+  m_Controller: {fileID: 22100000, guid: 81ab26485419cca49b9183f5fae0c75d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -977,7 +977,7 @@ Animator:
   m_GameObject: {fileID: 511640538}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 033d80db137183944aa97146522837f0, type: 2}
+  m_Controller: {fileID: 22100000, guid: 81ab26485419cca49b9183f5fae0c75d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1015,6 +1015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endPanel: {fileID: 1660724078}
   soundEffects: {fileID: 1994305768}
+  bgmSource: {fileID: 2110137126}
 --- !u!4 &551229172
 Transform:
   m_ObjectHideFlags: 0
@@ -2347,6 +2348,30 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Select Main
       objectReference: {fileID: 0}
+    - target: {fileID: 114010915512463150, guid: a86629a0ae4244147946c23b50f4154b,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 01dbf1597b5a6e24396ad78070567c7a,
+        type: 3}
+    - target: {fileID: 114037553457353774, guid: a86629a0ae4244147946c23b50f4154b,
+        type: 2}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 35930eea7707f63458aa632ec41f880b,
+        type: 3}
+    - target: {fileID: 114547996516436474, guid: a86629a0ae4244147946c23b50f4154b,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f1266f5338686248bff92a69563e643,
+        type: 3}
+    - target: {fileID: 114088569544691750, guid: a86629a0ae4244147946c23b50f4154b,
+        type: 2}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cccb6da4f959f34418052d4258600335,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a86629a0ae4244147946c23b50f4154b, type: 2}
   m_IsPrefabParent: 0

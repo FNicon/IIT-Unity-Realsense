@@ -18,6 +18,7 @@ public class ArkeologGameManager : MonoBehaviour
     public SFXManager soundEffects;
     public SFXManager bersihSound;
     private bool onceAnimate;
+    public AudioSource bgmSource;
     // Use this for initialization
     void Start()
     {
@@ -82,9 +83,9 @@ public class ArkeologGameManager : MonoBehaviour
         Animator artifactAnimation;
         artifactAnimation = artifact[index].GetComponent<Animator>();
         artifactAnimation.SetBool("isGlowing",true);
-        Debug.Log("AAAAAA");
+        //Debug.Log("AAAAAA");
         yield return new WaitUntil(()=>artifactAnimation.GetCurrentAnimatorStateInfo(0).IsName("Glow End"));
-        Debug.Log("BBBBBBBB");
+        //Debug.Log("BBBBBBBB");
         
         onceAnimate = false;
         isLevellingUp = true;
@@ -145,6 +146,7 @@ public class ArkeologGameManager : MonoBehaviour
             anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
             soundEffects.PlayFromString(ScoreManager.instance.GetNumberOfStar().ToString());
             TimeManager.instance.PauseGame();
+            bgmSource.Stop();
             //Time.timeScale = 0;
             Debug.Log("GAME OVER");
             Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());

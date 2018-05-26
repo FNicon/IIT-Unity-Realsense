@@ -1556,6 +1556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endPanel: {fileID: 136686620}
   soundEffects: {fileID: 1554226383}
+  bgmSource: {fileID: 42993264}
 --- !u!4 &255025598
 Transform:
   m_ObjectHideFlags: 0

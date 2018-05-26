@@ -8,6 +8,7 @@ public class CustomButton : MonoBehaviour {
 	public bool isHover;
 	public SFXManager soundEffects;
 	private Sprite normalSprite;
+	private bool once;
 	// Use this for initialization
 	void Start () {
 		CursorController.OnMouseDown += OnCursorDown;
@@ -34,11 +35,25 @@ public class CustomButton : MonoBehaviour {
 			isHover = false;
 		}
 	}
+	public IEnumerator DelayPlay() {
+		Animator anim = GetComponent<Animator>();
+		yield return new WaitUntil(() => anim.GetCurrentAnimatorStateInfo(0).IsName("Pressed"));
+		yield return new WaitForSeconds(anim.GetCurrentAnimatorClipInfo(0)[0].clip.length + 1f);
+		soundEffects.PlayFromString("click");
+		once = false;
+	}
 	public void OnCursorDown(){
 		if (isHover) {
 			GetComponent<Button>().onClick.Invoke();
 			GetComponent<Button>().image.sprite = GetComponent<Button>().spriteState.pressedSprite;
-			soundEffects.PlayFromString("click");
+			if (GetComponent<KarakterButton>() != null) {
+				if (!once) { 
+					once = true;
+					StartCoroutine(DelayPlay());
+				}
+			} else {
+				soundEffects.PlayFromString("click");
+			}
 		}
 	}
 

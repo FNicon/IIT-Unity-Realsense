@@ -5,6 +5,7 @@ using UnityEngine;
 public class FireGameManager : MonoBehaviour {
 	public GameObject endPanel;
 	public SFXManager soundEffects;
+	public AudioSource bgmSource;
 	void Awake () {
 		TimeManager.Timesup += GameOver;
 	}
@@ -15,6 +16,7 @@ public class FireGameManager : MonoBehaviour {
 		anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
 		soundEffects.PlayFromString(ScoreManager.instance.GetNumberOfStar().ToString());
 		TimeManager.instance.PauseGame();
+		bgmSource.Stop();
 		//Time.timeScale = 0;
 		Debug.Log("GAME OVER");
 		Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
