@@ -17,6 +17,7 @@ public class ArkeologGameManager : MonoBehaviour
     private bool once = false;
     public SFXManager soundEffects;
     public SFXManager bersihSound;
+    private bool onceAnimate;
     // Use this for initialization
     void Start()
     {
@@ -54,9 +55,12 @@ public class ArkeologGameManager : MonoBehaviour
             }
             else if (slider.value <= 0)
             {
-                isLevellingUp = true;
                 currentLevel++;
-                //Scale and glow artifacts
+                if (!onceAnimate) {
+                    onceAnimate = true;
+                    //Scale and glow artifacts
+                    StartCoroutine(ScaleAndGrow(currentLevel - 1));
+                }
                 if (currentLevel <= artifact.Count - 1) {
                     SetupLevel(currentLevel);
                 }
@@ -72,6 +76,18 @@ public class ArkeologGameManager : MonoBehaviour
         } else {
             GameOver();
         }
+    }
+
+    IEnumerator ScaleAndGrow(int index) {
+        Animator artifactAnimation;
+        artifactAnimation = artifact[index].GetComponent<Animator>();
+        artifactAnimation.SetBool("isGlowing",true);
+        Debug.Log("AAAAAA");
+        yield return new WaitUntil(()=>artifactAnimation.GetCurrentAnimatorStateInfo(0).IsName("Glow End"));
+        Debug.Log("BBBBBBBB");
+        
+        onceAnimate = false;
+        isLevellingUp = true;
     }
 
     void LevelUp()

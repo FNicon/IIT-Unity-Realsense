@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Prasasti
+  m_Controller: {fileID: 9100000, guid: d4c00125ddd43754aa9992852571e3ee, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 0420074ab551eeb43ad5ce3e0f4960b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e4a68ee09e5ec7e40b3900297fc1e0ec, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9b6b12cdf62ee6b4c95e1470e4b9ad9e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6b29e121d68949e42bbf67e30a04f55f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6a4b6e9ed07cdc0408accd7c79bd0fb9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9c5b13daf14630046baa87bf1c056280, type: 2}
