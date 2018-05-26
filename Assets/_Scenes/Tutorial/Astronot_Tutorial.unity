@@ -1148,7 +1148,7 @@ Animator:
   m_GameObject: {fileID: 1112322633}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 033d80db137183944aa97146522837f0, type: 2}
+  m_Controller: {fileID: 22100000, guid: 81ab26485419cca49b9183f5fae0c75d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1270,7 +1270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Polisi_Gameplay
-  transition: {fileID: 0}
+  transition: {fileID: 766850849}
   once: 0
 --- !u!4 &1114637121
 Transform:

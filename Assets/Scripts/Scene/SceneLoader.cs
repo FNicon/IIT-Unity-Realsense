@@ -19,7 +19,9 @@ public class SceneLoader : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (operation != null) {
+			Debug.Log(operation.progress);
+		}
 	}
 
 	IEnumerator WaitLoadScene(string scene) {
@@ -33,8 +35,9 @@ public class SceneLoader : MonoBehaviour {
 		operation.allowSceneActivation = false;
 		while (!operation.isDone) {
 			yield return null;
-			//once = false;
 		}
+		//yield return new WaitUntil(()=>operation.isDone);
+		//Debug.Log(operation.progress);
 	}
 
 	public void nextScene () {
