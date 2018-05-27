@@ -113,6 +113,68 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &36565291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 36565293}
+  - component: {fileID: 36565292}
+  m_Layer: 0
+  m_Name: SenseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &36565292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 36565291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8122e440d5b6dc44af611c9b391239a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorImageQuality: 1
+  SpeechManager:
+    tey: 0
+    SpeechModuleMode: 0
+    AvailableSources:
+    - Microphone Array (Razer Stargazer-Microphone)
+    - Microphone (Conexant SmartAudio HD)
+    AvailableModules: []
+    AvailableLanguages: []
+    Commands: []
+    ErrorDetected: 6
+    AlertDetected: No Alert
+    _activeSource: 0
+    _activeModule: 0
+    _activeLanguage: 0
+  RunMode: 0
+  FilePath: 
+  NumberOfDetectedFaces: 2
+  MaxBlobsToDetect: 2
+  Initialized: 1
+  PointCloud: []
+  UvMap: []
+--- !u!4 &36565293
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 36565291}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.211052, y: -4.5006256, z: -0.61979675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &76756206
 GameObject:
   m_ObjectHideFlags: 0
