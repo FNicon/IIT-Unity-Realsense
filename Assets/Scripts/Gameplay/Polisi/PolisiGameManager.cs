@@ -7,6 +7,7 @@ public class PolisiGameManager : MonoBehaviour {
 	public GameObject endPanel;
 	public SFXManager soundEffects;
 	public AudioSource bgmSource;
+	private bool once = false;
 	// Use this for initialization
 	void Awake () {
 		if(instance == null) {
@@ -15,6 +16,7 @@ public class PolisiGameManager : MonoBehaviour {
 			Destroy(gameObject);
 		}
 		InitGame();
+		once = false;
 		TimeManager.Timesup += GameOver;
 	}
 	
@@ -27,15 +29,21 @@ public class PolisiGameManager : MonoBehaviour {
 	}
 
 	public void GameOver(){
-		endPanel.SetActive(true);
-		Animator anim = endPanel.GetComponentInChildren<Animator>();
-		anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
-		soundEffects.PlayFromString(ScoreManager.instance.GetNumberOfStar().ToString());
-		Destroy(GameObject.FindGameObjectWithTag("pencuri"));
-		TimeManager.instance.PauseGame();
-		bgmSource.Stop();
-		//Time.timeScale = 0;
-		Debug.Log("GAME OVER");
-		Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
+		if (!once) {
+			once = true;
+			endPanel.SetActive(true);
+			Animator anim = endPanel.GetComponentInChildren<Animator>();
+			anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
+			soundEffects.PlayFromString(ScoreManager.instance.GetNumberOfStar().ToString());
+			Destroy(GameObject.FindGameObjectWithTag("pencuri"));
+			TimeManager.instance.PauseGame();
+			bgmSource.Stop();
+			//Time.timeScale = 0;
+			Debug.Log("GAME OVER");
+			Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
+		}
+	}
+	private void OnDestroy(){
+		TimeManager.Timesup -= GameOver;
 	}
 }

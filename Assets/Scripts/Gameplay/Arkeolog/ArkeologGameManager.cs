@@ -14,14 +14,15 @@ public class ArkeologGameManager : MonoBehaviour
     private List<Transform> artifactDusts;
     public float levelUpSpeed;
     public GameObject endPanel;
-    private bool once = false;
     public SFXManager soundEffects;
     public SFXManager bersihSound;
     private bool onceAnimate;
     public AudioSource bgmSource;
+    private bool onceEnd = false;
     // Use this for initialization
     void Start()
     {
+        onceEnd = false;
         artifact = new List<Transform>();
         artifactDusts = new List<Transform>();
 
@@ -139,8 +140,8 @@ public class ArkeologGameManager : MonoBehaviour
     }
 
     public void GameOver(){
-        if (!once) {
-            once = true;
+        if (!onceEnd) {
+            onceEnd = true;
             endPanel.SetActive(true);
             Animator anim = endPanel.GetComponentInChildren<Animator>();
             anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
@@ -152,4 +153,7 @@ public class ArkeologGameManager : MonoBehaviour
             Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
         }
 	}
+    private void OnDestroy(){
+        TimeManager.Timesup -= GameOver;
+    }
 }

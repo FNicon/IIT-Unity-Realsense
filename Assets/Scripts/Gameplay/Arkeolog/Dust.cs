@@ -20,6 +20,9 @@ public class Dust : MonoBehaviour
     void Start()
     {
         dustSpriteRenderer = GetComponent<SpriteRenderer>();
+        CursorController.OnMouseDown += OnCursorDown;
+		CursorController.OnMouseUp += OnCursorUp;
+		CursorController.OnMouseHover += OnCursorHover;
     }
 
     // Update is called once per frame
@@ -35,10 +38,36 @@ public class Dust : MonoBehaviour
             if (isClicked)
             {
                 distance = Input.mousePosition - lastCursorPos;
-                ReduceAlpha(distance.magnitude);
+                //ReduceAlpha(distance.magnitude);
+                ReduceAlpha(1f + distance.magnitude);
             }
             lastCursorPos = Input.mousePosition;
         }
+    }
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.CompareTag("Player")) {
+            dustSpriteRenderer.sprite = selectedSprite;
+            isSelected = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other) {
+        if (other.CompareTag("Player")) {
+            dustSpriteRenderer.sprite = normalSprite;
+            isSelected = false;
+        }
+    }
+
+    void OnCursorHover() {
+        dustSpriteRenderer.sprite = selectedSprite;
+        isSelected = true;
+    }
+
+    void OnCursorDown() {
+        isClicked = true;
+    }
+
+    void OnCursorUp() {
+        isClicked = false;
     }
 
     void OnMouseOver()
@@ -72,5 +101,10 @@ public class Dust : MonoBehaviour
             dustSpriteRenderer.color = newColor;
             geserSound.PlayFromString("gerak");
         }
+    }
+    private void OnDestroy() {
+        CursorController.OnMouseDown -= OnCursorDown;
+		CursorController.OnMouseUp -= OnCursorUp;
+		CursorController.OnMouseHover -= OnCursorHover;
     }
 }

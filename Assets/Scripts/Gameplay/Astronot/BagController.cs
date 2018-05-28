@@ -12,6 +12,7 @@ public class BagController : MonoBehaviour {
 	GameObject objInTrigger;
 	public SFXManager masukSound;
 	public AsteroidCounter counter;
+	private bool once = false;
 	
 	void Start () {
 		objTag = gameObjTag.tag;
@@ -47,15 +48,19 @@ public class BagController : MonoBehaviour {
 
 	public void CursorClicked(){
 		cursorClicking = true;
+		once = false;
 	}
 
 	public void CursorUp(){
 		if(objInTrigger != null){
-			transform.localScale = new Vector3(1.0f,1.0f);
-			Destroy(objInTrigger);
-			ScoreManager.instance.AddScore();
-			masukSound.PlayFromString("masuk");
-			counter.DecreaseAmount();
+			if (!once) {
+				once = true;
+				transform.localScale = new Vector3(1.0f,1.0f);
+				Destroy(objInTrigger);
+				ScoreManager.instance.AddScore();
+				masukSound.PlayFromString("masuk");
+				counter.DecreaseAmount();
+			}
 		}
 		cursorClicking = false;
 	}

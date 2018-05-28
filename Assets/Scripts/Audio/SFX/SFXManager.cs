@@ -31,6 +31,7 @@ public class SFXManager : MonoBehaviour {
 	}
 	public int FindAudioFromString(string input) {
 		int i = 0;
+		//Debug.Log(container.identifier.Length);
 		while ((input != container.identifier[i]) && (i < container.identifier.Length)) {
 			i = i + 1;
 		}

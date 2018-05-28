@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SimpleRealsenseClick : MonoBehaviour {
+	public CursorControllerArkeolog cursorArkeolog;
 	private void OnEnable() {
 		CursorController.isHandClicked = true;
-		if (CursorControllerArkeolog.instance != null) {
-			CursorControllerArkeolog.instance.isHandClicked = true;
+		if (cursorArkeolog != null) {
+			cursorArkeolog.isHandClicked = true;
 		}
 	}
 	private void OnDisable() {
 		CursorController.isHandClicked = false;
-		if (CursorControllerArkeolog.instance != null) {
-			CursorControllerArkeolog.instance.isHandClicked = false;
+		if (cursorArkeolog != null) {
+			cursorArkeolog.isHandClicked = false;
 		}
 	}
 }

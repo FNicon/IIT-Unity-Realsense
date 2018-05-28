@@ -10,6 +10,8 @@ public class DoctorController : MonoBehaviour {
 	public CursorTransition transition;
 	private bool isHolding;
 	public SFXManager soundManager;
+	public SFXManager soundBenarManager;
+	private bool isPlayingSound = false;
 	// Use this for initialization
 	void Start () {
 		holdBandage.ViewBandage(false);
@@ -45,6 +47,7 @@ public class DoctorController : MonoBehaviour {
 				holdObject = null;
 			}
 		}
+		isPlayingSound = false;
 	}
 	void OnCursorDown() {
 		if (TimeManager.instance.isGameStart) {
@@ -53,7 +56,10 @@ public class DoctorController : MonoBehaviour {
 			if (holdObject!= null) {
 				holdObject.GetComponent<GrabbableObject>().ChangeToClickSize();
 				isHolding = true;
-				soundManager.PlayFromString("click");
+				if (!isPlayingSound) {
+					isPlayingSound = true;
+					soundBenarManager.PlayFromString("click");
+				}
 				if (holdObject.CompareTag("cotton")) {
 					holdCotton.SetOnHold(true);
 				} else if (holdObject.CompareTag("bandage")) {
@@ -74,9 +80,15 @@ public class DoctorController : MonoBehaviour {
 			}
 			if (putObject!=null) {
 				putObject.GetComponent<Wound>().NextPhase(holdObject.tag);
-				soundManager.PlayFromString("benar");
+				if (!isPlayingSound) {
+					isPlayingSound = true;
+					soundBenarManager.PlayFromString("benar");
+				}
 			} else {
-				soundManager.PlayFromString("salah");
+				if (!isPlayingSound) {
+					isPlayingSound = true;
+					soundBenarManager.PlayFromString("salah");
+				}
 			}
 			StartCoroutine(Transition());
 		}
