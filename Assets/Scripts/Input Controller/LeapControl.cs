@@ -16,6 +16,7 @@ public class LeapControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		controller = new Controller();
+		cursor = GameObject.Find("Cursor");
 		cursorTransform = cursor.GetComponent<Transform>();
 		cursorController = cursor.GetComponent<CursorController>();
 		

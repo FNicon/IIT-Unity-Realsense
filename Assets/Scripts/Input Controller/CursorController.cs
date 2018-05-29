@@ -121,6 +121,19 @@ public class CursorController : MonoBehaviour {
 		return insideScreenH && insideScreenV;
 	}
 
+	public bool InsideScreen(Vector2 target){
+		Vector2 cursorPos = target;
+		float xStart = cursorPos.x-(cursorSprite.bounds.size.x/2f);
+		float xEnd = cursorPos.x+(cursorSprite.bounds.size.x/2f);
+		float yStart = cursorPos.y-(cursorSprite.bounds.size.y/2f);
+		float yEnd = cursorPos.y+(cursorSprite.bounds.size.y/2f);
+		Vector2 cursorStart = Camera.main.WorldToScreenPoint(new Vector2(xStart,yStart));
+		Vector2 cursorEnd = Camera.main.WorldToScreenPoint(new Vector2(xEnd, yEnd));
+		bool insideScreenH = cursorStart.x >= 0 && cursorEnd.x <= Screen.width;
+		bool insideScreenV = cursorStart.y >= 0 && cursorEnd.y <= Screen.height;
+		return insideScreenH && insideScreenV;
+	}
+
 	public GameObject GetFirstClickedObj(){
 		return gameObjList.Count > 0 ? gameObjList[0] : null;
 	}

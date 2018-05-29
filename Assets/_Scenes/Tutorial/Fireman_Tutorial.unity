@@ -618,6 +618,53 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 60
+--- !u!1001 &381548013
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114722349910231688, guid: f605d2c3741392a429ddf9703eefbaa6,
+        type: 2}
+      propertyPath: cursor
+      value: 
+      objectReference: {fileID: 763708170}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &585385046
 GameObject:
   m_ObjectHideFlags: 0
@@ -1551,7 +1598,6 @@ MonoBehaviour:
   sceneToLoad: Fireman_Gameplay
   transition: {fileID: 1167082725}
   once: 0
-  isLoadFromStart: 0
 --- !u!4 &1163292398
 Transform:
   m_ObjectHideFlags: 0
