@@ -349,6 +349,7 @@ MonoBehaviour:
   sceneToLoad: Arkeolog_Gameplay
   transition: {fileID: 838174475}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &193126215
 Transform:
   m_ObjectHideFlags: 0
@@ -1415,6 +1416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!114 &1323741756
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1707,7 +1709,6 @@ MonoBehaviour:
     tey: 0
     SpeechModuleMode: 0
     AvailableSources:
-    - Microphone Array (Razer Stargazer-Microphone)
     - Microphone (Conexant SmartAudio HD)
     AvailableModules: []
     AvailableLanguages: []

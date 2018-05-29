@@ -775,6 +775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!114 &644720487
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1066,6 +1067,7 @@ MonoBehaviour:
   sceneToLoad: Polisi_Gameplay
   transition: {fileID: 559137367}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &800321640
 Transform:
   m_ObjectHideFlags: 0

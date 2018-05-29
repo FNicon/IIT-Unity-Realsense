@@ -638,6 +638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!1 &597669030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,6 +1186,7 @@ MonoBehaviour:
   sceneToLoad: Astronot_Gameplay
   transition: {fileID: 766850849}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &1114637121
 Transform:
   m_ObjectHideFlags: 0

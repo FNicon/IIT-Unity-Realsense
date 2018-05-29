@@ -9,8 +9,13 @@ public class SceneLoader : MonoBehaviour {
 	//private string currentScene;
 	AsyncOperation operation;
 	public bool once = false;
+	public bool isLoadFromStart;
 	// Use this for initialization
 	void Start () {
+		operation = null;
+		if (isLoadFromStart && sceneToLoad != "") {
+			StartCoroutine(AsyncLoad(sceneToLoad));
+		}
 		//currentScene = SceneManager.GetActiveScene().name;
 		/*if (sceneToLoad != "") {
 			StartCoroutine(AsyncLoad(sceneToLoad));
@@ -20,13 +25,15 @@ public class SceneLoader : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (operation != null) {
-			Debug.Log(operation.progress);
+			//Debug.Log(operation.progress);
 		}
 	}
 
 	IEnumerator WaitLoadScene(string scene) {
 		yield return new WaitUntil(()=>transition.GetCurrentAnimatorStateInfo(0).IsName("Idle Full"));
-		StartCoroutine(AsyncLoad(scene));
+		if (!isLoadFromStart) {
+			StartCoroutine(AsyncLoad(scene));
+		}
 		operation.allowSceneActivation = true;
 	}
 
