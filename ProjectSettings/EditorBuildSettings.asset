@@ -56,11 +56,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Tutorial/Polisi_Tutorial.unity
     guid: 646c11e1ff46727418f274cc49fbfa43
-  - enabled: 0
-    path: Assets/_Scenes/Photo/Photo.unity
+  - enabled: 1
+    path: Assets/_Scenes/Photo/Photo/Photo_Astronot.unity
     guid: 23c71929b5b14104a9c79f7714f95187
-  - enabled: 0
-    path: Assets/_Scenes/Photo/Photo_Print.unity
+  - enabled: 1
+    path: Assets/_Scenes/Photo/Photo_Print/Photo_Print_Astronot.unity
     guid: e2bf0eb00925558489d1777fec021650
   - enabled: 1
     path: Assets/_Scenes/Gameplay/Arkeolog_Gameplay.unity
