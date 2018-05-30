@@ -439,7 +439,7 @@ Animator:
   m_GameObject: {fileID: 378996160}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 85695ed9c63fd724abad8dfd86f56369, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0ca654ff955857e48a1c245c6f8f69f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -568,6 +568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 700929638}
   container: {fileID: 11400000, guid: cc63835aa15b8ca429b60f0586fc3c14, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &700929638
 AudioSource:
   m_ObjectHideFlags: 0
@@ -706,6 +707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 734854321}
   container: {fileID: 11400000, guid: 5953b4b3bc9759e40bff1702aedbfd28, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &734854321
 AudioSource:
   m_ObjectHideFlags: 0
@@ -960,14 +962,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1944278561}
-        m_MethodName: ExitGame
-        m_Mode: 1
+        m_MethodName: loadSpecificScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Penutup
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1776,6 +1778,7 @@ MonoBehaviour:
   sceneToLoad: Select Main
   transition: {fileID: 378996164}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &1944278562
 Transform:
   m_ObjectHideFlags: 0
@@ -1979,6 +1982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!114 &2147384909
 MonoBehaviour:
   m_ObjectHideFlags: 2

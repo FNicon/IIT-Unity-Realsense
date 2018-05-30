@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/Main Menu/Idle Screen.unity
+    guid: c0939b77964e66d4f873ecf76a2cea96
+  - enabled: 1
+    path: Assets/_Scenes/Main Menu/Intro Awal.unity
+    guid: 1bece342aa8d41c42bdc4e548ff37723
+  - enabled: 1
     path: Assets/_Scenes/Main Menu/Intro.unity
     guid: d8733ba25ca2ca144bf4ef3ab3129749
   - enabled: 1
@@ -77,4 +83,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Gameplay/Polisi_Gameplay.unity
     guid: 30b8fe85202cdab4cbc21d6e412781b0
+  - enabled: 1
+    path: Assets/_Scenes/Main Menu/Penutup.unity
+    guid: 18f394e46b5b3234db072b42a12b56fe
   m_configObjects: {}
