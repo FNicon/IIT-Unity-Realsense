@@ -907,6 +907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 440963718}
   container: {fileID: 11400000, guid: 0a85bd24dcf52154c8a8deb3d7d43472, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &440963718
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1258,6 +1259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 904714543}
   container: {fileID: 11400000, guid: 3ccb15c67206c364b8da1616d5adfa27, type: 2}
+  isAllowInterruption: 1
 --- !u!82 &904714543
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2122,6 +2124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1421173631}
   container: {fileID: 11400000, guid: 332a7d5e4b111d44d898ad847caff0f6, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &1421173631
 AudioSource:
   m_ObjectHideFlags: 0

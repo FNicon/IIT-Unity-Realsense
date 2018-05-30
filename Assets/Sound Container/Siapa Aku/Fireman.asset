@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: Fireman
   m_EditorClassIdentifier: 
   soundEffects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: e94b83510052cad47b9cf107bff77381, type: 3}
+  - {fileID: 8300000, guid: abd332474deafb64ba301834762ee463, type: 3}
+  - {fileID: 8300000, guid: d34b69689f63da840b65dbc2f4dcc7c6, type: 3}
   identifier:
   - 1
   - 2

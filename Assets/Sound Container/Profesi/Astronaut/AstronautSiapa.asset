@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffects:
   - {fileID: 8300000, guid: 468cca55f3bd5ed4d862366b2b413437, type: 3}
-  - {fileID: 8300000, guid: dec3ec8b64d15a949951d6e8999dec74, type: 3}
+  - {fileID: 8300000, guid: 17c61da260f470442a861b57a79af1d9, type: 3}
   identifier:
   - hover
   - click

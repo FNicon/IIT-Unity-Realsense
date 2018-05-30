@@ -484,7 +484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 290045950}
-  container: {fileID: 11400000, guid: 9976302a4c446a04fbae81596bd56639, type: 2}
+  container: {fileID: 11400000, guid: 022b4525c027cca45bd68eaccb002f14, type: 2}
+  isAllowInterruption: 1
 --- !u!82 &290045950
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2392,6 +2393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1813567682}
   container: {fileID: 11400000, guid: 0a85bd24dcf52154c8a8deb3d7d43472, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &1813567682
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2530,6 +2532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1945628378}
   container: {fileID: 11400000, guid: 332a7d5e4b111d44d898ad847caff0f6, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &1945628378
 AudioSource:
   m_ObjectHideFlags: 0

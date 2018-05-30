@@ -5,6 +5,7 @@ using UnityEngine;
 public class SFXManager : MonoBehaviour {
 	public AudioSource sourceSound;
 	public SFXContainer container;
+	public bool isAllowInterruption;
 	// Use this for initialization
 	void Start () {
 		
@@ -18,10 +19,12 @@ public class SFXManager : MonoBehaviour {
 		sourceSound.Stop();
 	}
 	public void PlayFromString(string input) {
-		int choosenIndex = FindAudioFromString(input);
-		if (choosenIndex != -1) {
-			AudioClip choosenSound = container.soundEffects[choosenIndex];
-			PlaySFX(choosenSound);
+		if (isAllowInterruption || !sourceSound.isPlaying) {
+			int choosenIndex = FindAudioFromString(input);
+			if (choosenIndex != -1) {
+				AudioClip choosenSound = container.soundEffects[choosenIndex];
+				PlaySFX(choosenSound);
+			}
 		}
 	}
 	public void PlaySFX(AudioClip audio) {

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: Astronot
   m_EditorClassIdentifier: 
   soundEffects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 98971641f69322040aa8a9fd68868e52, type: 3}
+  - {fileID: 8300000, guid: 71ab814ef9b95104bb0b0d88efa0ce5b, type: 3}
+  - {fileID: 8300000, guid: 3dc5beebf00ac3041b5f3e4714b44ab6, type: 3}
   identifier:
   - 1
   - 2
