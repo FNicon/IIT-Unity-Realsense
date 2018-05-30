@@ -251,6 +251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 74581206}
   container: {fileID: 11400000, guid: 64cd163beefa3d1429cc52f9a77203a8, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &125283254
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 125283256}
   container: {fileID: 11400000, guid: 5a9997852daf90f4093b1092e0739231, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &271665084
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 271665086}
   container: {fileID: 11400000, guid: 497926dcaa260af40ab2bb14eb7d9a53, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &317898102
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,6 +741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 439971281}
   container: {fileID: 11400000, guid: 458eb1a2449129c4b9d4c6326c8d3963, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &465684889
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,6 +1201,7 @@ MonoBehaviour:
   sceneToLoad: Astronot_Gameplay
   transition: {fileID: 1426276447}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &981893643
 Transform:
   m_ObjectHideFlags: 0
@@ -1472,6 +1477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1046619641}
   container: {fileID: 11400000, guid: 032a999c092fc44488a68c051a55d11e, type: 2}
+  isAllowInterruption: 0
 --- !u!1001 &1092292658
 Prefab:
   m_ObjectHideFlags: 0
@@ -1820,6 +1826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!114 &1092292672
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2257,7 +2264,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Photo
+          m_StringArgument: Photo_Astronot
           m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2878,6 +2885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1442073778}
   container: {fileID: 11400000, guid: ed71529d12738b14a841a7b91c91f7f4, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1733179472
 GameObject:
   m_ObjectHideFlags: 0
@@ -3538,7 +3546,6 @@ MonoBehaviour:
     tey: 0
     SpeechModuleMode: 0
     AvailableSources:
-    - Microphone Array (Razer Stargazer-Microphone)
     - Microphone (Conexant SmartAudio HD)
     AvailableModules: []
     AvailableLanguages: []
