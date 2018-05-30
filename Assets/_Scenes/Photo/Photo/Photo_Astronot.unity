@@ -437,6 +437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 100760130}
   container: {fileID: 11400000, guid: 9976302a4c446a04fbae81596bd56639, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &100760130
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2570,7 +2571,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!328 &956998890
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -2633,7 +2634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1015013343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2870,6 +2871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1321053038}
   container: {fileID: 11400000, guid: 332a7d5e4b111d44d898ad847caff0f6, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &1321053038
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3008,6 +3010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1599492768}
   container: {fileID: 11400000, guid: 0a85bd24dcf52154c8a8deb3d7d43472, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &1599492768
 AudioSource:
   m_ObjectHideFlags: 0
