@@ -223,6 +223,53 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 176675153}
+--- !u!1001 &227402733
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 114722349910231688, guid: f605d2c3741392a429ddf9703eefbaa6,
+        type: 2}
+      propertyPath: cursor
+      value: 
+      objectReference: {fileID: 590780193}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &399306529
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,6 +1200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!1 &597669030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,6 +1343,7 @@ MonoBehaviour:
   sceneToLoad: Polisi_Gameplay
   transition: {fileID: 1870835379}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &1114637121
 Transform:
   m_ObjectHideFlags: 0
