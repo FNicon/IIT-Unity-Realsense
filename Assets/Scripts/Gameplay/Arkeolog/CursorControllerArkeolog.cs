@@ -52,9 +52,11 @@ public class CursorControllerArkeolog : MonoBehaviour {
 		if(Input.GetMouseButtonDown(0)){
 			mouseAnim.SetBool("MouseDown", true);
 			OnCursorDown();
+			isHandClicked = true;
 		} else if(Input.GetMouseButtonUp(0)){
 			mouseAnim.SetBool("MouseDown", false);
 			OnCursorUp();
+			isHandClicked = false;
 		}
 
 		if (isRealsenseActive) {
