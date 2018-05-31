@@ -823,6 +823,7 @@ MonoBehaviour:
   sceneToLoad: Polisi_Tutorial
   transition: {fileID: 128318936}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &171618181
 Transform:
   m_ObjectHideFlags: 0
@@ -1518,6 +1519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1045888236}
   container: {fileID: 11400000, guid: 659829e2cebc53c4d91eda87fbb9422b, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1046263137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,6 +1911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!114 &1203639239
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2183,6 +2186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1639296470}
   container: {fileID: 11400000, guid: ed71529d12738b14a841a7b91c91f7f4, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1660882102
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,6 +2325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1660882104}
   container: {fileID: 11400000, guid: 497926dcaa260af40ab2bb14eb7d9a53, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1754119332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,6 +2464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1754119334}
   container: {fileID: 11400000, guid: 64cd163beefa3d1429cc52f9a77203a8, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1833327508
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,6 +2603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1833327510}
   container: {fileID: 11400000, guid: 22438377aab32c045a5ea4f7d24a30b3, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1864469691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2919,6 +2926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1898880023}
   container: {fileID: 11400000, guid: a71c871962f717f4a958b87e4a8c15ca, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1906176715
 GameObject:
   m_ObjectHideFlags: 0
@@ -3072,7 +3080,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Photo
+          m_StringArgument: Photo_Polisi
           m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,

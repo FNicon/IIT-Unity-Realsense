@@ -61,6 +61,16 @@ public class SceneLoader : MonoBehaviour {
 			StartCoroutine(WaitLoadScene(inputScene));
 		}
 	}
+	public void resetScene() {
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	}
+
+	public void loadCurrentScene() {
+		if (!once) {
+			once = true;
+			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		}
+	}
 
 	public void ExitGame() {
 		#if UNITY_EDITOR

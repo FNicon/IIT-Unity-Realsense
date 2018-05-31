@@ -63,12 +63,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/Tutorial/Polisi_Tutorial.unity
     guid: 646c11e1ff46727418f274cc49fbfa43
   - enabled: 1
-    path: Assets/_Scenes/Photo/Photo/Photo_Astronot.unity
-    guid: 23c71929b5b14104a9c79f7714f95187
-  - enabled: 1
-    path: Assets/_Scenes/Photo/Photo_Print/Photo_Print_Astronot.unity
-    guid: e2bf0eb00925558489d1777fec021650
-  - enabled: 1
     path: Assets/_Scenes/Gameplay/Arkeolog_Gameplay.unity
     guid: e01234341c8c01248925cb9996a42fc3
   - enabled: 1
@@ -86,4 +80,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Main Menu/Penutup.unity
     guid: 18f394e46b5b3234db072b42a12b56fe
+  - enabled: 1
+    path: Assets/_Scenes/Photo/Photo/Photo_Astronot.unity
+    guid: 23c71929b5b14104a9c79f7714f95187
+  - enabled: 1
+    path: Assets/_Scenes/Photo/Photo/Photo_Doctor.unity
+    guid: 5007fe42db1ebfb468dc508ddb8699c7
+  - enabled: 1
+    path: Assets/_Scenes/Photo/Photo/Photo_Arkeolog.unity
+    guid: 6099532f50eeac54e94b62bcdb68c434
+  - enabled: 1
+    path: Assets/_Scenes/Photo/Photo/Photo_Fireman.unity
+    guid: f14be4880e14b7142888e88d62d59327
+  - enabled: 1
+    path: Assets/_Scenes/Photo/Photo/Photo_Polisi.unity
+    guid: 542893db1abd47045af835db302b6d23
   m_configObjects: {}

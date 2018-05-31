@@ -251,6 +251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 169440980}
   container: {fileID: 11400000, guid: 704a802e5925d6a4f95b85d0dd1e458c, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &221654733
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,6 +770,7 @@ MonoBehaviour:
   sceneToLoad: Doctor_Tutorial
   transition: {fileID: 1434528840}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &430046087
 Transform:
   m_ObjectHideFlags: 0
@@ -920,6 +922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 433522278}
   container: {fileID: 11400000, guid: c07c0ce38e3d12943b336fc3ab1cfee7, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &435281903
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,7 +1076,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Photo
+          m_StringArgument: Photo_Doctor
           m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1752,6 +1755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!114 &489657686
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2007,6 +2011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 735883757}
   container: {fileID: 11400000, guid: 64cd163beefa3d1429cc52f9a77203a8, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &791573869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,6 +2740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1420099283}
   container: {fileID: 11400000, guid: 96bc77151de758a469a9c6d290e3f24e, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1434528838
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,6 +3063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1493016149}
   container: {fileID: 11400000, guid: ed71529d12738b14a841a7b91c91f7f4, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1498376696
 GameObject:
   m_ObjectHideFlags: 0
@@ -3195,6 +3202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1498376698}
   container: {fileID: 11400000, guid: 497926dcaa260af40ab2bb14eb7d9a53, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1739162883
 GameObject:
   m_ObjectHideFlags: 0

@@ -218,6 +218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 44388809}
   container: {fileID: 11400000, guid: cb9bb9ad68959e943a784b77effbb50c, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &44388809
 AudioSource:
   m_ObjectHideFlags: 0
@@ -675,6 +676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 426858223}
   container: {fileID: 11400000, guid: 947ab42ab73e4734f88031af261337f9, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &426858223
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1148,6 +1150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 875284366}
   container: {fileID: 11400000, guid: 0837f8e3a9c92b1458dc38bfa5054304, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &875284366
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2136,6 +2139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1199817257}
   container: {fileID: 11400000, guid: 0837f8e3a9c92b1458dc38bfa5054304, type: 2}
+  isAllowInterruption: 0
 --- !u!82 &1199817257
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3229,6 +3233,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 114722349910231688, guid: f605d2c3741392a429ddf9703eefbaa6,
+        type: 2}
+      propertyPath: cursor
+      value: 
+      objectReference: {fileID: 1054092269}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
   m_IsPrefabParent: 0

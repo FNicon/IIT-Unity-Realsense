@@ -561,6 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 312618099}
   container: {fileID: 11400000, guid: c25fc9b051164f84e8358208fa5bb9cc, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &322985300
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 348140551}
   container: {fileID: 11400000, guid: f3599e39dbbf29b4c926fcf6562b45ed, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &367162144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,6 +1115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 386028338}
   container: {fileID: 11400000, guid: 64cd163beefa3d1429cc52f9a77203a8, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &395499651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,6 +1705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!1 &538000266
 GameObject:
   m_ObjectHideFlags: 0
@@ -2024,6 +2028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 644576673}
   container: {fileID: 11400000, guid: 497926dcaa260af40ab2bb14eb7d9a53, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &903032777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,6 +2059,7 @@ MonoBehaviour:
   sceneToLoad: Fireman_Tutorial
   transition: {fileID: 2112740027}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &903032779
 Transform:
   m_ObjectHideFlags: 0
@@ -2205,6 +2211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 936388349}
   container: {fileID: 11400000, guid: ed71529d12738b14a841a7b91c91f7f4, type: 2}
+  isAllowInterruption: 0
 --- !u!1001 &962597244
 Prefab:
   m_ObjectHideFlags: 0
@@ -2478,7 +2485,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Photo
+          m_StringArgument: Photo_Fireman
           m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2947,6 +2954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1493107122}
   container: {fileID: 11400000, guid: 04883700bd2d5cd4abe21f73e0217588, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &1526865930
 GameObject:
   m_ObjectHideFlags: 0

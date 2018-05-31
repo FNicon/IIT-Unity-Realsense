@@ -49,7 +49,9 @@ public class LeapControl : MonoBehaviour {
 				Vector2 currCursorPos = cursorTransform.position;
 				Vector deltaHandPos = curr.PalmPosition - prev.PalmPosition;
 				// Vector2 deltaCursorPos = new Vector2(deltaHandPos.x * xInv * moveFactor, deltaHandPos.z * yInv * moveFactor);
-				Vector2 deltaCursorPos = new Vector2(curr.PalmVelocity.x * xInv * moveFactor, curr.PalmVelocity.z * yInv * moveFactor);
+				Vector2 deltaCursorPos = new Vector2(curr.PalmVelocity.x * xInv * moveFactor, -curr.PalmVelocity.z * yInv * moveFactor);
+				Debug.Log("Delta X: " + deltaCursorPos.x);
+				Debug.Log("Delta Y: " + deltaCursorPos.y);
 				Vector2 newCursorPos = currCursorPos + deltaCursorPos;
 
 				if(cursorController.InsideScreen(newCursorPos)) {

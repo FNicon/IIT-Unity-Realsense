@@ -323,7 +323,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -447,7 +447,7 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8600000, guid: ac17d39d52314eb498b433d5c06a69e4, type: 2}
+  m_TargetTexture: {fileID: 8600000, guid: beb7f71f4d8a50e498fe26b874741b22, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -623,7 +623,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 8600000, guid: ac17d39d52314eb498b433d5c06a69e4, type: 2}
+  m_Texture: {fileID: 8600000, guid: beb7f71f4d8a50e498fe26b874741b22, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -732,6 +732,58 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1477457673
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4704634205981394, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114722349910231688, guid: f605d2c3741392a429ddf9703eefbaa6,
+        type: 2}
+      propertyPath: cursor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114722349910231688, guid: f605d2c3741392a429ddf9703eefbaa6,
+        type: 2}
+      propertyPath: inverseY
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f605d2c3741392a429ddf9703eefbaa6, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1684618076
 Prefab:
   m_ObjectHideFlags: 0
@@ -1183,7 +1235,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BackGroundColor: {r: 0.62352943, g: 0.015686275, b: 0.6784314, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0

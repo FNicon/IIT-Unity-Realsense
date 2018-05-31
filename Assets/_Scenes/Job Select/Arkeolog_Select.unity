@@ -267,6 +267,7 @@ MonoBehaviour:
   sceneToLoad: Arkeolog_Gameplay
   transition: {fileID: 1445376988}
   once: 0
+  isLoadFromStart: 0
 --- !u!4 &193126215
 Transform:
   m_ObjectHideFlags: 0
@@ -418,6 +419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 358274464}
   container: {fileID: 11400000, guid: a53565ebf6c647f458ce25d61dc61a8a, type: 2}
+  isAllowInterruption: 0
 --- !u!1 &412224206
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 412224207}
   container: {fileID: 11400000, guid: ed71529d12738b14a841a7b91c91f7f4, type: 2}
+  isAllowInterruption: 0
 --- !u!4 &412224209
 Transform:
   m_ObjectHideFlags: 0
@@ -681,6 +684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 452083386}
   container: {fileID: 11400000, guid: 51630731fbe79a84c944ffd91f6a6716, type: 2}
+  isAllowInterruption: 0
 --- !u!4 &452083388
 Transform:
   m_ObjectHideFlags: 0
@@ -1706,6 +1710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1406963752}
   container: {fileID: 11400000, guid: 64cd163beefa3d1429cc52f9a77203a8, type: 2}
+  isAllowInterruption: 0
 --- !u!4 &1406963754
 Transform:
   m_ObjectHideFlags: 0
@@ -2228,6 +2233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1562317666}
   container: {fileID: 11400000, guid: 5b7e6f32a1239c04c8a8fa88f6e2436b, type: 2}
+  isAllowInterruption: 0
 --- !u!4 &1562317668
 Transform:
   m_ObjectHideFlags: 0
@@ -2491,7 +2497,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Photo
+          m_StringArgument: Photo_Arkeolog
           m_BoolArgument: 0
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2786,6 +2792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceSound: {fileID: 1695995863}
   container: {fileID: 11400000, guid: 497926dcaa260af40ab2bb14eb7d9a53, type: 2}
+  isAllowInterruption: 0
 --- !u!4 &1695995865
 Transform:
   m_ObjectHideFlags: 0
@@ -3423,6 +3430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74a7187a0db34740b84dcafd475bd9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArkeolog: {fileID: 0}
 --- !u!114 &1947118274
 MonoBehaviour:
   m_ObjectHideFlags: 2
