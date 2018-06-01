@@ -16,7 +16,7 @@ public class PhotoManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log(photoVideo.frame);
+		//Debug.Log(photoVideo.frame);
 		if (IsVideoEnd()) {
 			PlayNext();
 		}
