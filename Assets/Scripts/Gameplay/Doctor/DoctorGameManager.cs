@@ -23,8 +23,8 @@ public class DoctorGameManager : MonoBehaviour {
 			TimeManager.instance.PauseGame();
 			bgmSource.Stop();
 			//Time.timeScale = 0;
-			Debug.Log("GAME OVER");
-			Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
+			//Debug.Log("GAME OVER");
+			//Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
 		}
 	}
 	private void OnDestroy(){

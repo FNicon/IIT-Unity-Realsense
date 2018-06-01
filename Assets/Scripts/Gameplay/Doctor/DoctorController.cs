@@ -80,10 +80,10 @@ public class DoctorController : MonoBehaviour {
 			}
 			if (putObject!=null) {
 				putObject.GetComponent<Wound>().NextPhase(holdObject.tag);
-				if (!isPlayingSound) {
+				/*if (!isPlayingSound) {
 					isPlayingSound = true;
 					soundBenarManager.PlayFromString("benar");
-				}
+				}*/
 			} else {
 				if (!isPlayingSound) {
 					isPlayingSound = true;

@@ -14,7 +14,7 @@ public class TutorialManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log(tutorialVideo.frame);
+		//Debug.Log(tutorialVideo.frame);
 		if (IsVideoEnd()) {
 			scene.nextScene();
 		}

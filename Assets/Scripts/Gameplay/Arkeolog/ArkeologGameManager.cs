@@ -29,9 +29,9 @@ public class ArkeologGameManager : MonoBehaviour
         foreach (Transform trans in artifactsPos.transform)
         {
             artifact.Add(trans);
-            Debug.Log(trans.name + " is child of " + trans.parent);
+            //Debug.Log(trans.name + " is child of " + trans.parent);
         }
-        Debug.Log("There are " + artifact.Count + " artifacts");
+        //Debug.Log("There are " + artifact.Count + " artifacts");
         // Debug.Log("My name is " + artifact[0].name);
         // Debug.Log("My name is " + artifact[1].name);
         // Debug.Log("My name is " + artifact[2].name);
@@ -109,18 +109,18 @@ public class ArkeologGameManager : MonoBehaviour
     void SetupLevel(int n)
     {
         artifactDusts.Clear();
-        Debug.Log("This is artifact no " + n);
+        //Debug.Log("This is artifact no " + n);
         foreach (Transform trans in artifact[n].transform)
         {
             artifactDusts.Add(trans);
-            Debug.Log(trans.name + " is child of " + trans.transform.parent);
+            //Debug.Log(trans.name + " is child of " + trans.transform.parent);
         }
         ResetSlider((float)artifactDusts.Count);
     }
 
     void ResetSlider(float n)
     {
-        Debug.Log("Reset value to " + n);
+        //Debug.Log("Reset value to " + n);
         slider.maxValue = n;
         slider.value = n;
     }
@@ -149,8 +149,8 @@ public class ArkeologGameManager : MonoBehaviour
             TimeManager.instance.PauseGame();
             bgmSource.Stop();
             //Time.timeScale = 0;
-            Debug.Log("GAME OVER");
-            Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
+            //Debug.Log("GAME OVER");
+            //Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
         }
 	}
     private void OnDestroy(){

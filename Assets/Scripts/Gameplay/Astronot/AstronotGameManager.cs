@@ -25,14 +25,14 @@ public class AstronotGameManager : MonoBehaviour {
 			endPanel.SetActive(true);
 			Animator anim = endPanel.GetComponentInChildren<Animator>();
 			anim.SetInteger("STATE", ScoreManager.instance.GetNumberOfStar());
-			Debug.Log("AAAAAA" + ScoreManager.instance.GetNumberOfStar().ToString());
+			//Debug.Log("AAAAAA" + ScoreManager.instance.GetNumberOfStar().ToString());
 			soundEffects.PlayFromString(ScoreManager.instance.GetNumberOfStar().ToString());
 			Destroy(GameObject.FindGameObjectWithTag("batu"));
 			TimeManager.instance.PauseGame();
 			bgmSource.Stop();
 			//Time.timeScale = 0;
-			Debug.Log("GAME OVER");
-			Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
+			//Debug.Log("GAME OVER");
+			//Debug.Log("Star = " + ScoreManager.instance.GetNumberOfStar());
 		}
 	}
 	private void OnDestroy(){

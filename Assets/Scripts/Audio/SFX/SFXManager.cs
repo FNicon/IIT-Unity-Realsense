@@ -30,7 +30,7 @@ public class SFXManager : MonoBehaviour {
 	public void PlaySFX(AudioClip audio) {
 		sourceSound.clip = audio;
 		sourceSound.Play();
-		Debug.Log(audio.name);
+		//Debug.Log(audio.name);
 	}
 	public int FindAudioFromString(string input) {
 		int i = 0;

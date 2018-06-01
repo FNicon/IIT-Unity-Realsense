@@ -13,6 +13,7 @@ public class LeapControl : MonoBehaviour {
 	public float moveFactor;
 	public bool inverseX;
 	public bool inverseY;
+	public CursorControllerArkeolog cursorArkeolog;
 	// Use this for initialization
 	void Start () {
 		controller = new Controller();
@@ -35,14 +36,14 @@ public class LeapControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log("update controller");
+		//Debug.Log("update controller");
 		if(controller.IsConnected) {
-			Debug.Log("Controller Connected");
+			//Debug.Log("Controller Connected");
 			Frame frame = controller.Frame();
 			Frame previous = controller.Frame(1);
 
 			if(frame.Hands.Count > 0 && previous.Hands.Count > 0) {
-				Debug.Log("I see hands");
+				//Debug.Log("I see hands");
 				Hand curr = frame.Hands[0];
 				Hand prev = previous.Hands[0];
 
@@ -50,8 +51,8 @@ public class LeapControl : MonoBehaviour {
 				Vector deltaHandPos = curr.PalmPosition - prev.PalmPosition;
 				// Vector2 deltaCursorPos = new Vector2(deltaHandPos.x * xInv * moveFactor, deltaHandPos.z * yInv * moveFactor);
 				Vector2 deltaCursorPos = new Vector2(curr.PalmVelocity.x * xInv * moveFactor, -curr.PalmVelocity.z * yInv * moveFactor);
-				Debug.Log("Delta X: " + deltaCursorPos.x);
-				Debug.Log("Delta Y: " + deltaCursorPos.y);
+				//Debug.Log("Delta X: " + deltaCursorPos.x);
+				//Debug.Log("Delta Y: " + deltaCursorPos.y);
 				Vector2 newCursorPos = currCursorPos + deltaCursorPos;
 
 				if(cursorController.InsideScreen(newCursorPos)) {
@@ -59,11 +60,17 @@ public class LeapControl : MonoBehaviour {
 				}
 
 				if(curr.GrabAngle > 3.00) {
-					Debug.Log("Hand is grabbing");
+					//Debug.Log("Hand is grabbing");
 					CursorController.isHandClicked = true;
+					if (cursorArkeolog != null) {
+						cursorArkeolog.isHandClicked = true;
+					}
 				} else {
-					Debug.Log("Hand grab released");
+					//Debug.Log("Hand grab released");
 					CursorController.isHandClicked = false;
+					if (cursorArkeolog != null) {
+						cursorArkeolog.isHandClicked = false;
+					}
 				}
 				
 			}

@@ -56,6 +56,12 @@ public class Dust : MonoBehaviour
             isSelected = false;
         }
     }
+    private void OnTriggerStay2D(Collider2D other) {
+        if (other.CompareTag("Player")) {
+            dustSpriteRenderer.sprite = selectedSprite;
+            isSelected = true;
+        }
+    }
 
     void OnCursorHover() {
         dustSpriteRenderer.sprite = selectedSprite;
@@ -69,7 +75,7 @@ public class Dust : MonoBehaviour
     void OnCursorUp() {
         isClicked = false;
     }
-
+/*
     void OnMouseOver()
     {
         dustSpriteRenderer.sprite = selectedSprite;
@@ -90,7 +96,7 @@ public class Dust : MonoBehaviour
     void OnMouseUp()
     {
         isClicked = false;
-    }
+    }*/
 
     void ReduceAlpha(float f)
     {

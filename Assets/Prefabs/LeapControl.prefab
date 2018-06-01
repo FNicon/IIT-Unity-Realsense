@@ -55,3 +55,4 @@ MonoBehaviour:
   moveFactor: 0.001
   inverseX: 0
   inverseY: 0
+  cursorArkeolog: {fileID: 0}

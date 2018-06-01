@@ -9,6 +9,7 @@ public class Wound : MonoBehaviour {
 	public string[] cureWounds;
 	private int phaseCount;
 	public WoundManager woundManager;
+	public SFXManager soundManager;
 	
 	// Use this for initialization
 	void Start () {
@@ -27,7 +28,10 @@ public class Wound : MonoBehaviour {
 		if (!IsCured()) {
 			if (cureWounds[phaseCount] == medInput) {
 				phaseCount = phaseCount + 1;
+				soundManager.PlayFromString("benar");
 				ViewPhase();
+			} else {
+
 			}
 		}
 	}
